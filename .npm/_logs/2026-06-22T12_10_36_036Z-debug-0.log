@@ -1,0 +1,199 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.18.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/user/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install" "--prefer-offline" "--no-audit" "--no-fund"
+8 verbose logfile logs-max:10 dir:/home/user/.npm/_logs/2026-06-22T12_10_36_036Z-
+9 verbose logfile /home/user/.npm/_logs/2026-06-22T12_10_36_036Z-debug-0.log
+10 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 warn EBADENGINE Unsupported engine {
+13 warn EBADENGINE   package: 'eslint-visitor-keys@5.0.1',
+13 warn EBADENGINE   required: { node: '^20.19.0 || ^22.13.0 || >=24' },
+13 warn EBADENGINE   current: { node: 'v20.18.1', npm: '10.8.2' }
+13 warn EBADENGINE }
+14 silly reify moves {}
+15 verbose reify failed optional dependency /home/user/node_modules/fsevents
+16 silly reify mark deleted [ '/home/user/node_modules/fsevents' ]
+17 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-win32-x64-msvc
+18 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-win32-x64-msvc' ]
+19 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-win32-ia32-msvc
+20 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-win32-ia32-msvc' ]
+21 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-win32-arm64-msvc
+22 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-win32-arm64-msvc' ]
+23 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-wasm32-wasi
+24 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-wasm32-wasi' ]
+25 verbose reify failed optional dependency /home/user/node_modules/@emnapi/core
+26 silly reify mark deleted [ '/home/user/node_modules/@emnapi/core' ]
+27 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-wasm32-wasi/node_modules/@emnapi/runtime
+28 silly reify mark deleted [
+28 silly reify   '/home/user/node_modules/@unrs/resolver-binding-wasm32-wasi/node_modules/@emnapi/runtime'
+28 silly reify ]
+29 verbose reify failed optional dependency /home/user/node_modules/@napi-rs/wasm-runtime
+30 silly reify mark deleted [ '/home/user/node_modules/@napi-rs/wasm-runtime' ]
+31 verbose reify failed optional dependency /home/user/node_modules/@emnapi/wasi-threads
+32 silly reify mark deleted [ '/home/user/node_modules/@emnapi/wasi-threads' ]
+33 verbose reify failed optional dependency /home/user/node_modules/@tybys/wasm-util
+34 silly reify mark deleted [ '/home/user/node_modules/@tybys/wasm-util' ]
+35 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-openharmony-arm64
+36 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-openharmony-arm64' ]
+37 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-linux-s390x-gnu
+38 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-linux-s390x-gnu' ]
+39 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-linux-riscv64-musl
+40 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-linux-riscv64-musl' ]
+41 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-linux-riscv64-gnu
+42 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-linux-riscv64-gnu' ]
+43 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-linux-ppc64-gnu
+44 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-linux-ppc64-gnu' ]
+45 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-linux-loong64-musl
+46 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-linux-loong64-musl' ]
+47 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-linux-loong64-gnu
+48 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-linux-loong64-gnu' ]
+49 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-linux-arm64-musl
+50 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-linux-arm64-musl' ]
+51 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-linux-arm64-gnu
+52 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-linux-arm64-gnu' ]
+53 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-linux-arm-musleabihf
+54 silly reify mark deleted [
+54 silly reify   '/home/user/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+54 silly reify ]
+55 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf
+56 silly reify mark deleted [
+56 silly reify   '/home/user/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+56 silly reify ]
+57 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-freebsd-x64
+58 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-freebsd-x64' ]
+59 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-darwin-x64
+60 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-darwin-x64' ]
+61 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-darwin-arm64
+62 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-darwin-arm64' ]
+63 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-android-arm64
+64 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-android-arm64' ]
+65 verbose reify failed optional dependency /home/user/node_modules/@unrs/resolver-binding-android-arm-eabi
+66 silly reify mark deleted [ '/home/user/node_modules/@unrs/resolver-binding-android-arm-eabi' ]
+67 verbose reify failed optional dependency /home/user/node_modules/@next/swc-win32-x64-msvc
+68 silly reify mark deleted [ '/home/user/node_modules/@next/swc-win32-x64-msvc' ]
+69 verbose reify failed optional dependency /home/user/node_modules/@next/swc-win32-arm64-msvc
+70 silly reify mark deleted [ '/home/user/node_modules/@next/swc-win32-arm64-msvc' ]
+71 verbose reify failed optional dependency /home/user/node_modules/@next/swc-linux-arm64-musl
+72 silly reify mark deleted [ '/home/user/node_modules/@next/swc-linux-arm64-musl' ]
+73 verbose reify failed optional dependency /home/user/node_modules/@next/swc-linux-arm64-gnu
+74 silly reify mark deleted [ '/home/user/node_modules/@next/swc-linux-arm64-gnu' ]
+75 verbose reify failed optional dependency /home/user/node_modules/@next/swc-darwin-x64
+76 silly reify mark deleted [ '/home/user/node_modules/@next/swc-darwin-x64' ]
+77 verbose reify failed optional dependency /home/user/node_modules/@next/swc-darwin-arm64
+78 silly reify mark deleted [ '/home/user/node_modules/@next/swc-darwin-arm64' ]
+79 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-win32-x64
+80 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-win32-x64' ]
+81 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-win32-ia32
+82 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-win32-ia32' ]
+83 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-win32-arm64
+84 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-win32-arm64' ]
+85 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-wasm32
+86 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-wasm32' ]
+87 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-linuxmusl-arm64
+88 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-linuxmusl-arm64' ]
+89 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-linux-s390x
+90 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-linux-s390x' ]
+91 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-linux-riscv64
+92 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-linux-riscv64' ]
+93 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-linux-ppc64
+94 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-linux-ppc64' ]
+95 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-linux-arm64
+96 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-linux-arm64' ]
+97 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-linux-arm
+98 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-linux-arm' ]
+99 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-libvips-linuxmusl-arm64
+100 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-libvips-linuxmusl-arm64' ]
+101 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-libvips-linux-s390x
+102 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-libvips-linux-s390x' ]
+103 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-libvips-linux-riscv64
+104 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-libvips-linux-riscv64' ]
+105 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-libvips-linux-ppc64
+106 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-libvips-linux-ppc64' ]
+107 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-libvips-linux-arm64
+108 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-libvips-linux-arm64' ]
+109 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-libvips-linux-arm
+110 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-libvips-linux-arm' ]
+111 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-libvips-darwin-x64
+112 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-libvips-darwin-x64' ]
+113 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-libvips-darwin-arm64
+114 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-libvips-darwin-arm64' ]
+115 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-darwin-x64
+116 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-darwin-x64' ]
+117 verbose reify failed optional dependency /home/user/node_modules/@img/sharp-darwin-arm64
+118 silly reify mark deleted [ '/home/user/node_modules/@img/sharp-darwin-arm64' ]
+119 silly tarball no local data for @unrs/resolver-binding-linux-x64-musl@https://registry.npmjs.org/@unrs/resolver-binding-linux-x64-musl/-/resolver-binding-linux-x64-musl-1.12.2.tgz. Extracting by manifest.
+120 silly tarball no local data for @next/swc-linux-x64-musl@https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-15.3.3.tgz. Extracting by manifest.
+121 silly tarball no local data for @img/sharp-linuxmusl-x64@https://registry.npmjs.org/@img/sharp-linuxmusl-x64/-/sharp-linuxmusl-x64-0.34.5.tgz. Extracting by manifest.
+122 silly tarball no local data for @img/sharp-libvips-linuxmusl-x64@https://registry.npmjs.org/@img/sharp-libvips-linuxmusl-x64/-/sharp-libvips-linuxmusl-x64-1.2.4.tgz. Extracting by manifest.
+123 http fetch GET 200 https://registry.npmjs.org/@img/sharp-linuxmusl-x64/-/sharp-linuxmusl-x64-0.34.5.tgz 489ms (cache miss)
+124 http fetch GET 200 https://registry.npmjs.org/@unrs/resolver-binding-linux-x64-musl/-/resolver-binding-linux-x64-musl-1.12.2.tgz 552ms (cache miss)
+125 http fetch GET 200 https://registry.npmjs.org/@img/sharp-libvips-linuxmusl-x64/-/sharp-libvips-linuxmusl-x64-1.2.4.tgz 834ms (cache miss)
+126 http fetch GET 200 https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-15.3.3.tgz 1960ms (cache miss)
+127 silly ADD
+128 silly ADD
+129 silly ADD
+130 silly ADD
+131 silly ADD
+132 silly ADD node_modules/@emnapi/runtime
+133 silly ADD
+134 silly ADD node_modules/@unrs/resolver-binding-linux-x64-musl
+135 silly ADD
+136 silly ADD
+137 silly ADD
+138 silly ADD
+139 silly ADD
+140 silly ADD
+141 silly ADD
+142 silly ADD
+143 silly ADD
+144 silly ADD
+145 silly ADD
+146 silly ADD
+147 silly ADD
+148 silly ADD
+149 silly ADD
+150 silly ADD
+151 silly ADD
+152 silly ADD
+153 silly ADD node_modules/@next/swc-linux-x64-musl
+154 silly ADD
+155 silly ADD
+156 silly ADD
+157 silly ADD
+158 silly ADD
+159 silly ADD
+160 silly ADD
+161 silly ADD
+162 silly ADD
+163 silly ADD node_modules/@img/sharp-linuxmusl-x64
+164 silly ADD
+165 silly ADD
+166 silly ADD
+167 silly ADD
+168 silly ADD
+169 silly ADD
+170 silly ADD node_modules/@img/sharp-libvips-linuxmusl-x64
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD
+175 silly ADD
+176 silly ADD
+177 silly ADD
+178 silly ADD
+179 silly ADD
+180 silly ADD
+181 silly ADD
+182 silly ADD
+183 verbose cwd /home/user
+184 verbose os Linux 6.1.158
+185 verbose node v20.18.1
+186 verbose npm  v10.8.2
+187 verbose exit 0
+188 info ok

@@ -1,0 +1,135 @@
+"use client";
+
+import { motion } from "framer-motion";
+import { CheckCircle, ShoppingCart, Star } from "lucide-react";
+
+const plans = [
+  {
+    name: "Starter",
+    emoji: "🟢",
+    price: "$4.97",
+    period: "/month",
+    description: "Perfect for beginners exploring app development",
+    features: [
+      "Basic lessons & core tools",
+      "Intro to AI app building",
+      "Community access",
+      "14-day free trial",
+    ],
+    link: "https://buy.stripe.com/aFa7sLemz51cdXJ72Pc3m04",
+    popular: false,
+    color: "border-white/10",
+    btnColor: "bg-white text-black hover:bg-gray-100",
+  },
+  {
+    name: "Pro",
+    emoji: "🟡",
+    price: "$9.97",
+    period: "/month",
+    description: "The complete toolkit for serious app builders",
+    features: [
+      "All lessons + templates",
+      "Community support",
+      "Code snippets library",
+      "Monetization strategies",
+      "14-day free trial",
+    ],
+    link: "https://buy.stripe.com/00w4gz6U7fZQaLxgDpc3m05",
+    popular: true,
+    color: "border-[#00FF94]",
+    btnColor: "bg-[#00FF94] text-black hover:bg-[#00e085]",
+  },
+  {
+    name: "Entrepreneur",
+    emoji: "🔵",
+    price: "$14.97",
+    period: "/month",
+    description: "Full access for those ready to go all in",
+    features: [
+      "Full access to all paths",
+      "Clone this app framework",
+      "Live Q&A sessions",
+      "Direct mentor support",
+      "Build & launch your own app",
+      "14-day free trial",
+    ],
+    link: "https://buy.stripe.com/aFa7sLemz51cdXJ72Pc3m04",
+    popular: false,
+    color: "border-white/10",
+    btnColor: "bg-white text-black hover:bg-gray-100",
+  },
+];
+
+export function Pricing() {
+  return (
+    <section id="pricing" className="py-14 px-6 bg-[#111111]">
+      <div className="max-w-6xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-10"
+        >
+          <h2 className="text-4xl md:text-5xl font-black mb-3">
+            Choose Your <span className="text-[#00FF94]">Plan</span>
+          </h2>
+          <p className="text-gray-400 text-lg">
+            All plans include a 14-day FREE trial — no credit card required
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+          {plans.map((plan, i) => (
+            <motion.div
+              key={plan.name}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: i * 0.1 }}
+              className={`relative bg-[#1A1A1A] rounded-2xl p-8 border-2 ${plan.color} flex flex-col ${plan.popular ? "scale-105 shadow-2xl shadow-[#00FF94]/10" : ""}`}
+            >
+              {plan.popular && (
+                <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#00FF94] text-black text-xs font-black px-4 py-1 rounded-full flex items-center gap-1">
+                  <Star className="w-3 h-3" /> MOST POPULAR
+                </div>
+              )}
+
+              <div className="mb-5">
+                <div className="text-2xl mb-1">{plan.emoji} {plan.name}</div>
+                <div className="flex items-end gap-1 mb-2">
+                  <span className="text-5xl font-black">{plan.price}</span>
+                  <span className="text-gray-400 mb-2">{plan.period}</span>
+                </div>
+                <p className="text-gray-400 text-sm">{plan.description}</p>
+              </div>
+
+              <ul className="space-y-3 mb-6 flex-1">
+                {plan.features.map((feature) => (
+                  <li key={feature} className="flex items-center gap-2 text-sm text-gray-300">
+                    <CheckCircle className="w-4 h-4 text-[#00FF94] shrink-0" />
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+
+              <a
+                href={plan.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`flex items-center justify-center gap-2 ${plan.btnColor} font-bold py-4 rounded-xl text-sm transition-all hover:scale-105`}
+              >
+                <ShoppingCart className="w-4 h-4" />
+                Start Free Trial
+              </a>
+            </motion.div>
+          ))}
+        </div>
+
+        <p className="text-center text-gray-500 text-sm mt-6">
+          ✅ All plans include a 14-day free trial · Cancel anytime · No contracts
+        </p>
+      </div>
+    </section>
+  );
+}
