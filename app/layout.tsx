@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js App",
-  description: "Built with Next.js",
+  title: "APPTLY — Build Profitable Apps Starting Today",
+  description: "APPTLY teaches you to build, launch, and monetize your own profitable app — step by step. Start your 14-day free trial today.",
 };
 
 export default function RootLayout({
