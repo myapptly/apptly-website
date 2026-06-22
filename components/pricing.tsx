@@ -53,7 +53,7 @@ const plans = [
       "Build & launch your own app",
       "14-day free trial",
     ],
-    link: "https://buy.stripe.com/aFa7sLemz51cdXJ72Pc3m04",
+    link: "https://buy.stripe.com/5kQ9ATcerfZQ6vhaf1c3m06",
     popular: false,
     color: "border-white/10",
     btnColor: "bg-white text-black hover:bg-gray-100",
