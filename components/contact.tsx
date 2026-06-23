@@ -6,11 +6,26 @@ import { Send, CheckCircle } from "lucide-react";
 
 export function Contact() {
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setSubmitting(true);
+    try {
+      const response = await fetch("https://formspree.io/f/xojovngv", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (response.ok) {
+        setSubmitted(true);
+      }
+    } catch (error) {
+      console.error("Form error:", error);
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -83,10 +98,11 @@ export function Contact() {
             </div>
             <button
               type="submit"
-              className="w-full flex items-center justify-center gap-2 bg-[#00FF94] text-black font-black py-4 rounded-xl hover:bg-[#00e085] transition-all hover:scale-105"
+              disabled={submitting}
+              className="w-full flex items-center justify-center gap-2 bg-[#00FF94] text-black font-black py-4 rounded-xl hover:bg-[#00e085] transition-all hover:scale-105 disabled:opacity-70 disabled:cursor-not-allowed"
             >
               <Send className="w-4 h-4" />
-              Send Message
+              {submitting ? "Sending..." : "Send Message"}
             </button>
           </motion.form>
         )}
