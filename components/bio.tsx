@@ -39,7 +39,7 @@ export function Bio() {
 
             <div className="space-y-3 text-gray-300 leading-relaxed">
               <p>
-                I didn't set out to become a software developer. I spent decades in the bar and restaurant business and later in retail and sales. Like many people, I believed programming an app was something only programmers could do.
+                I didn't set out to become a software developer. I spent decades in the bar and restaurant business and later in retail and sales. Like many people, I believed building an app was something only programmers could do.
               </p>
               <p>
                 Then I discovered AI.
@@ -48,10 +48,10 @@ export function Bio() {
                 What started as mere curiosity turned into an obsession with learning. Step-by-step, I used AI to build a real app, launch a working website, and create APPTLY.
               </p>
               <p>
-                I created APPTLY because I believe that us "Ordinary People" can create extraordinary things with today's AI tools. You don't need years of coding experience. You just need the proper guidance, the willingness to learn, and the confidence to take the first step.
+                I created APPTLY because I believe that us "Ordinary People" can create extraordinary things with today's AI tools. You don't need years of coding experience. You just need the right guidance, the willingness to learn, and the confidence to take the first step.
               </p> 
               <p>
-                If APPTLY can help just one person create a better life and future for themselves, the every hour I have invested in developing this app will have been worth it.
+                If APPTLY can help just one person create a better life and future for themselves, the every hour I have invested in building APPTLY will have been worth it.
               </p>  
             </div>
           </div>
