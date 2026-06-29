@@ -34,23 +34,25 @@ export function Bio() {
             </div>
 
             <blockquote className="text-xl font-bold text-[#00FF94] italic border-l-4 border-[#00FF94] pl-4">
-              &ldquo;I&apos;m 72 years old — and I built APPTLY. If I can do it, anyone can.&rdquo;
+              &ldquo;I&apos;m 72 years old. I built APPTLY without knowing how to code. If I can do it, so can you.&rdquo;
             </blockquote>
 
             <div className="space-y-3 text-gray-300 leading-relaxed">
               <p>
-                I got into app development out of curiosity — wondering what was possible if I really learned how to use AI.
-                I&apos;ve always wanted to be self-sufficient. I&apos;ve achieved it a few times in my life, but there was always
-                a job waiting to pull me back in.
+                I didn't set out to become a software developer. I spent decades in the bar and restaurant business and later in retail and sales. Like many people, I believed programming an app was something only programmers could do.
               </p>
               <p>
-                APPTLY came from years of learning, experimenting, and refusing to quit. By using AI to its full
-                potential, I built something real — step by step, day by day.
+                Then I discovered AI.
               </p>
               <p>
-                The desire to help others comes naturally to me. I was raised by parents who dedicated their lives
-                to serving people. If something I&apos;ve learned can make your journey easier, that&apos;s reason enough to share it.
+                What started as mere curiosity turned into an obsession with learning. Step-by-step, I used AI to build a real app, launch a working website, and create APPTLY.
               </p>
+              <p>
+                I created APPTLY because I believe that us "Ordinary People" can create extraordinary things with today's AI tools. You don't need years of coding experience. You just need the proper guidance, the willingness to learn, and the confidence to take the first step.
+              </p> 
+              <p>
+                If APPTLY can help just one person create a better life and future for themselves, the every hour I have invested in developing this app will have been worth it.
+              </p>  
             </div>
           </div>
         </motion.div>
