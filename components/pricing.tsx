@@ -16,7 +16,7 @@ const plans = [
       "Community access",
       "14-day free trial",
     ],
-    link: "https://buy.stripe.com/aFa7sLemz51cdXJ72Pc3m04",
+    link: "https://buy.stripe.com/aFa7sLemz5lcdXJ72Pc3m04",
     popular: false,
     color: "border-white/10",
     btnColor: "bg-white text-black hover:bg-gray-100",
