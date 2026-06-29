@@ -120,7 +120,7 @@ export function Pricing() {
                 className={`flex items-center justify-center gap-2 ${plan.btnColor} font-bold py-4 rounded-xl text-sm transition-all hover:scale-105`}
               >
                 <ShoppingCart className="w-4 h-4" />
-                Start Free Trial
+                Start Building Free
               </a>
             </motion.div>
           ))}
