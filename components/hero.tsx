@@ -15,11 +15,11 @@ export function Hero() {
         <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-tight">
           Build Your First AI App{" "}
           
-          <span className="text-[#00FF94]>Even If You Can't Code</span>
+          <span className="text-[#00FF94]">Even If You Can't Code</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-          Learn to build, launch, and grow real AI apps with simple step-by-step guidance. No coding experience required
+          Learn to build, launch, and grow real AI apps with simple step-by-step guidance. No coding experience required.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
