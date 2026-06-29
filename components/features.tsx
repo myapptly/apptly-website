@@ -7,22 +7,22 @@ const features = [
   {
     icon: Zap,
     title: "Build with AI",
-    description: "Learn to use the latest AI tools to build real apps — no coding degree required. If I can do it at 72, you can do it too.",
+    description: "Learn how to use AI to create real apps — even if you've never written a single line of code.",
   },
   {
     icon: Globe,
     title: "Launch Your App",
-    description: "From idea to live app on the App Store and Google Play. Step-by-step guidance the whole way through.",
+    description: "Publish your app to the web or app stores with step-by-step guidance.",
   },
   {
     icon: DollarSign,
     title: "Monetize It",
-    description: "Learn how to set up subscriptions, payments, and pricing that actually makes sense for your market.",
+    description: "Turn your app into a business with subscriptions, payments, and recurring income.",
   },
   {
     icon: TrendingUp,
     title: "Grow Your Audience",
-    description: "Simple social media strategies to get your app in front of the right people — without being a marketing guru.",
+    description: "Learn practical marketing strategies to attract your first users and customers.",
   },
 ];
 
