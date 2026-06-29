@@ -25,26 +25,34 @@ export default function Dashboard() {
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-3">A Message from Terry</h2>
           <p className="text-gray-300 leading-relaxed">
-            I built APPTLY at 72 without knowing how to code. If I can learn this, you can too.
-            Take your time, follow the steps, and keep moving forward.
+            I built APPTLY at 72 without knowing how to code. If I can learn this, you can too. Take your time, follow the steps, and keep moving forward.
           </p>
         </div>
 
         <div>
           <h2 className="text-3xl font-black mb-5">Start Your Lessons</h2>
           <div className="grid gap-4">
-            {lessons.map((lesson, index) => (
-              <div
-                key={lesson}
-                className="bg-[#1A1A1A] border border-white/10 rounded-xl p-5 flex items-center justify-between"
-              >
-                <div>
-                  <p className="text-[#00FF94] font-bold">Lesson {index + 1}</p>
-                  <h3 className="text-xl font-bold">{lesson}</h3>
+            {lessons.map((lesson, index) => {
+              const card = (
+                <div className="bg-[#1A1A1A] border border-white/10 rounded-xl p-5 flex items-center justify-between hover:border-[#00FF94]/50 transition">
+                  <div>
+                    <p className="text-[#00FF94] font-bold">Lesson {index + 1}</p>
+                    <h3 className="text-xl font-bold">{lesson}</h3>
+                  </div>
+                  <span className="text-gray-400">
+                    {index === 0 ? "Start Lesson" : "Coming Soon"}
+                  </span>
                 </div>
-                <span className="text-gray-400">Coming Soon</span>
-              </div>
-            ))}
+              );
+
+              return index === 0 ? (
+                <a key={lesson} href="/lesson-1">
+                  {card}
+                </a>
+              ) : (
+                <div key={lesson}>{card}</div>
+              );
+            })}
           </div>
         </div>
 
@@ -68,4 +76,4 @@ export default function Dashboard() {
       </section>
     </main>
   );
-}
+} 
