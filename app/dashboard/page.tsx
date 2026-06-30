@@ -54,7 +54,7 @@ export default function Dashboard() {
               );
 
               return index <= 2 ? (
-                <a key={lesson} href="/lesson-1">
+                <a key={lesson} href={`/lesson-${index + 1}`} 
                   {card}
                 </a>
               ) : (
