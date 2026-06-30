@@ -12,6 +12,12 @@ export function Hero() {
         transition={{ duration: 0.7 }}
         className="max-w-4xl mx-auto space-y-6"
       >
+        <div className="mb-4">
+  <p className="text-[#00FF94] font-bold uppercase tracking-[0.3em] text-sm md:text-base">
+    From Idea to Brand
+  </p>
+</div> 
+        
         <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-tight">
           Build Your First AI App{" "}
           
