@@ -40,12 +40,12 @@ export default function Dashboard() {
                     <h3 className="text-xl font-bold">{lesson}</h3>
                   </div>
                   <span className="text-gray-400">
-                    {index === 0 ? "Start Lesson" : "Coming Soon"}
+                    {index <= 2 ? "Start Lesson" : "Coming Soon"}
                   </span>
                 </div>
               );
 
-              return index === 0 ? (
+              return index <= 2 ? (
                 <a key={lesson} href="/lesson-1">
                   {card}
                 </a>
