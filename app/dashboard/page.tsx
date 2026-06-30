@@ -10,14 +10,6 @@ export default function Dashboard() {
   return (
     <main className="min-h-screen bg-[#0D0D0D] text-white px-6 py-10">
       <section className="max-w-5xl mx-auto space-y-10">
-
-        <div className="mb-8">
-  <img
-    src="/apptly-logo.png"
-    alt="APPTLY"
-    className="h-28 w-auto"
-  />
-</div>
         <div>
           <p className="text-[#00FF94] font-bold uppercase tracking-widest text-sm">
             Member Dashboard
@@ -41,24 +33,25 @@ export default function Dashboard() {
           <h2 className="text-3xl font-black mb-5">Start Your Lessons</h2>
           <div className="grid gap-4">
             {lessons.map((lesson, index) => {
-              const card = (
-                <div className="bg-[#1A1A1A] border border-white/10 rounded-xl p-5 flex items-center justify-between hover:border-[#00FF94]/50 transition">
+              const isAvailable = index <= 2;
+              const lessonNumber = index + 1;
+
+              return (
+                <a
+                  key={lesson}
+                  href={isAvailable ? `/lesson-${lessonNumber}` : "#"}
+                  className="bg-[#1A1A1A] border border-white/10 rounded-xl p-5 flex items-center justify-between hover:border-[#00FF94]/50 transition"
+                >
                   <div>
-                    <p className="text-[#00FF94] font-bold">Lesson {index + 1}</p>
+                    <p className="text-[#00FF94] font-bold">
+                      Lesson {lessonNumber}
+                    </p>
                     <h3 className="text-xl font-bold">{lesson}</h3>
                   </div>
                   <span className="text-gray-400">
-                    {index <= 2 ? "Start Lesson" : "Coming Soon"}
+                    {isAvailable ? "Start Lesson" : "Coming Soon"}
                   </span>
-                </div>
-              );
-
-              return index <= 2 ? (
-                <a key={lesson} href={/lesson-${index + 1}}?
-                  {card}
                 </a>
-              ) : (
-                <div key={lesson}>{card}</div>
               );
             })}
           </div>
