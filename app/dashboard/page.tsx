@@ -15,9 +15,13 @@ export default function Dashboard() {
           <p className="text-[#00FF94] font-bold uppercase tracking-widest text-sm">
             Member Dashboard
           </p>
-          <h1 className="text-4xl md:text-6xl font-black mt-3">
-            Welcome to APPTLY
-          </h1>
+          <Image
+  src="https://galaxy-prod.tldcdn.com/gen/user_37MJjcymE8bOUM2E9geQUee0wSV/3341da3f-c232-4e65-89a7-0a9e768e55ef.png"
+  alt="APPTLY Logo"
+  width={350}
+  height={100}
+  className="mx-auto mt-3"
+/> 
           <p className="text-gray-300 text-xl mt-4 max-w-2xl">
             Start here. Follow the lessons one step at a time and build your first AI-powered app.
           </p>
