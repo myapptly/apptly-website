@@ -5,7 +5,7 @@ import { CheckCircle } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-20 pb-10">
+    <section className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-40 pb-10">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
