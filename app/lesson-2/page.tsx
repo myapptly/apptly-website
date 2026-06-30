@@ -81,8 +81,8 @@ export default function Lesson2() {
             Previous Lesson
           </a>
 
-          <a href="/dashboard" className="bg-[#00FF94] text-black font-bold px-6 py-3 rounded-xl">
-            Return to Dashboard
+          <a href="/lesson-3" className="bg-[#00FF94]  text-black font-bold px-6 py-3 rounded-xl">
+            Continue to Lesson 3
           </a>
         </div>
       </section>
