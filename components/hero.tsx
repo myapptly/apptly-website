@@ -12,8 +12,8 @@ export function Hero() {
         transition={{ duration: 0.7 }}
         className="max-w-4xl mx-auto space-y-6"
       >
-        <div className="mb-4">
-  <p className="text-[#00FF94] font-bold uppercase tracking-[0.3em] text-sm md:text-base">
+        <div className="mb-8">
+ <p className="text-[#00FF94] font-bold uppercase tracking-[0.4em] text-base md:text-lg mb-2" 
     From Idea to Brand
   </p>
 </div> 
