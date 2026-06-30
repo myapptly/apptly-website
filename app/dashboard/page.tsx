@@ -10,6 +10,14 @@ export default function Dashboard() {
   return (
     <main className="min-h-screen bg-[#0D0D0D] text-white px-6 py-10">
       <section className="max-w-5xl mx-auto space-y-10">
+
+        <div className="mb-8">
+  <img
+    src="/apptly-logo.png"
+    alt="APPTLY"
+    className="h-16 w-auto"
+  />
+</div>
         <div>
           <p className="text-[#00FF94] font-bold uppercase tracking-widest text-sm">
             Member Dashboard
