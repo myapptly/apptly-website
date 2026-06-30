@@ -10,9 +10,7 @@ export default function Lesson3() {
           <p className="text-[#00FF94] font-bold uppercase tracking-widest text-sm">
             Lesson 3
           </p>
-          <h1 className="text-5xl font-black mt-3">
-            Build with AI
-          </h1>
+          <h1 className="text-5xl font-black mt-3">Build with AI</h1>
           <p className="text-gray-300 mt-4 text-xl">
             You do not need to code from scratch. You need to learn how to clearly tell AI what you want.
           </p>
@@ -78,7 +76,7 @@ export default function Lesson3() {
           </a>
 
           <a href="/lesson-4" className="bg-[#00FF94] text-black font-bold px-6 py-3 rounded-xl">
-            Continue to Lesson 4
+            Go to Lesson 4
           </a>
         </div>
       </section>
