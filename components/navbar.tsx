@@ -17,7 +17,7 @@ export function Navbar() {
           href="#pricing"
           className="bg-[#00FF94] text-black font-bold px-5 py-2 rounded-full text-sm hover:bg-[#00e085] transition-colors"
         >
-          Become A Founding Member
+          Get APPTLY
         </a>
       </div>
     </nav>
