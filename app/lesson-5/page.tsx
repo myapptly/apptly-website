@@ -366,7 +366,22 @@ export default function Lesson5() {
     <li>What expenses must the price cover?</li>
     <li>What is one reasonable starting price to test?</li>
     <li>Where will the customer pay?</li>
-    <li>How will the customer receive access 
+   
+<li>How will the customer receive access or delivery?</li>
+<li>What support or updates will be included?</li>
+</ol>
+
+<div className="mt-6 rounded-xl border border-emerald-500/40 bg-black/30 p-5">
+  <p className="font-semibold text-emerald-400 mb-2">
+    Complete this sentence:
+  </p>
+
+  <p className="text-lg text-white">
+    I will offer __________ to __________ for __________ because it helps
+    them __________.
+  </p>
+</div>
+</section> 
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">Your Assignment</h2>
