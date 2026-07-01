@@ -46,7 +46,7 @@ export default function LessonOne() {
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
-          <h2 className="text-2xl font-bold">Your First Action Step</h2>
+          <h2 className="text-2xl font-bold">Quick App-Idea Brainstorm</h2>
           <p className="text-gray-300 leading-relaxed">
             Open a notebook or document and write down three app ideas. They do not have to be perfect. Start with problems you understand, hobbies you enjoy, or things people ask you for help with.
           </p>
