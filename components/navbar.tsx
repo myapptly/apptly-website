@@ -9,7 +9,7 @@ export function Navbar() {
         <Image
           src="/small%20apptly%20logo.png"
           alt="APPTLY Logo"
-          width={80}
+          width={120}
           height={80}
           className="object-contain"
         />
