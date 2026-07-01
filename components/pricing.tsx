@@ -37,10 +37,10 @@ export function Pricing() {
           className="text-center mb-10"
         >
           <h2 className="text-4xl md:text-5xl font-black mb-3">
-            Choose Your <span className="text-[#00FF94]">Plan</span>
+            Become a <span className="text-[#00FF94]">Founding Member</span>
           </h2>
           <p className="text-gray-400 text-lg">
-            All plans include a 14-day FREE trial — no credit card required
+            One-time payment - Lifetime access - All future updates included
           </p>
         </motion.div>
 
@@ -56,7 +56,7 @@ export function Pricing() {
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#00FF94] text-black text-xs font-black px-4 py-1 rounded-full flex items-center gap-1">
-                  <Star className="w-3 h-3" /> MOST POPULAR
+                  <Star className="w-3 h-3" /> FOUNDING OFFER
                 </div>
               )}
 
@@ -85,14 +85,14 @@ export function Pricing() {
                 className={`flex items-center justify-center gap-2 ${plan.btnColor} font-bold py-4 rounded-xl text-sm transition-all hover:scale-105`}
               >
                 <ShoppingCart className="w-4 h-4" />
-                Start Building Free
+                Get Lifetime Access - $37
               </a>
             </motion.div>
           ))}
         </div>
 
         <p className="text-center text-gray-500 text-sm mt-6">
-          ✅ All plans include a 14-day free trial · Cancel anytime · No contracts
+          ✅ One-time payment - Lifetime access - No monthly fees
         </p>
       </div>
     </section>
