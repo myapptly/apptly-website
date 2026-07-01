@@ -6,6 +6,12 @@ export default function Lesson2() {
           ← Back to Dashboard
         </a>
 
+        <img
+  src="/new%20logo.png"
+  alt="APPTLY Logo"
+  className="mx-auto w-[300px] max-w-full h-auto"
+/> 
+
         <div>
           <p className="text-[#00FF94] font-bold uppercase tracking-widest text-sm">
             Lesson 2
