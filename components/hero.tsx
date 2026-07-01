@@ -37,7 +37,6 @@ export function Hero() {
 
         <div className="flex flex-wrap items-center justify-center gap-8 pt-6 border-t border-white/10">
           {[
-            [
   { value: "1 Price", label: "Simple Offer" },
   { value: "Lifetime", label: "Access" },
   { value: "Step-by-Step", label: "Guided Learning" },
