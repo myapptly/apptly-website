@@ -11,7 +11,7 @@ export function Navbar() {
           alt="APPTLY Logo"
           width={200}
           height={100}
-          className="object-contain w-[110px] sm:w-[220px] h-auto flex-shrink-0" 
+          className="object-contain w-[220px] h-auto" 
           />
         <a
           href="#pricing"
