@@ -65,6 +65,193 @@ export default function Lesson3() {
           </ul>
         </div>
 
+        <section className="mt-12">
+  <h2 className="text-3xl font-bold text-emerald-400 mb-4">
+    The Five Parts of a Strong AI Build Prompt
+  </h2>
+
+  <p className="text-lg text-gray-300 leading-relaxed mb-6">
+    AI gives better results when you clearly explain the user, the problem,
+    the purpose, the features, and the desired appearance.
+  </p>
+
+  <div className="grid gap-4 md:grid-cols-2">
+    <div className="rounded-xl border border-emerald-500/30 bg-gray-900 p-5">
+      <h3 className="text-xl font-semibold text-white mb-2">
+        1. Identify the User
+      </h3>
+      <p className="text-gray-300 leading-relaxed">
+        Explain exactly who will use the app, such as independent cleaners,
+        restaurant customers, church volunteers, or personal trainers.
+      </p>
+    </div>
+
+    <div className="rounded-xl border border-emerald-500/30 bg-gray-900 p-5">
+      <h3 className="text-xl font-semibold text-white mb-2">
+        2. Describe the Problem
+      </h3>
+      <p className="text-gray-300 leading-relaxed">
+        State the frustration, repeated task, delay, missed opportunity, or
+        organizational problem the app should solve.
+      </p>
+    </div>
+
+    <div className="rounded-xl border border-emerald-500/30 bg-gray-900 p-5">
+      <h3 className="text-xl font-semibold text-white mb-2">
+        3. Explain the Main Purpose
+      </h3>
+      <p className="text-gray-300 leading-relaxed">
+        Describe the one most important job the first version of the app must
+        perform.
+      </p>
+    </div>
+
+    <div className="rounded-xl border border-emerald-500/30 bg-gray-900 p-5">
+      <h3 className="text-xl font-semibold text-white mb-2">
+        4. List Essential Features
+      </h3>
+      <p className="text-gray-300 leading-relaxed">
+        Include only the features needed for the basic version. Save extra
+        ideas for later improvements.
+      </p>
+    </div>
+
+    <div className="rounded-xl border border-emerald-500/30 bg-gray-900 p-5 md:col-span-2">
+      <h3 className="text-xl font-semibold text-white mb-2">
+        5. Describe the Look and Experience
+      </h3>
+      <p className="text-gray-300 leading-relaxed">
+        Tell AI whether the app should feel professional, friendly, modern,
+        simple, colorful, elegant, bold, or designed for easy mobile use.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section className="mt-12 rounded-2xl border border-emerald-500/40 bg-emerald-950/30 p-6">
+  <h2 className="text-2xl font-bold text-emerald-400 mb-4">
+    A Better Prompt Formula
+  </h2>
+
+  <div className="rounded-xl border border-gray-700 bg-black/30 p-5 text-gray-200 leading-relaxed">
+    Build a simple app for{" "}
+    <span className="font-semibold text-emerald-400">[specific users]</span>.
+    The app should help them solve{" "}
+    <span className="font-semibold text-emerald-400">[specific problem]</span>.
+    The main purpose is{" "}
+    <span className="font-semibold text-emerald-400">[main job]</span>. Include{" "}
+    <span className="font-semibold text-emerald-400">[essential features]</span>.
+    Make the design{" "}
+    <span className="font-semibold text-emerald-400">[style and colors]</span>.
+    Begin with a simple working version and explain each step clearly for a
+    beginner.
+  </div>
+</section>
+
+<section className="mt-12 rounded-2xl border border-white/10 bg-gray-900 p-6">
+  <h2 className="text-2xl font-bold text-white mb-4">
+    Example of a Detailed Build Prompt
+  </h2>
+
+  <div className="rounded-xl border border-gray-700 bg-black/30 p-5 text-gray-200 leading-relaxed">
+    Build a simple mobile-friendly app for independent house cleaners. The app
+    should help them create customer estimates faster. Include a customer-name
+    field, room selections, optional services, automatic price totals, and a
+    printable estimate summary. Use a clean professional design with white,
+    dark blue, and green. Start with the simplest working version and explain
+    every step clearly for someone who does not know how to code.
+  </div>
+</section>
+
+<section className="mt-12">
+  <h2 className="text-3xl font-bold text-emerald-400 mb-4">
+    Build in Small Conversations
+  </h2>
+
+  <p className="text-gray-300 leading-relaxed mb-6">
+    Do not ask AI to create an enormous finished app in one attempt. Work in
+    small stages so you can test each part before adding more.
+  </p>
+
+  <div className="space-y-4">
+    {[
+      "First, ask AI to create the basic page structure.",
+      "Next, test whether the page loads and the buttons work.",
+      "Then, add one important feature.",
+      "Test the feature before requesting another one.",
+      "Improve the colors, spacing, and branding after the basic app works.",
+      "Save or commit every successful version before making another change.",
+    ].map((step, index) => (
+      <div
+        key={step}
+        className="flex gap-4 rounded-xl border border-gray-700 bg-gray-900 p-4"
+      >
+        <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-emerald-400 font-bold text-black">
+          {index + 1}
+        </div>
+        <p className="text-gray-200">{step}</p>
+      </div>
+    ))}
+  </div>
+</section>
+
+<section className="mt-12 rounded-2xl border border-white/10 bg-gray-900 p-6">
+  <h2 className="text-2xl font-bold text-white mb-4">
+    When Something Goes Wrong
+  </h2>
+
+  <p className="text-gray-300 leading-relaxed mb-5">
+    Errors are normal. Give AI specific information instead of saying only,
+    “It does not work.”
+  </p>
+
+  <ul className="list-disc space-y-3 pl-6 text-gray-200">
+    <li>Copy and paste the exact error message.</li>
+    <li>Explain what you expected to happen.</li>
+    <li>Explain what happened instead.</li>
+    <li>Show the relevant code or send a clear screenshot.</li>
+    <li>Ask AI to change only the part causing the problem.</li>
+    <li>Test the correction before making another change.</li>
+  </ul>
+
+  <div className="mt-6 rounded-xl border border-emerald-500/30 bg-black/30 p-5">
+    <p className="font-semibold text-emerald-400 mb-2">
+      Helpful troubleshooting prompt:
+    </p>
+
+    <p className="text-gray-200 leading-relaxed">
+      This is the exact error I received: [paste error]. I expected [expected
+      result], but instead [actual result]. Please identify the likely cause
+      and give me one small correction at a time. Do not rewrite unrelated
+      parts of the app.
+    </p>
+  </div>
+</section>
+
+<section className="mt-12 rounded-2xl bg-gray-900 p-6">
+  <h2 className="text-2xl font-bold text-white mb-4">
+    Your Lesson 3 Build Brief
+  </h2>
+
+  <p className="text-gray-300 mb-5">
+    Before moving to Lesson 4, write one complete build prompt containing:
+  </p>
+
+  <ol className="list-decimal space-y-3 pl-6 text-gray-200">
+    <li>The specific person or business that will use the app</li>
+    <li>The clear problem the app will solve</li>
+    <li>The app’s most important purpose</li>
+    <li>Three to five essential first-version features</li>
+    <li>The desired colors, style, and mobile experience</li>
+    <li>A request for simple beginner-friendly instructions</li>
+  </ol>
+
+  <p className="mt-5 font-semibold text-emerald-400">
+    Clear instructions create better apps. You do not need to know every
+    technical term—you need to communicate what the app should accomplish.
+  </p>
+</section>
+
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">Your Assignment</h2>
           <p className="text-gray-300 leading-relaxed">
