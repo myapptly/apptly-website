@@ -189,6 +189,49 @@ export default function LessonOne() {
   </p>
 </section>
 
+    <section className="mt-12 rounded-2xl border border-emerald-500/40 bg-gray-900 p-6">
+  <h2 className="text-2xl font-bold text-emerald-400 mb-3">
+    Build Your First Portfolio
+  </h2>
+
+  <p className="text-gray-200 leading-relaxed">
+    Before asking strangers to pay you, consider building one or two simple
+    apps for friends, family members, local organizations, or businesses you
+    already know.
+  </p>
+
+  <p className="text-gray-200 leading-relaxed mt-4">
+    Offer these first projects free or at a very low introductory price in
+    exchange for honest feedback, a testimonial, and permission to show the
+    finished app in your portfolio.
+  </p>
+
+  <p className="text-gray-200 leading-relaxed mt-4">
+    Choose small projects with a clear purpose. Do not promise a huge,
+    complicated system. Build something useful, finish it professionally,
+    and make sure the person actually uses it.
+  </p>
+
+  <div className="mt-5 rounded-xl border border-gray-700 bg-black/30 p-5">
+    <h3 className="text-xl font-semibold text-white mb-3">
+      After Each Project, Ask For:
+    </h3>
+
+    <ul className="list-disc space-y-2 pl-6 text-gray-300">
+      <li>An honest written review or testimonial</li>
+      <li>Permission to display the app in your portfolio</li>
+      <li>Permission to mention the business or organization by name</li>
+      <li>A referral to another person who may need an app</li>
+      <li>Specific feedback about what the app improved or made easier</li>
+    </ul>
+  </div>
+
+  <p className="mt-5 font-semibold text-emerald-400">
+    Two completed apps and two strong testimonials give you something real
+    to show, discuss, promote, and brag about when approaching paying clients.
+  </p>
+</section>  
+
 <section className="mt-12 rounded-2xl bg-gray-900 p-6">
   <h2 className="text-2xl font-bold text-white mb-4">
     Lesson 1 Action Step
