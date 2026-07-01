@@ -11,8 +11,8 @@ export function Navbar() {
           alt="APPTLY Logo"
           width={200}
           height={100}
-          className="object-contain"
-        />
+          className="object-contain w-[220px] h-auto"        
+          />
         <a
           href="#pricing"
           className="bg-[#00FF94] text-black font-bold px-5 py-2 rounded-full text-sm hover:bg-[#00e085] transition-colors"
