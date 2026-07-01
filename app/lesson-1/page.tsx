@@ -6,6 +6,12 @@ export default function LessonOne() {
           ← Back to Dashboard
         </a>
 
+        <img
+  src="/new%20logo.png"
+  alt="APPTLY Logo"
+  className="mx-auto w-[300px] max-w-full h-auto"
+/> 
+
         <div>
           <p className="text-[#00FF94] font-bold uppercase tracking-widest text-sm">
             Lesson 1
@@ -14,8 +20,9 @@ export default function LessonOne() {
             Welcome to APPTLY
           </h1>
           <p className="text-gray-300 text-xl mt-4">
-            This is where your AI app-building journey begins.
+          Follow the steps, complete each action, and build your first real AI-powered app.          
           </p>
+          
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
