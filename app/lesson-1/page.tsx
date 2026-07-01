@@ -55,6 +55,164 @@ export default function LessonOne() {
           </p>
         </div>
 
+        <section className="mt-12">
+  <h2 className="text-3xl font-bold text-emerald-400 mb-4">
+    How App Builders Make Money
+  </h2>
+
+  <p className="text-lg text-gray-300 leading-relaxed mb-6">
+    You do not need to invent the next Facebook or create a complicated
+    app-store product to make money building apps. Many professional app
+    builders earn income by solving ordinary problems for businesses,
+    organizations, and individuals.
+  </p>
+
+  <div className="grid gap-4 md:grid-cols-2">
+    {[
+      [
+        "Build Custom Apps for Clients",
+        "A business pays you to create an app designed around its specific needs.",
+      ],
+      [
+        "Create Internal Business Tools",
+        "Build tools for employees, inventory, appointments, estimates, inspections, customers, or daily operations.",
+      ],
+      [
+        "Build Subscription Apps",
+        "Create an app that customers or businesses pay to use monthly or annually.",
+      ],
+      [
+        "Sell One App to Many Businesses",
+        "Build an app for one industry, then customize and sell it to several similar businesses.",
+      ],
+      [
+        "Charge Setup and Customization Fees",
+        "Start with a reusable app and personalize the logo, colors, services, forms, and information for each client.",
+      ],
+      [
+        "Offer Maintenance and Updates",
+        "Charge clients for ongoing support, new features, content changes, and troubleshooting.",
+      ],
+      [
+        "Create Lead-Generation Apps",
+        "Help businesses collect contact information, quote requests, appointments, and qualified prospects.",
+      ],
+      [
+        "Build Booking and Scheduling Systems",
+        "Create an easier way for customers to schedule services, consultations, classes, or appointments.",
+      ],
+      [
+        "Create Membership or Training Apps",
+        "Help coaches, instructors, associations, and course creators deliver content to paying members.",
+      ],
+      [
+        "Sell App Templates",
+        "Build reusable app foundations that other creators or businesses can purchase and customize.",
+      ],
+      [
+        "Offer App Consulting",
+        "Help a business identify its problems and determine what kind of app or digital tool it needs.",
+      ],
+      [
+        "Partner with Marketing Agencies",
+        "Provide app-building services to agencies that want to offer more solutions to their own clients.",
+      ],
+    ].map(([title, description]) => (
+      <div
+        key={title}
+        className="rounded-xl border border-emerald-500/30 bg-gray-900 p-5"
+      >
+        <h3 className="text-xl font-semibold text-white mb-2">{title}</h3>
+        <p className="text-gray-300 leading-relaxed">{description}</p>
+      </div>
+    ))}
+  </div>
+</section>
+
+<section className="mt-12">
+  <h2 className="text-3xl font-bold text-emerald-400 mb-4">
+    Businesses That May Need an App
+  </h2>
+
+  <p className="text-lg text-gray-300 leading-relaxed mb-6">
+    Almost any organization with customers, employees, appointments,
+    information, or repetitive tasks may benefit from an app.
+  </p>
+
+  <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+    {[
+      "Restaurants, food trucks, bakeries, and caterers",
+      "Hair salons, barbershops, spas, and nail salons",
+      "Plumbers, electricians, HVAC companies, roofers, and landscapers",
+      "Real estate agents, property managers, and home inspectors",
+      "Doctors, dentists, chiropractors, therapists, and caregivers",
+      "Gyms, personal trainers, yoga studios, and sports coaches",
+      "Churches, charities, clubs, and nonprofit organizations",
+      "Schools, tutors, daycare centers, and training companies",
+      "Retail stores, boutiques, antique shops, and specialty businesses",
+      "Hotels, vacation rentals, tour operators, and travel planners",
+      "Event planners, wedding professionals, photographers, and entertainers",
+      "Auto repair shops, detailers, and transportation companies",
+      "Pet groomers, dog walkers, boarding facilities, and veterinarians",
+      "Accountants, attorneys, insurance agents, and financial professionals",
+      "Senior-living communities and home-care services",
+      "Cleaning companies, pest-control services, and repair businesses",
+      "Local associations, networking groups, and membership organizations",
+      "Consultants, coaches, speakers, and independent professionals",
+    ].map((business) => (
+      <div
+        key={business}
+        className="rounded-lg border border-gray-700 bg-gray-900/70 p-4 text-gray-200"
+      >
+        {business}
+      </div>
+    ))}
+  </div>
+</section>
+
+<section className="mt-12 rounded-2xl border border-emerald-500/40 bg-emerald-950/30 p-6">
+  <h2 className="text-2xl font-bold text-emerald-400 mb-3">
+    Think Like a Professional App Builder
+  </h2>
+
+  <p className="text-gray-200 leading-relaxed">
+    A client may not need a complicated app in the Apple App Store or Google
+    Play. The best solution might be a simple web app, customer portal,
+    booking tool, employee dashboard, membership area, or mobile-friendly
+    business system.
+  </p>
+
+  <p className="text-gray-200 leading-relaxed mt-4">
+    Your job is not merely to build something impressive. Your job is to
+    identify a real problem and create something useful that saves time,
+    improves service, increases sales, or organizes information.
+  </p>
+</section>
+
+<section className="mt-12 rounded-2xl bg-gray-900 p-6">
+  <h2 className="text-2xl font-bold text-white mb-4">
+    Lesson 1 Action Step
+  </h2>
+
+  <p className="text-gray-300 mb-4">
+    Choose three businesses you already know. For each business, answer:
+  </p>
+
+  <ol className="list-decimal space-y-3 pl-6 text-gray-200">
+    <li>What problem does the business repeatedly face?</li>
+    <li>
+      Could an app save time, improve service, increase sales, or organize
+      information?
+    </li>
+    <li>What would the simplest useful version of that app do?</li>
+  </ol>
+
+  <p className="mt-5 font-semibold text-emerald-400">
+    Do not worry about how to build it yet. Begin by learning how to recognize
+    valuable problems.
+  </p>
+</section>
+
         <div className="flex flex-col sm:flex-row gap-4 pt-4">
           <a
             href="/lesson-2"
