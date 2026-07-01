@@ -17,7 +17,7 @@ const features = [
   {
     icon: DollarSign,
     title: "Monetize It",
-    description: "Turn your app into a business with subscriptions, payments, and recurring income.",
+    description: "Turn your app into a real business with real paying customers.",
   },
   {
     icon: TrendingUp,
