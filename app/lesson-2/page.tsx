@@ -83,6 +83,154 @@ export default function Lesson2() {
         </div>
 
         <div className="flex flex-wrap gap-4">
+
+          <section className="mt-12">
+  <h2 className="text-3xl font-bold text-emerald-400 mb-4">
+    Use the Four-Part Idea Test
+  </h2>
+
+  <p className="text-lg text-gray-300 leading-relaxed mb-6">
+    A strong first app idea does not need to be revolutionary. It should pass
+    four simple tests.
+  </p>
+
+  <div className="grid gap-4 md:grid-cols-2">
+    <div className="rounded-xl border border-emerald-500/30 bg-gray-900 p-5">
+      <h3 className="text-xl font-semibold text-white mb-2">
+        1. A Clear Problem
+      </h3>
+      <p className="text-gray-300 leading-relaxed">
+        The app should solve a frustration, delay, repeated task, missed
+        opportunity, or organizational problem.
+      </p>
+    </div>
+
+    <div className="rounded-xl border border-emerald-500/30 bg-gray-900 p-5">
+      <h3 className="text-xl font-semibold text-white mb-2">
+        2. A Specific User
+      </h3>
+      <p className="text-gray-300 leading-relaxed">
+        Identify exactly who will use it. “Small-business owners” is broad.
+        “Independent house cleaners” is specific.
+      </p>
+    </div>
+
+    <div className="rounded-xl border border-emerald-500/30 bg-gray-900 p-5">
+      <h3 className="text-xl font-semibold text-white mb-2">
+        3. A Simple First Version
+      </h3>
+      <p className="text-gray-300 leading-relaxed">
+        Your first version should perform one valuable job clearly instead of
+        trying to include every possible feature.
+      </p>
+    </div>
+
+    <div className="rounded-xl border border-emerald-500/30 bg-gray-900 p-5">
+      <h3 className="text-xl font-semibold text-white mb-2">
+        4. A Real Benefit
+      </h3>
+      <p className="text-gray-300 leading-relaxed">
+        The app should save time, reduce mistakes, improve service, organize
+        information, increase sales, or make life easier.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section className="mt-12 rounded-2xl border border-emerald-500/40 bg-emerald-950/30 p-6">
+  <h2 className="text-2xl font-bold text-emerald-400 mb-4">
+    Turn a Problem Into an App Idea
+  </h2>
+
+  <p className="text-gray-200 leading-relaxed mb-5">
+    Use this simple sentence to shape your idea:
+  </p>
+
+  <div className="rounded-xl border border-gray-700 bg-black/30 p-5 text-lg text-white">
+    My app will help <span className="text-emerald-400">a specific user</span>{" "}
+    solve <span className="text-emerald-400">a clear problem</span> by providing{" "}
+    <span className="text-emerald-400">one useful solution</span>.
+  </div>
+
+  <div className="mt-6 space-y-4 text-gray-300">
+    <p>
+      <strong className="text-white">Example:</strong> My app will help
+      independent house cleaners create faster customer estimates by providing
+      a simple room-by-room quote calculator.
+    </p>
+
+    <p>
+      <strong className="text-white">Example:</strong> My app will help a local
+      church manage volunteers by providing one place for schedules, reminders,
+      and sign-ups.
+    </p>
+
+    <p>
+      <strong className="text-white">Example:</strong> My app will help pet
+      groomers reduce missed appointments by sending customers booking
+      confirmations and reminders.
+    </p>
+  </div>
+</section>
+
+<section className="mt-12 rounded-2xl border border-white/10 bg-gray-900 p-6">
+  <h2 className="text-2xl font-bold text-white mb-4">
+    Validate the Idea Before You Build
+  </h2>
+
+  <p className="text-gray-300 leading-relaxed mb-5">
+    Speak with at least three people who might actually use the app. You are not
+    trying to sell them yet. You are trying to understand whether the problem
+    is real.
+  </p>
+
+  <ul className="list-disc space-y-3 pl-6 text-gray-200">
+    <li>How do you handle this problem now?</li>
+    <li>What is the most frustrating part of the current process?</li>
+    <li>How often does the problem happen?</li>
+    <li>What does the problem cost in time, money, mistakes, or lost business?</li>
+    <li>What would make a simple solution genuinely useful?</li>
+  </ul>
+
+  <p className="mt-5 font-semibold text-emerald-400">
+    Do not merely ask, “Do you like my app idea?” People may say yes to be
+    polite. Ask about their real behavior, frustrations, and current solutions.
+  </p>
+</section>
+
+<section className="mt-12 rounded-2xl bg-gray-900 p-6">
+  <h2 className="text-2xl font-bold text-white mb-4">
+    Lesson 2 Final Choice
+  </h2>
+
+  <p className="text-gray-300 mb-5">
+    Review your ten ideas and choose the one that scores best in these areas:
+  </p>
+
+  <ol className="list-decimal space-y-3 pl-6 text-gray-200">
+    <li>I understand the problem.</li>
+    <li>I know who the intended user is.</li>
+    <li>The first version can remain simple.</li>
+    <li>The app provides a clear and useful benefit.</li>
+    <li>I can speak with real potential users about it.</li>
+  </ol>
+
+  <div className="mt-6 rounded-xl border border-emerald-500/40 bg-black/30 p-5">
+    <p className="font-semibold text-emerald-400 mb-2">
+      Complete this sentence:
+    </p>
+
+    <p className="text-lg text-white">
+      My first app will help __________ solve __________ by __________.
+    </p>
+  </div>
+
+  <p className="mt-5 text-gray-300">
+    This will be the app idea you carry into the next lesson. You may improve
+    or change it later, but for now, make a decision and move forward.
+  </p>
+</section> 
+
           <a href="/lesson-1" className="bg-gray-700 px-6 py-3 rounded-xl">
             Previous Lesson
           </a>
