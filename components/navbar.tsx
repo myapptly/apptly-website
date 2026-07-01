@@ -9,9 +9,9 @@ export function Navbar() {
         <Image
           src="/small%20apptly%20logo.png"
           alt="APPTLY Logo"
-          width={220}
-          height={220}
-          className="object-contain w-[220px] h-[220px]" 
+          width={200}
+          height={100}
+          className="object-contain w-[110px] h-[220px] h-auto" 
           />
         <a
           href="#pricing"
