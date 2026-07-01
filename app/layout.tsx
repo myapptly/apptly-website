@@ -9,7 +9,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "APPTLY — Build Profitable Apps Starting Today",
-  description: "APPTLY teaches you to build, launch, and monetize your own profitable app — step by step. Start your 14-day free trial today.",
+  description: "APPTLY teaches you to build, launch, and monetize your own profitable app — step by step. Get lifetime access for on $37 payment.",
 };
 
 export default function RootLayout({
