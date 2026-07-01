@@ -36,12 +36,11 @@ export function Hero() {
         <p className="text-gray-500 text-sm">One-time payment - Lifetime access - No monthly fees</p>
 
         <div className="flex flex-wrap items-center justify-center gap-8 pt-6 border-t border-white/10">
-          {[
+        {[
   { value: "1 Price", label: "Simple Offer" },
   { value: "Lifetime", label: "Access" },
   { value: "Step-by-Step", label: "Guided Learning" },
-] 
-          ].map((stat) => (
+].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-2xl font-black text-[#00FF94]">{stat.value}</div>
               <div className="text-sm text-gray-400">{stat.label}</div>
