@@ -29,17 +29,19 @@ export function Hero() {
             className="flex items-center gap-2 bg-[#00FF94] text-black font-black px-10 py-4 rounded-full text-lg hover:bg-[#00e085] transition-all hover:scale-105 shadow-lg shadow-[#00FF94]/20"
           >
             <CheckCircle className="w-5 h-5" />
-            Start Your 14-Day FREE TRIAL
+            Get APPTLY Now for $37
           </a>
         </div>
 
-        <p className="text-gray-500 text-sm">No credit card required · Cancel anytime</p>
+        <p className="text-gray-500 text-sm">One-time payment - Lifetime access - No monthly fees</p>
 
         <div className="flex flex-wrap items-center justify-center gap-8 pt-6 border-t border-white/10">
           {[
-            { value: "3 Plans", label: "To Fit Every Level" },
-            { value: "14 Days", label: "Free Trial" },
-            { value: "Step-by-Step", label: "Guided Learning" },
+            [
+  { value: "1 Price", label: "Simple Offer" },
+  { value: "Lifetime", label: "Access" },
+  { value: "Step-by-Step", label: "Guided Learning" },
+] 
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-2xl font-black text-[#00FF94]">{stat.value}</div>
