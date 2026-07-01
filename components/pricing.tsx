@@ -18,7 +18,7 @@ const plans = [
       "Apps for any business or industry",
       "Founding Member pricing",
     ],
-    link: "https://buy.stripe.com/28EfZh3HV290bP3QDc3m07",
+    link: "https://buy.stripe.com/28EfZh3HV290bPB3QDc3m07",
     popular: true,
     color: "border-[#00FF94]",
     btnColor: "bg-[#00FF94] text-black hover:bg-[#00dd88]",
