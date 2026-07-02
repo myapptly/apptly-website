@@ -13,13 +13,30 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#0D0D0D]">
       <Navbar />
-      <Hero />
-      <Features />
-      <Pricing />
-      <Bio />
-      <Disclaimer />
-      <Contact />
-      <Footer />
+
+<Hero />
+
+<div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
+
+<Features />
+
+<div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
+
+<Pricing />
+
+<div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
+
+<Bio />
+
+<div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
+
+<Disclaimer />
+
+<div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
+
+<Contact />
+
+<Footer /> 
     </main>
   );
 }
