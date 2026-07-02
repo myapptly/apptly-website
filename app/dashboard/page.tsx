@@ -1,11 +1,16 @@
 export default function Dashboard() {
   const lessons = [
-    "Welcome to APPTLY",
-    "Choose Your First App Idea",
-    "Build with AI",
-    "Launch Your App",
-    "Monetize Your App",
-  ];
+  "Welcome to APPTLY",
+  "Choose Your First App Idea",
+  "Build with AI",
+  "Launch Your App",
+  "Monetize Your App",
+  "Grow Your App",
+  "Market Your App",
+  "Build Your Brand",
+  "Scale Your App",
+  "Your Next App",
+];
 
   return (
     <main className="min-h-screen bg-[#0D0D0D] text-white px-6 py-10">
