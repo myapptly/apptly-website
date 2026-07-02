@@ -44,7 +44,7 @@ export function Pricing() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+        <div className="grid grid-cols-1 max-w-3xl mx-auto w-full">
           {plans.map((plan, i) => (
             <motion.div
               key={plan.name}
