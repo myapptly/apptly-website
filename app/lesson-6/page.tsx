@@ -95,7 +95,7 @@ export default function Lesson6() {
     href="/lesson-7"
     className="bg-[#00FF94] text-black hover:bg-[#00dd80] px-6 py-3 rounded-xl font-bold transition"
   >
-    Next Lesson →
+    Go To Lesson 7 →
   </a>
 </div> 
 
