@@ -119,7 +119,53 @@ export function Bio() {
       additional income, discover a new ability, or build a better future,
       then every hour invested in creating it will have been worthwhile.
     </p>
-  </div> 
+  </div>
+
+           <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-8 space-y-5">
+
+  <h2 className="text-4xl font-black">
+    You Don't Need a <span className="text-[#00FF94]">Fortune</span> to Build an App
+  </h2>
+
+  <p className="text-gray-300 leading-relaxed">
+    One of the biggest myths about creating an app is that you need thousands of
+    dollars, a team of programmers, and months of development.
+  </p>
+
+  <p className="text-gray-300 leading-relaxed">
+    That used to be true.
+  </p>
+
+  <p className="text-gray-300 leading-relaxed">
+    I built APPTLY using affordable tools that are available to almost anyone.
+    My direct startup costs were well under <span className="text-[#00FF94] font-bold">$100</span>.
+    The biggest investment wasn't money—it was curiosity, persistence, and a willingness to learn.
+  </p>
+
+  <div className="bg-[#111111] border border-[#00FF94]/30 rounded-xl p-6 space-y-2">
+
+    <p>✅ Domain name: About $10</p>
+    <p>✅ GitHub: Free</p>
+    <p>✅ Vercel hosting: Free</p>
+    <p>✅ Stripe: Free until you make a sale</p>
+    <p>✅ AI tools: Affordable monthly subscription</p>
+
+  </div>
+
+  <div className="bg-[#003322] border border-[#00FF94] rounded-xl p-6">
+
+    <p className="text-2xl font-bold text-white">
+      If a 72-year-old Air Force Veteran and restaurant veteran could build and launch an AI app...
+    </p>
+
+    <p className="text-[#00FF94] text-xl font-bold mt-4">
+      Imagine what you can build.
+    </p>
+
+  </div>
+
+</div> 
+
             </div>
         </motion.div>
       </div>
