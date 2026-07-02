@@ -59,7 +59,7 @@ export default function Dashboard() {
           <h2 className="text-3xl font-black mb-5">Start Your Lessons</h2>
           <div className="grid gap-4">
             {lessons.map((lesson, index) => {
-              const isAvailable = index <= 5;
+              const isAvailable = index <= 9;
               const lessonNumber = index + 1;
 
               return (
