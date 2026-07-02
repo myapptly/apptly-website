@@ -394,15 +394,22 @@ export default function Lesson5() {
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-4">
-          <a href="/lesson-4" className="bg-gray-700 px-6 py-3 rounded-xl">
-            Previous Lesson
-          </a>
+        <div className="flex flex-wrap gap-4 pt-6">
+  <a
+    href="/lesson-5"
+    className="bg-gray-700 hover:bg-gray-600 px-6 py-3 rounded-xl font-semibold transition"
+  >
+    ← Previous Lesson
+  </a>
 
-          <a href="/dashboard" className="bg-[#00FF94] text-black font-bold px-6 py-3 rounded-xl">
-            Return to Dashboard
-          </a>
-        </div>
+  <a
+    href="/lesson-7"
+    className="bg-[#00FF94] text-black hover:bg-[#00dd80] px-6 py-3 rounded-xl font-bold transition"
+  >
+    Next Lesson →
+  </a>
+</div> 
+
       </section>
     </main>
   );
