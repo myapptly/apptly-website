@@ -77,7 +77,7 @@ export default function Lesson6() {
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
-          <h2 className="text-2xl font-bold mb-4">Cliff&apos;s Tip</h2>
+          <h2 className="text-2xl font-bold mb-4">Keep This In Mind</h2>
           <p className="text-gray-300 leading-relaxed">
             A simple app that keeps getting better is more valuable than a complicated app that never gets finished.
           </p>
