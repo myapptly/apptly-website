@@ -30,9 +30,28 @@ export default function Dashboard() {
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
-          <h2 className="text-2xl font-bold mb-3">A Message from Terry</h2>
+          <h2 className="text-2xl font-bold mb-3">A Word from the Founder, Terry Bledsoe</h2>
           <p className="text-gray-300 leading-relaxed">
-            I built APPTLY at 72 without knowing how to code. If I can learn this, you can too. Take your time, follow the steps, and keep moving forward.
+            <p className="text-gray-300 leading-relaxed">
+  I want to personally thank you for trusting me and choosing APPTLY.
+  Just a short time ago, I had never built an app, never written code,
+  and honestly wasn't sure someone my age could learn something this new.
+  Then I discovered that AI changed everything.
+  <br /><br />
+  I created APPTLY because I believe ordinary people can build
+  extraordinary things when they have the right guidance. My goal isn't
+  just to help you build one app; my goal is to help you realize that you are capable
+  of creating something meaningful, regardless of your age or technical
+  experience.
+  <br /><br />
+  Thank you for taking this step and for putting your trust in me. I
+  promise to keep improving APPTLY, adding new lessons, and giving you
+  the best tools and encouragement I can. Welcome to the journey.
+  Let's build something amazing together.
+  <br /><br />
+  <strong>— Terry Bledsoe, Founder of APPTLY</strong>
+</p> 
+
           </p>
         </div>
 
@@ -40,7 +59,7 @@ export default function Dashboard() {
           <h2 className="text-3xl font-black mb-5">Start Your Lessons</h2>
           <div className="grid gap-4">
             {lessons.map((lesson, index) => {
-              const isAvailable = index <= 4;
+              const isAvailable = index <= 5;
               const lessonNumber = index + 1;
 
               return (
