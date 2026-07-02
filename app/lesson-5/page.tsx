@@ -403,10 +403,10 @@ export default function Lesson5() {
   </a>
 
   <a
-    href="/lesson-7"
+    href="/lesson-6"
     className="bg-[#00FF94] text-black hover:bg-[#00dd80] px-6 py-3 rounded-xl font-bold transition"
   >
-    Next Lesson →
+    Go To Lesson 6 →
   </a>
 </div> 
 
