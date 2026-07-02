@@ -396,7 +396,7 @@ export default function Lesson5() {
 
         <div className="flex flex-wrap gap-4 pt-6">
   <a
-    href="/lesson-5"
+    href="/lesson-4"
     className="bg-gray-700 hover:bg-gray-600 px-6 py-3 rounded-xl font-semibold transition"
   >
     ← Previous Lesson
