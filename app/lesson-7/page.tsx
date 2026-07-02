@@ -86,14 +86,23 @@ export default function Lesson7() {
           </p>
         </div>
 
-        <div className="flex justify-between pt-6">
-          <a href="/lesson-6" className="text-[#00FF94] font-bold hover:underline">
-            ← Previous Lesson
-          </a>
-          <a href="/lesson-8" className="text-[#00FF94] font-bold hover:underline">
-            Go To Lesson 8 →
-          </a>
-        </div>
+        <div className="flex flex-wrap gap-4 pt-6">
+
+  <a
+    href="/lesson-6"
+    className="bg-gray-700 px-6 py-3 rounded-xl font-semibold hover:bg-gray-600 transition"
+  >
+    ← Previous Lesson
+  </a>
+
+  <a
+    href="/lesson-8"
+    className="bg-[#00FF94] text-black px-6 py-3 rounded-xl font-bold hover:opacity-90 transition"
+  >
+    Go To Lesson 8 →
+  </a>
+
+</div> 
       </section>
     </main>
   );
