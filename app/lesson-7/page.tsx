@@ -79,10 +79,10 @@ export default function Lesson7() {
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
-          <h2 className="text-2xl font-bold mb-4">Cliff&apos;s Tip</h2>
+          <h2 className="text-2xl font-bold mb-4">A Little Reminder</h2>
           <p className="text-gray-300 leading-relaxed">
             Marketing is not convincing people to buy. It is helping the right
-            people discover something that can genuinely help them.
+            people discover something that can genuinely help them. It's about problem solving!
           </p>
         </div>
 
