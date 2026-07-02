@@ -88,7 +88,7 @@ export default function Lesson6() {
             ← Previous Lesson
           </a>
           <a href="/lesson-7" className="text-[#00FF94] font-bold hover:underline">
-            Next Lesson →
+            Go To Lesson 7→
           </a>
         </div>
       </section>
