@@ -120,8 +120,9 @@ export default function Lesson6() {
 
           <a
             href="/lesson-7"
-            className="bg-[#00FF94] text-black px-6 py-3 rounded-xl font-bold hover:opacity-90"
+            className="bg-[#00FF94] text-black px-6 py-3 rounded-xl font-bold hover:opacity-90 transition"
           >
+            
             Go To Lesson 7 →
           </a>
         </div>
