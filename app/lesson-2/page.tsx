@@ -24,6 +24,14 @@ export default function Lesson2() {
           </p>
         </div>
 
+        <div className="my-10">
+  <img
+    src="/create accounts.png"
+    alt="Create Your Accounts"
+    className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
+  />
+</div> 
+        
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
   <h2 className="text-2xl font-bold mb-4">The Basic Tools You Will Use</h2>
 
