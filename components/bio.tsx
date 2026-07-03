@@ -18,7 +18,7 @@ export function Bio() {
             <div className="relative">
               <div className="absolute inset-0 bg-[#00FF94]/20 rounded-2xl blur-2xl scale-110" />
               <Image
-                src="https://galaxy-prod.tlcdn.com/gen/user_37MJjcymE8bOUM2E9geQUee0w5V/d1fe5648-5c3c-4a9e-a2d0-2197eb4f209b.jpg"
+                src="/Terry.png"
                 alt="Terry Bledsoe — APPTLY Founder"
                 width={400}
                 height={400}
