@@ -110,7 +110,7 @@ export default function Lesson6() {
           </p>
         </div>
 
-        <div className="flex justify-between items-center mt-10">
+ <div className="flex gap-4 mt-10">
   <a
     href="/lesson-5"
     className="px-6 py-3 rounded-xl bg-slate-600 hover:bg-slate-500 transition"
