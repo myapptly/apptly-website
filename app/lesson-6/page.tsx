@@ -119,13 +119,6 @@ export default function Lesson6() {
           </a>
 
           <a
-            href="/dashboard"
-            className="bg-[#00FF94] text-black px-6 py-3 rounded-xl font-bold hover:opacity-90"
-          >
-            Return to Dashboard
-          </a>
-
-          <a
             href="/lesson-7"
             className="bg-[#00FF94] text-black px-6 py-3 rounded-xl font-bold hover:opacity-90"
           >
