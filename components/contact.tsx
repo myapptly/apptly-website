@@ -41,7 +41,7 @@ export function Contact() {
           <h2 className="text-4xl md:text-5xl font-black mb-3">
             Get In <span className="text-[#00FF94]">Touch</span>
           </h2>
-          <p className="text-gray-400">Have a question? We&apos;d love to hear from you.</p>
+          <p className="text-gray-400">Got questions? just ask! I personally answer emails and I am here to help you get started!</p>
         </motion.div>
 
         {submitted ? (
@@ -52,7 +52,7 @@ export function Contact() {
           >
             <CheckCircle className="w-16 h-16 text-[#00FF94] mx-auto mb-4" />
             <h3 className="text-2xl font-black mb-2">Message Sent!</h3>
-            <p className="text-gray-400">We&apos;ll get back to you as soon as possible.</p>
+            <p className="text-gray-400">I will get back to you as soon as possible.</p>
           </motion.div>
         ) : (
           <motion.form
@@ -102,7 +102,7 @@ export function Contact() {
               className="w-full flex items-center justify-center gap-2 bg-[#00FF94] text-black font-black py-4 rounded-xl hover:bg-[#00e085] transition-all hover:scale-105 disabled:opacity-70 disabled:cursor-not-allowed"
             >
               <Send className="w-4 h-4" />
-              {submitting ? "Sending..." : "Send Message"}
+              {submitting ? "Sending..." : "Send Me A Message"}
             </button>
           </motion.form>
         )}
