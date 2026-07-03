@@ -24,8 +24,8 @@ export default function Lesson7() {
 
         <div className="my-10">
   <img
-    src="/plan your app.png"
-    alt="Plan Your App"
+    src="/Market Your Idea.png"
+    alt="Market Your Idea"
     className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
   />
 </div> 
