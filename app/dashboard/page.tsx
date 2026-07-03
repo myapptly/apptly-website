@@ -55,6 +55,14 @@ export default function Dashboard() {
           </p>
         </div>
 
+        <div className="mb-10">
+  <img
+    src="/dashboard-banner.png"
+    alt="Welcome to APPTLY"
+    className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
+  />
+</div> 
+
         <div>
           <h2 className="text-3xl font-black mb-5">Start Your Lessons</h2>
           <div className="grid gap-4">
