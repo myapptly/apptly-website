@@ -41,7 +41,7 @@ export function Contact() {
           <h2 className="text-4xl md:text-5xl font-black mb-3">
             Get In <span className="text-[#00FF94]">Touch</span>
           </h2>
-          <p className="text-gray-400">Got questions? just ask! I personally answer emails and I am here to help you get started!</p>
+          <p className="text-gray-400">Got questions? Just ask! I personally answer all emails and I am here to help you get started!</p>
         </motion.div>
 
         {submitted ? (
@@ -102,7 +102,7 @@ export function Contact() {
               className="w-full flex items-center justify-center gap-2 bg-[#00FF94] text-black font-black py-4 rounded-xl hover:bg-[#00e085] transition-all hover:scale-105 disabled:opacity-70 disabled:cursor-not-allowed"
             >
               <Send className="w-4 h-4" />
-              {submitting ? "Sending..." : "Send Me A Message"}
+              {submitting ? "Sending..." : "Send Me a Message"}
             </button>
           </motion.form>
         )}
