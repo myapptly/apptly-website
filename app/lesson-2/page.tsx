@@ -25,6 +25,47 @@ export default function Lesson2() {
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
+  <h2 className="text-2xl font-bold mb-4">The Basic Tools You Will Use</h2>
+
+  <p className="text-gray-300 leading-relaxed">
+    Before you build your first app, it helps to understand the basic tools that make this possible.
+    You do not need to master them today. You only need to know what each one does.
+  </p>
+
+  <div className="grid gap-4 mt-6">
+    <div>
+      <h3 className="text-xl font-bold text-[#00FF94]">ChatGPT</h3>
+      <p className="text-gray-300">Your AI partner for planning, writing, fixing, and improving your app.</p>
+    </div>
+
+    <div>
+      <h3 className="text-xl font-bold text-[#00FF94]">Namecheap</h3>
+      <p className="text-gray-300">Where you can buy your domain name, like yourappname.com.</p>
+    </div>
+
+    <div>
+      <h3 className="text-xl font-bold text-[#00FF94]">GitHub</h3>
+      <p className="text-gray-300">Where your app files are stored and updated safely.</p>
+    </div>
+
+    <div>
+      <h3 className="text-xl font-bold text-[#00FF94]">Vercel</h3>
+      <p className="text-gray-300">The service that publishes your app online so people can visit it.</p>
+    </div>
+
+    <div>
+      <h3 className="text-xl font-bold text-[#00FF94]">Stripe</h3>
+      <p className="text-gray-300">The payment tool you can use when you are ready to accept money from customers.</p>
+    </div>
+  </div>
+
+  <p className="text-gray-300 leading-relaxed mt-6">
+    Do not worry if these names feel unfamiliar. When I started, most of them were unfamiliar to me too.
+    APPTLY will help you understand how they fit together one step at a time.
+  </p>
+</div> 
+
+        <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">Start With Problems, Not Features</h2>
           <p className="text-gray-300 leading-relaxed">
             Most beginners start by asking, “What kind of app can I build?” A better question is:
