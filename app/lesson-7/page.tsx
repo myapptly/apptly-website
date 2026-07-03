@@ -22,6 +22,13 @@ export default function Lesson7() {
           </p>
         </div>
 
+        <div className="my-10">
+  <img
+    src="/plan your app.png"
+    alt="Plan Your App"
+    className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
+  />
+</div> 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">Share Before You Feel Ready</h2>
           <p className="text-gray-300 leading-relaxed">
