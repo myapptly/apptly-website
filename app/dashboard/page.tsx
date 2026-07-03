@@ -57,7 +57,7 @@ export default function Dashboard() {
 
         <div className="mb-10">
   <img
-    src="/dashboard-banner.png"
+    src="/dashboard cover.png"
     alt="Welcome to APPTLY"
     className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
   />
