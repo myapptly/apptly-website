@@ -113,7 +113,7 @@ export default function Lesson6() {
         <div className="flex flex-wrap justify-between gap-4 pt-6">
           <a
             href="/lesson-5"
-            className="bg-gray-700 px-6 py-3 rounded-xl font-bold hover:bg-gray-600"
+            className="bg-gray-700 px-6 py-3 rounded-xl font-semibold hover:bg-gray-600 transition"
           >
             ← Previous Lesson
           </a>
