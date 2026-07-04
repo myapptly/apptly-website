@@ -7,6 +7,8 @@ export default function FinishPage() {
   alt="Congratulations"
   className="w-full rounded-3xl shadow-2xl mb-8"
 /> 
+
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <a
         href="/dashboard"
             className="bg-[#00FF94] text-black font-bold px-6 py-4 rounded-full"
