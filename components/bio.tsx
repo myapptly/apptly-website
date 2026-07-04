@@ -79,7 +79,7 @@ export function Bio() {
     </p>
 
     <p>
-      That experience changed the way I began to thing about technology—and about what
+      That experience changed the way I began to think about technology — about what
       regular, every day people are capable of doing and accomplishing.
     </p>
 
