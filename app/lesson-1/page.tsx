@@ -22,8 +22,22 @@ export default function LessonOne() {
           <p className="text-gray-300 text-xl mt-4">
           Follow the steps, complete each action, and build your first real AI-powered app.          
           </p>
-          
-        </div>
+
+          <div className="bg-[#1A1A1A] border border-[#00FF94]/30 rounded-2xl p-6 space-y-4">
+  <h2 className="text-2xl font-bold">Need Help Along the Way?</h2>
+
+  <p className="text-gray-300 leading-relaxed">
+    If you ever get stuck while building, Lesson 11 explains the complete APPTLY workflow:
+    ChatGPT, GitHub, Vercel, screenshots, testing, fixing, and repeating.
+  </p>
+
+  <a
+    href="/lesson-11"
+    className="inline-block px-6 py-3 rounded-xl bg-[#00FF94] text-black font-semibold hover:opacity-90 transition"
+  >
+    Go To Lesson 11 For Help →
+  </a>
+</div> 
 
         <div className="my-10">
   <img
