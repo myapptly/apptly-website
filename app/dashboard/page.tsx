@@ -75,7 +75,7 @@ export default function Dashboard() {
               return (
                 <a
                   key={lesson}
-                  href={isAvailable ? `/lesson-${lessonNumber}` : "#"}
+                  href={isAvailable ? `/lesson-${lessonNumber}` : "#"} 
                   className="bg-[#1A1A1A] border border-white/10 rounded-xl p-5 flex items-center justify-between hover:border-[#00FF94]/50 transition"
                 >
                   <div>
