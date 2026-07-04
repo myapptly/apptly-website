@@ -46,10 +46,10 @@ export function Bio() {
   <div className="space-y-4 text-lg text-gray-300 leading-relaxed">
     <p>
       I did not spend my life working in technology. I spent decades in the bar,
-      restaurant, retail, customer service, and sales industries,both managing and owning.
+      restaurant, retail, customer service, and sales industries, both managing and owning.
       For most of my life, I believed that creating an app was the kind of thing that belonged to a
-      completely different world. A world of programmers, computer experts, people with
-      complicated terminologies, and abilities I simply did not have.
+      completely different world; a world of programmers, computer experts; people with
+      complicated skills, technologies and abilities I just did not possess.
     </p>
 
     <p>
