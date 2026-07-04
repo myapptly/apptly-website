@@ -1,69 +1,66 @@
-"use client";
-
-import { motion } from "framer-motion";
-import { Zap, DollarSign, Globe, TrendingUp } from "lucide-react";
-
-const features = [
-  {
-    icon: Zap,
-    title: "Build with AI",
-    description: "Learn how to use AI to create real apps — even if you've never written a single line of code.",
-  },
-  {
-    icon: Globe,
-    title: "Launch Your App",
-    description: "Publish your app to the web or app stores with step-by-step guidance.",
-  },
-  {
-    icon: DollarSign,
-    title: "Monetize It",
-    description: "Turn your app into a real business with real paying customers.",
-  },
-  {
-    icon: TrendingUp,
-    title: "Grow Your Audience",
-    description: "Learn practical marketing strategies to attract your first users and customers.",
-  },
-];
-
 export function Features() {
-  return (
-    <section className="py-14 px-6 bg-[#0D0D0D]">
-      <div className="max-w-6xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-10"
-        >
-          <h2 className="text-4xl md:text-5xl font-black mb-3">
-            What You&apos;ll <span className="text-[#00FF94]">Learn</span>
-          </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Everything you need to go from idea to profitable app — organized into clear, actionable lessons.
-          </p>
-        </motion.div>
+  const features = [
+    {
+      icon: "⚡",
+      title: "Build with AI",
+      text: "Learn how to use AI to create real apps — even if you’ve never written a single line of code.",
+    },
+    {
+      icon: "🌐",
+      title: "Launch Your App",
+      text: "Publish your app to the web or app stores with step-by-step guidance.",
+    },
+    {
+      icon: "$",
+      title: "Monetize It",
+      text: "Turn your app into a real business with real paying customers.",
+    },
+    {
+      icon: "📈",
+      title: "Grow Your Audience",
+      text: "Learn practical marketing strategies to attract your first users and customers.",
+    },
+  ];
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-          {features.map((feature, i) => (
-            <motion.div
-              key={feature.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="bg-[#1A1A1A] rounded-2xl p-6 border border-white/5 hover:border-[#00FF94]/30 transition-colors"
+  return (
+    <section className="bg-[#000000] px-6 py-20">
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl md:text-5xl font-black text-white">
+            What You’ll <span className="text-[#00FF94]">Learn</span>
+          </h2>
+          <p className="text-gray-300 mt-4 text-lg max-w-2xl mx-auto">
+            Everything you need to go from idea to profitable app — organized into clear,
+            actionable lessons.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {features.map((feature, index) => (
+            <div
+              key={index}
+              className="rounded-2xl border border-[#00FF94]/30 bg-gradient-to-b from-[#0b2a1c] to-[#050505] p-6 min-h-[360px] flex flex-col justify-between shadow-2xl"
             >
-              <div className="w-12 h-12 bg-[#00FF94]/10 rounded-xl flex items-center justify-center mb-4">
-                <feature.icon className="w-6 h-6 text-[#00FF94]" />
+              <div>
+                <div className="h-32 rounded-xl bg-black/40 border border-[#00FF94]/20 flex items-center justify-center mb-6">
+                  <div className="text-6xl text-[#00FF94]">{feature.icon}</div>
+                </div>
+
+                <h3 className="text-2xl font-black text-white mb-3">
+                  <span className="text-[#00FF94]">
+                    {feature.title.split(" ")[0]}
+                  </span>{" "}
+                  {feature.title.split(" ").slice(1).join(" ")}
+                </h3>
+
+                <div className="h-1 w-20 bg-[#00FF94] mb-4" />
+
+                <p className="text-gray-300 leading-relaxed">{feature.text}</p>
               </div>
-              <h3 className="text-lg font-bold mb-2">{feature.title}</h3>
-              <p className="text-gray-400 text-sm leading-relaxed">{feature.description}</p>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>
     </section>
   );
-}
+} 
