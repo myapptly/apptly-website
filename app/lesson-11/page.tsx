@@ -24,15 +24,7 @@ export default function Lesson11() {
           </p>
         </div>
 
-        <div className="my-10">
-  <img
-    src="/.png"
-    alt="Lesson 11 AI Workflow"
-    className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
-  />
-</div> 
-
-       <div className="my-10">
+         <div className="my-10">
   <img
     src="/the flow.png"
     alt="Lesson 11 AI Workflow"
