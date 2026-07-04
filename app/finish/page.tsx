@@ -7,21 +7,8 @@ export default function FinishPage() {
   alt="Congratulations"
   className="w-full rounded-3xl shadow-2xl mb-8"
 /> 
-        <h1 className="text-5xl font-black text-[#00FF94]">
-          🎉 Congratulations!
-        </h1>
-
-        <h2 className="text-3xl font-bold">
-          You've Done It! You Finished APPTLY!
-        </h2>
-
-        <p className="text-xl text-gray-300">
-          You've completed the course. Now it's time to build real apps, help real businesses, and keep learning.
-        </p>
-
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="/dashboard"
+        
+        href="/dashboard"
             className="bg-[#00FF94] text-black font-bold px-6 py-4 rounded-full"
           >
             Return to Dashboard
