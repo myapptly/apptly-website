@@ -23,7 +23,7 @@ export default function LessonOne() {
           Follow the steps, complete each action, and build your first real AI-powered app.          
           </p>
 
-          <div className="bg-[#1A1A1A] border border-[#00FF94]/30 rounded-2xl p-6 space-y-4">
+         <div className="bg-[#1A1A1A] border border-[#00FF94]/30 rounded-2xl p-6 space-y-4">
   <h2 className="text-2xl font-bold">Need Help Along the Way?</h2>
 
   <p className="text-gray-300 leading-relaxed">
@@ -37,8 +37,8 @@ export default function LessonOne() {
   >
     Go To Lesson 11 For Help →
   </a>
-</div> 
-
+</div>
+          
         <div className="my-10">
   <img
     src="/build your app.png"
@@ -278,6 +278,8 @@ export default function LessonOne() {
   </p>
 </section>
 
+        </div>
+
         <div className="flex flex-col sm:flex-row gap-4 pt-4">
           <a
             href="/lesson-2"
@@ -292,7 +294,6 @@ export default function LessonOne() {
             Return to Dashboard
           </a>
         </div>
-      </section>
-    </main>
+     </main>
   );
 }
