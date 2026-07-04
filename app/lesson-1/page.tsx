@@ -10,7 +10,7 @@ export default function LessonOne() {
   src="/new%20logo.png"
   alt="APPTLY Logo"
   className="mx-auto w-[300px] max-w-full h-auto"
-/> 
+/>
 
         <div>
           <p className="text-[#00FF94] font-bold uppercase tracking-widest text-sm">
@@ -38,7 +38,7 @@ export default function LessonOne() {
     Go To Lesson 11 For Help →
   </a>
 </div>
-          
+         
         <div className="my-10">
   <img
     src="/build your app.png"
@@ -46,7 +46,7 @@ export default function LessonOne() {
     className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
   />
 </div>
-        
+       
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
           <h2 className="text-2xl font-bold">What APPTLY Is</h2>
           <p className="text-gray-300 leading-relaxed">
@@ -292,7 +292,9 @@ export default function LessonOne() {
             className="bg-white text-black font-bold px-6 py-4 rounded-full text-center"
           >
             Return to Dashboard
-          </a>
-        </div>
-     </main>
+           </a>
+      </div>
+     </section>
+    </main>
   );
+} 
