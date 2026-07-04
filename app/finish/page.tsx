@@ -2,6 +2,11 @@ export default function FinishPage() {
   return (
     <main className="min-h-screen bg-[#0D0D0D] text-white flex items-center justify-center px-6">
       <div className="max-w-3xl text-center space-y-8">
+        <img
+  src="/finish.png"
+  alt="Congratulations"
+  className="w-full rounded-3xl shadow-2xl mb-8"
+/> 
         <h1 className="text-5xl font-black text-[#00FF94]">
           🎉 Congratulations!
         </h1>
