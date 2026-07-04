@@ -45,44 +45,42 @@ export function Bio() {
 
   <div className="space-y-4 text-lg text-gray-300 leading-relaxed">
     <p>
-      I did not spend my life working in technology. I spent decades in bars,
-      restaurants, business ownership, retail, customer service, and sales.
-      For most of my life, I believed that creating an app belonged to a
-      completely different world—a world of programmers, computer experts,
-      complicated terminology, and abilities I simply did not have.
+      I did not spend my life working in technology. I spent decades in the bar,
+      restaurant, retail, customer service, and sales industries,both managing and owning.
+      For most of my life, I believed that creating an app was the kind of thing that belonged to a
+      completely different world. A world of programmers, computer experts, people with
+      complicated terminologies, and abilities I simply did not have.
     </p>
 
     <p>
-      Then artificial intelligence began changing what was possible.
+      Then artificial intelligence began changing that thought process.
     </p>
 
     <p>
-      I became curious about whether an ordinary person could use AI to build
-      something real. I did not have a computer-science degree, a development
-      team, or a large budget. I did not even know where to begin. I simply
+      I became curious about whether regular, every day people, could learn how to use AI to build
+      something real. I did not have and experience in technology, a computer-science degree, a development
+      team, or a budget, to speak of. I did not even know where to begin. I just
       started asking questions, following instructions, making mistakes,
       correcting them, and taking one step after another.
     </p>
 
     <p>
-      Some days were frustrating. Things broke. Instructions did not always
-      work the first time. I often felt confused and wondered whether I had
-      gotten in over my head.
+      Some days it was frustrating, very frustrating. Things broke. Instructions did not always
+      make sense. I was often confused, wondering whether or not, I had gotten in over my head.
     </p>
 
     <p className="font-semibold text-white">
-      But I kept going.
+      But I kept trying.
     </p>
 
     <p>
-      Eventually, I built a working app. Then I created a website, connected
-      payments, developed a member dashboard, designed lessons, and turned
-      everything I had learned into APPTLY.
+      Eventually, I built an app. It wasn't much, but it started making sense. Then I created a website, figured out how to connect
+      payments, develop a member dashboard, design lessons, and then, I somehow turned everything I had learned into APPTLY.
     </p>
 
     <p>
-      That experience changed the way I think about technology—and about what
-      ordinary people are capable of learning.
+      That experience changed the way I began to thing about technology—and about what
+      regular, every day people are capable of doing and accomplishing.
     </p>
 
     <p>
