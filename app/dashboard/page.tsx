@@ -99,7 +99,14 @@ export default function Dashboard() {
             <p className="text-gray-300">
               APPTLY Partners will let you earn commissions by sharing APPTLY with others.
             </p>
-            <p className="text-[#00FF94] font-bold mt-4">Coming Soon</p>
+            <p className="text-[#00FF94] font-bold mt-4">New resources added regularly
+• AI Prompt Library
+• Client Proposal Templates
+• Pricing Guides
+• Contracts & Agreements
+• Marketing Scripts
+• Sales Checklists 
+            </p>
           </div>
 
           <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
