@@ -16,7 +16,7 @@ export default function Lesson7() {
           <p className="text-[#00FF94] font-bold uppercase tracking-widest text-sm">
             Lesson 7
           </p>
-          <h1 className="text-5xl font-black mt-3">Market Your App</h1>
+          <h1 className="text-5xl font-black mt-3">Market Your Idea</h1>
           <p className="text-gray-300 mt-4 text-xl">
             The best app in the world will not succeed if nobody knows it exists.
           </p>
