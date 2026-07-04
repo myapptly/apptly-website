@@ -58,7 +58,7 @@ export function Bio() {
 
     <p>
       I became curious about whether regular, every day people, could learn how to use AI to build
-      something real. I did not have and experience in technology, a computer-science degree, a development
+      something real. I did not have any experience in technology, a computer-science degree, a development
       team, or a budget, to speak of. I did not even know where to begin. I just
       started asking questions, following instructions, making mistakes,
       correcting them, and taking one step after another.
