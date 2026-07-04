@@ -93,17 +93,19 @@ export default function Lesson10() {
         <div className="bg-[#1A1A1A] border border-[#00FF94]/40 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">A Final Word From Terry</h2>
           <p className="text-gray-300 leading-relaxed">
-            A Final Word From Terry
-
+         
 When I started this journey, I wasn't a programmer. I didn't have an app idea. I simply decided to learn one step at a time.
 
-If you've made it this far, you've already done something many people never do—you started, stayed with it, and built something real.
+If you've made it this far, you've already done something many people never do; you started, stayed with it, and built something real.
 
 This isn't the end of your journey. It's the beginning.
 
 Keep asking questions.
+            
 Keep building.
+            
 Keep improving.
+            
 And remember... your next app will probably be even better than your first.
 
 I'll be right here, adding new lessons and helping you every step of the way.
