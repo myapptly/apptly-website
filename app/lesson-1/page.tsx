@@ -296,4 +296,3 @@ export default function LessonOne() {
         </div>
      </main>
   );
-}
