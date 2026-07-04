@@ -7,7 +7,7 @@ export default function Lesson7() {
         </a>
 
         <img
-          src="/new%20logo.png"
+          src="/new logo.png"
           alt="APPTLY Logo"
           className="mx-auto w-[300px] max-w-full h-auto"
         />
@@ -23,53 +23,64 @@ export default function Lesson7() {
         </div>
 
         <div className="my-10">
-  <img
-    src="/Market Your Idea.png"
-    alt="Market Your Idea"
-    className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
-  />
-</div> 
-        <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
-          <h2 className="text-2xl font-bold mb-4">Share Before You Feel Ready</h2>
+          <img
+            src="/lesson7-market-your-app.png"
+            alt="Market Your App"
+            className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
+          />
+        </div>
+
+        <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
+          <h2 className="text-2xl font-bold">Marketing Is Not Begging</h2>
           <p className="text-gray-300 leading-relaxed">
-            You do not need a perfect app before you start talking about it.
-            People enjoy watching something being built. Share your progress,
-            your lessons, your mistakes, and your wins.
+            Marketing is not about annoying people, bragging, or trying to sound like a big company.
+            Marketing simply means helping the right people discover something that may help them.
+          </p>
+          <p className="text-gray-300 leading-relaxed">
+            If your app solves a real problem, people need a way to find it, understand it,
+            and decide whether it is for them.
           </p>
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
-          <h2 className="text-2xl font-bold mb-4">You Already Have Content</h2>
+          <h2 className="text-2xl font-bold mb-4">Start With One Simple Message</h2>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            Do not try to explain everything your app does. Start with one clear sentence:
+          </p>
+          <div className="bg-black/40 border border-[#00FF94]/30 rounded-xl p-5 text-gray-200">
+            My app helps <span className="text-[#00FF94] font-bold">[who]</span> do{" "}
+            <span className="text-[#00FF94] font-bold">[what]</span> so they can{" "}
+            <span className="text-[#00FF94] font-bold">[benefit]</span>.
+          </div>
+        </div>
+
+        <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
+          <h2 className="text-2xl font-bold mb-4">Where to Share First</h2>
           <ul className="space-y-3 text-gray-300">
-            <li>✅ What problem your app solves</li>
-            <li>✅ Why you built it</li>
-            <li>✅ A feature you just added</li>
-            <li>✅ A mistake you fixed</li>
-            <li>✅ A screenshot or demo video</li>
-            <li>✅ A customer success story</li>
+            <li>✅ Your personal Facebook page</li>
+            <li>✅ Facebook groups where the topic fits</li>
+            <li>✅ Instagram posts or stories</li>
+            <li>✅ TikTok or YouTube Shorts</li>
+            <li>✅ LinkedIn if your app helps professionals or businesses</li>
           </ul>
         </div>
 
-        <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
-          <h2 className="text-2xl font-bold mb-4">Where to Post</h2>
+        <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
+          <h2 className="text-2xl font-bold">Do Not Sell Too Hard at First</h2>
           <p className="text-gray-300 leading-relaxed">
-            You do not need to be everywhere. Start with two or three places
-            where your future customers already spend time.
+            In the beginning, your goal is not to sound like an expert marketer. Your goal is to start
+            conversations. Share what you built, why you built it, who it helps, and what you are learning.
           </p>
-          <ul className="space-y-3 text-gray-300 mt-4">
-            <li>✅ Facebook</li>
-            <li>✅ Instagram</li>
-            <li>✅ LinkedIn</li>
-            <li>✅ TikTok</li>
-            <li>✅ YouTube Shorts</li>
-            <li>✅ Reddit or niche groups</li>
-          </ul>
+          <p className="text-gray-300 leading-relaxed">
+            People are often more interested in the story behind the app than the app itself.
+            Let them follow the journey.
+          </p>
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">Let AI Help You Market</h2>
           <ul className="space-y-3 text-gray-300">
-            <li>💬 Write a Facebook post about today&apos;s update.</li>
+            <li>💬 Write a Facebook post about today's update.</li>
             <li>💬 Turn this into a LinkedIn post.</li>
             <li>💬 Give me five short posts for X.</li>
             <li>💬 Create a 30-second TikTok script.</li>
@@ -77,39 +88,37 @@ export default function Lesson7() {
           </ul>
         </div>
 
-        <div className="bg-[#0d0d0d] border border-[#00FF94]/40 rounded-2xl p-6">
+        <div className="bg-[#000000] border border-[#00FF94]/40 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">Your Action Step</h2>
           <p className="text-gray-300 leading-relaxed">
-            Post something about your app today. It does not have to sell.
-            Just share your progress. People love following builders.
+            Post something about your app today. It does not have to sell. Just share your progress.
+            People love following builders.
           </p>
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">A Little Reminder</h2>
           <p className="text-gray-300 leading-relaxed">
-            Marketing is not convincing people to buy. It is helping the right
-            people discover something that can genuinely help them. It's about problem solving!
+            Marketing is not convincing people to buy. It is helping the right people discover something
+            that can genuinely help them.
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-4 pt-6">
+        <div className="flex gap-4 mt-10">
+          <a
+            href="/lesson-6"
+            className="px-6 py-3 rounded-xl bg-slate-600 hover:bg-slate-500 transition"
+          >
+            ← Previous Lesson
+          </a>
 
-  <a
-    href="/lesson-6"
-    className="bg-gray-700 px-6 py-3 rounded-xl font-semibold hover:bg-gray-600 transition"
-  >
-    ← Previous Lesson
-  </a>
-
-  <a
-    href="/lesson-8"
-    className="bg-[#00FF94] text-black px-6 py-3 rounded-xl font-bold hover:opacity-90 transition"
-  >
-    Go To Lesson 8 →
-  </a>
-
-</div> 
+          <a
+            href="/lesson-8"
+            className="px-6 py-3 rounded-xl bg-[#00FF94] text-black font-semibold hover:opacity-90 transition"
+          >
+            Go To Lesson 8 →
+          </a>
+        </div>
       </section>
     </main>
   );
