@@ -115,11 +115,11 @@ export default function Lesson10() {
           </a>
 
           <a
-            href="/dashboard"
-            className="bg-[#00FF94] text-black hover:bg-[#00dd80] px-6 py-3 rounded-xl font-bold transition"
-          >
-            Return to Dashboard
-          </a>
+  href="/lesson-11"
+  className="px-6 py-3 rounded-xl bg-[#00FF94] text-black font-semibold hover:opacity-90 transition"
+>
+  Go To Lesson 11 →
+</a> 
         </div>
       </section>
     </main>
