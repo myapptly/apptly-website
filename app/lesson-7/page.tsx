@@ -23,6 +23,7 @@ export default function Lesson7() {
         </div>
 
         <div className="my-10">
+          
           <img
             src="/lesson7-Market Your Idea.png"
             alt="Market Your App"
