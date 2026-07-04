@@ -24,7 +24,7 @@ export default function Lesson5() {
 
         <div className="my-10">
   <img
-    src="/map mvp.png"
+    src="/Make Money.png"
     alt="Map Your MVP"
     className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
   />
