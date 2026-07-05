@@ -213,9 +213,10 @@ I'll be right here, adding new lessons and helping you every step of the way.
   className="px-6 py-3 rounded-xl bg-[#00FF94] text-black font-semibold hover:opacity-90 transition"
 >
   Go To Lesson 11 →
-</a> 
+</a>
+        
         </div>
-      </section>
-    </main>
-  );
+    </section>
+  </main>
+);
 } 
