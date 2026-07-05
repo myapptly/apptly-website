@@ -29,8 +29,8 @@ export default function Lesson8() {
 
         <div className="my-10">
   <img
-    src="/prompt like a pro.png"
-    alt="Prompt Like a Pro"
+    src="/build your brand.png"
+    alt="Build Your Brand" 
     className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
   />
 </div> 
