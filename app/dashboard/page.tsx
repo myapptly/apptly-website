@@ -101,7 +101,7 @@ export default function Dashboard() {
             <p className="text-[#00FF94] font-bold mt-4">
   🚀 Become an APPTLY Founding Partner.
   <br />
-  Exclusive benefits and commissions are coming soon.
+  Founding Partner Program -- coming soon.
 </p> 
           </div>
 
