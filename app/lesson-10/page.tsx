@@ -89,14 +89,7 @@ export default function Lesson10() {
             Let it be your first.
           </p>
         </div>
-
-        (no subject)
-Inbox
-
-Terry Bledsoe <tbledsoe1954@gmail.com>
-2:16 PM (20 minutes ago)
-to me
-
+        
 <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
   <h2 className="text-2xl font-bold text-[#00FF94]">
     Affiliate Marketing
