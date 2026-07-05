@@ -389,7 +389,67 @@ export default function Lesson5() {
     them __________.
   </p>
 </div>
-</section> 
+</section>
+
+        <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
+  <h2 className="text-2xl font-bold text-[#00FF94]">
+    Affiliate Marketing
+  </h2>
+
+  <p className="text-gray-300 leading-relaxed">
+    You do not always have to sell your own product. Sometimes you can make
+    money by recommending someone else&apos;s product or service.
+  </p>
+
+  <p className="text-gray-300 leading-relaxed">
+    When a user clicks your special affiliate link and buys something, you may
+    earn a commission.
+  </p>
+
+  <div className="bg-black/30 border border-white/10 rounded-xl p-5 space-y-3">
+    <h3 className="text-xl font-bold">Example App Idea</h3>
+    <p className="text-gray-300 leading-relaxed">
+      Imagine you build a simple app that helps people compare prices on running
+      shoes. The app shows different stores, prices, availability, and Buy Now
+      links.
+    </p>
+    <p className="text-gray-300 leading-relaxed">
+      If one of those Buy Now links is your affiliate link, you could earn a
+      commission when someone purchases through your app.
+    </p>
+  </div>
+
+  <ul className="space-y-3 text-gray-300">
+    <li>✅ Shoe, clothing, or product comparison apps</li>
+    <li>✅ Book or product recommendation apps</li>
+    <li>✅ Travel, hotel, or vacation-planning apps</li>
+    <li>✅ Software review or business-tool apps</li>
+    <li>✅ Insurance, finance, or local-service referral apps</li>
+  </ul>
+
+  <p className="text-[#00FF94] font-bold">
+    Cliff&apos;s Tip: You do not always need users to pay you directly. Sometimes
+    businesses pay you for sending them customers.
+  </p>
+</div> 
+
+        <div className="bg-[#1A1A1A] border border-yellow-500/30 rounded-2xl p-6 mt-6">
+  <h2 className="text-2xl font-bold text-yellow-400">
+    Think Bigger
+  </h2>
+
+  <p className="text-gray-300 leading-relaxed">
+    Your app doesn't have to invent the next Facebook. A simple app that solves
+    a real problem and sends customers to the right products or services can
+    become a real business.
+  </p>
+
+  <p className="text-[#00FF94] font-bold mt-3">
+    Build something useful. Help people make good decisions. Get rewarded for
+    creating value.
+  </p>
+</div> 
+
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">Your Assignment</h2>
