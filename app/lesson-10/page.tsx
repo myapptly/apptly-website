@@ -105,32 +105,57 @@ export default function Lesson10() {
     earn a commission.
   </p>
 
-  <div className="bg-black/30 border border-white/10 rounded-xl p-5 space-y-3">
-    <h3 className="text-xl font-bold">Example App Idea</h3>
-    <p className="text-gray-300 leading-relaxed">
-      Imagine you build a simple app that helps people compare prices on running
-      shoes. The app shows different stores, prices, availability, and Buy Now
-      links.
-    </p>
-    <p className="text-gray-300 leading-relaxed">
-      If one of those Buy Now links is your affiliate link, you could earn a
-      commission when someone purchases through your app.
-    </p>
-  </div>
+<div className="bg-[#1A1A1A] border border-cyan-500/30 rounded-2xl p-6 mt-8">
+  <h2 className="text-2xl font-bold text-cyan-400 mb-4">
+    Running Your App After Launch
+  </h2>
 
-  <ul className="space-y-3 text-gray-300">
-    <li>✅ Shoe, clothing, or product comparison apps</li>
-    <li>✅ Book or product recommendation apps</li>
-    <li>✅ Travel, hotel, or vacation-planning apps</li>
-    <li>✅ Software review or business-tool apps</li>
-    <li>✅ Insurance, finance, or local-service referral apps</li>
+  <p className="text-gray-300 leading-relaxed">
+    Launching your app is only the beginning. Every app has ongoing costs,
+    but most beginner apps can be run for very little money while you grow.
+  </p>
+
+  <ul className="space-y-3 text-gray-300 mt-4">
+    <li>🌐 Domain name (usually $10–20 per year)</li>
+    <li>🚀 Hosting (Vercel, Netlify, Render, Cloudflare, and others)</li>
+    <li>🤖 AI costs if your app uses ChatGPT or other AI models</li>
+    <li>💳 Payment processing fees (Stripe, PayPal, etc.)</li>
+    <li>📧 Email services for user notifications</li>
+    <li>📊 Analytics to see how people use your app</li>
+    <li>🔒 Security, backups, and account protection</li>
   </ul>
 
-  <p className="text-[#00FF94] font-bold">
-    Cliff&apos;s Tip: You do not always need users to pay you directly. Sometimes
-    businesses pay you for sending them customers.
+  <p className="text-[#00FF94] font-bold mt-5">
+    Cliff's Tip: Don't worry about paying for everything on day one.
+    Start small, keep costs low, and upgrade only when your users and
+    revenue grow.
   </p>
 </div> 
+
+<div className="bg-[#1A1A1A] border border-emerald-500/30 rounded-2xl p-6 mt-8">
+  <h2 className="text-2xl font-bold text-emerald-400 mb-4">
+    Choosing a Hosting Provider
+  </h2>
+
+  <p className="text-gray-300 leading-relaxed">
+    APPTLY uses Vercel because it is beginner-friendly and works extremely
+    well with GitHub. As you grow, you may discover other hosting providers
+    that better fit your app or budget.
+  </p>
+
+  <ul className="space-y-3 text-gray-300 mt-4">
+    <li>✅ Easy GitHub deployment</li>
+    <li>✅ Fast worldwide performance</li>
+    <li>✅ Reliable uptime</li>
+    <li>✅ Good free plans for beginners</li>
+    <li>✅ Easy to upgrade later if needed</li>
+  </ul>
+
+  <p className="text-[#00FF94] font-bold mt-5">
+    Remember: Your hosting provider is simply where your app lives. The
+    skills you're learning work no matter which provider you choose.
+  </p>
+</div>
 
         <div className="bg-[#1A1A1A] border border-yellow-500/30 rounded-2xl p-6 mt-6">
   <h2 className="text-2xl font-bold text-yellow-400">
