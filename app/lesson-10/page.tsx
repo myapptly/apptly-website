@@ -211,6 +211,7 @@ export default function Lesson10() {
   Go To Lesson 11 →
 </a>
         </div>
+       </div>
     </section>
   </main>
 );
