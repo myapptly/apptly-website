@@ -107,22 +107,18 @@ export default function Dashboard() {
 
           <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
             <h2 className="text-2xl font-bold mb-2">Bonus Resources</h2>
-            <p className="text-gray-300">
-             
-New resources will be added regularly to help you build and grow your app business.
-              
-• AI Prompt Library
-              
-• Client Proposal Templates
-              
-• Pricing Guides
+            <p className="text-gray-300 mb-3">
+  New resources will be added regularly to help you build and grow your app business.
+</p>
 
-• Contracts & Agreements
-
-• Marketing Scripts
-              
-• Sales Checklists
-            </p>
+<ul className="list-disc pl-6 text-gray-300 space-y-1">
+  <li>AI Prompt Library</li>
+  <li>Client Proposal Templates</li>
+  <li>Pricing Guides</li>
+  <li>Contracts & Agreements</li>
+  <li>Marketing Scripts</li>
+  <li>Sales Checklists</li>
+</ul>      
             </div>
         </div>
       </section>
