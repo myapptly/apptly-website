@@ -54,8 +54,7 @@ export default function Dashboard() {
   <strong>— Terry Bledsoe, Founder of APPTLY</strong>
 </p> 
 
-          </p>
-        </div>
+       </div>
 
         <div className="mb-10">
   <img
@@ -99,23 +98,27 @@ export default function Dashboard() {
             <p className="text-gray-300">
               APPTLY Partners will let you earn commissions by sharing APPTLY with others.
             </p>
-            <p className="text-[#00FF94] font-bold mt-4">New resources added regularly
-• AI Prompt Library
-• Client Proposal Templates
-• Pricing Guides
-• Contracts & Agreements
-• Marketing Scripts
-• Sales Checklists 
-            </p>
+
+            <p className="text-[#00FF94] font-bold mt-4">
+  🚀 Become an APPTLY Founding Partner.
+  <br />
+  Exclusive benefits and commissions are coming soon.
+</p> 
           </div>
 
           <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
             <h2 className="text-2xl font-bold mb-2">Bonus Resources</h2>
             <p className="text-gray-300">
-              Prompts, templates, checklists, and tools will be added here as the course grows.
+             
+New resources will be added regularly to help you build and grow your app business.
+• AI Prompt Library
+• Client Proposal Templates
+• Pricing Guides
+• Contracts & Agreements
+• Marketing Scripts
+• Sales Checklists
             </p>
-            <p className="text-[#00FF94] font-bold mt-4">Coming Soon</p>
-          </div>
+            </div>
         </div>
       </section>
     </main>
