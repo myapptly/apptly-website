@@ -24,7 +24,7 @@ export default function Lesson11() {
             Lesson 11
           </p>
           <h1 className="text-5xl font-black mt-3">
-            Build Like a Pro: Your AI Workflow
+            Build Like a Pro
           </h1>
           <p className="text-gray-300 mt-4 text-xl">
             Learn how ChatGPT, GitHub, Vercel, screenshots, banners, testing, and fixes all work together.
@@ -62,14 +62,15 @@ export default function Lesson11() {
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
-          <h2 className="text-2xl font-bold">How to Ask AI Better Questions</h2>
+          <h2 className="text-2xl font-bold">Ask AI Better Questions</h2>
           <p className="text-gray-300 leading-relaxed">
             Do not just say, “It doesn’t work.” Give AI enough information to help you.
           </p>
           <ul className="space-y-3 text-gray-300">
             <li>📸 Take a screenshot.</li>
+            <li>✅ Copy and paste codes when possible.</li>
             <li>🧭 Say what page or file you are working on.</li>
-            <li>❌ Explain what went wrong.</li>
+            <li>❌ Describe exactly what happened.</li>
             <li>✅ Explain what you expected to happen.</li>
             <li>🧾 Include any error message if there is one.</li>
           </ul>
@@ -83,7 +84,7 @@ export default function Lesson11() {
             <li>3. Wait for Vercel to deploy.</li>
             <li>4. Refresh your live website.</li>
             <li>5. Test it on desktop and mobile.</li>
-            <li>6. Fix what needs fixing.</li>
+            <li>6. Repeat until it works exactly the way you want.</li>
           </ul>
         </div>
 
@@ -112,6 +113,7 @@ export default function Lesson11() {
             <li>⚠️ The change was edited but not committed.</li>
             <li>⚠️ Vercel is still deploying.</li>
             <li>⚠️ The browser is showing an old cached version.</li>
+            <li>⚠️ Forgot to "scroll down" and click "Commit Changes".</li>
           </ul>
         </div>
 
@@ -127,8 +129,7 @@ export default function Lesson11() {
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">A Little Reminder</h2>
           <p className="text-gray-300 leading-relaxed">
-            You are not just learning to build one app. You are learning a repeatable
-            workflow you can use again and again.
+            You're no longer learning how to build an app. You're learning a skill that can create apps, businesses, websites, and income for years to come.
           </p>
         </div>
 
