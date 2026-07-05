@@ -214,9 +214,8 @@ I'll be right here, adding new lessons and helping you every step of the way.
 >
   Go To Lesson 11 →
 </a>
-        
         </div>
-    </section>
-  </main>
-);
-} 
+</section>
+      </main>
+  );
+      }
