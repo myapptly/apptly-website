@@ -34,7 +34,6 @@ export default function Dashboard() {
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-3">A Word from the Founder, Terry Bledsoe</h2>
           <p className="text-gray-300 leading-relaxed">
-            <p className="text-gray-300 leading-relaxed">
   I want to personally thank you for trusting me and choosing APPTLY.
   Just a short time ago, I had never built an app, never written code,
   and honestly wasn't sure someone my age could learn something this new.
