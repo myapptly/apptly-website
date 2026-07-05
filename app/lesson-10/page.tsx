@@ -24,8 +24,8 @@ export default function Lesson10() {
 
         <div className="my-10">
   <img
-    src="/apptly flow.png"
-    alt="The APPTLY Journey"
+    src="/your next app.png"
+    alt="Your Next App"
     className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
   />
 </div> 
