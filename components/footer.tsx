@@ -8,8 +8,8 @@ export function Footer() {
           <Image
             src="https://galaxy-prod.tlcdn.com/gen/user_37MJjcymE8bOUM2E9geQUee0w5V/3341da3f-c232-4e65-89a7-0a9e768e55ef.png"
             alt="APPTLY"
-            width={32}
-            height={32}
+            width={48}
+            height={48}
             className="object-contain"
           />
           <span className="font-black text-lg">APPTLY</span>
