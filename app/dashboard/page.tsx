@@ -110,11 +110,17 @@ export default function Dashboard() {
             <p className="text-gray-300">
              
 New resources will be added regularly to help you build and grow your app business.
+              
 • AI Prompt Library
+              
 • Client Proposal Templates
+              
 • Pricing Guides
+
 • Contracts & Agreements
+
 • Marketing Scripts
+              
 • Sales Checklists
             </p>
             </div>
