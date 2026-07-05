@@ -23,7 +23,7 @@ export default function LessonOne() {
           Follow the steps, complete each action, and build your first real AI-powered app.          
           </p>
 
-         <div className="bg-[#1A1A1A] border border-[#00FF94]/30 rounded-2xl p-6 space-y-4">
+         <div className="mt-10 bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
   <h2 className="text-2xl font-bold">Need Help Along the Way?</h2>
 
   <p className="text-gray-300 leading-relaxed">
