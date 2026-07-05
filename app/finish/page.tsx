@@ -3,7 +3,7 @@ export default function FinishPage() {
     <main className="min-h-screen bg-[#0D0D0D] text-white flex items-center justify-center px-6">
       <div className="max-w-3xl text-center space-y-8">
         <img
-  src="/finish.png"
+  src="/congrats.png"
   alt="Congratulations"
   className="w-full rounded-3xl shadow-2xl mb-8"
 /> 
