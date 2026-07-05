@@ -3,7 +3,7 @@ export default function FinishPage() {
     <main className="min-h-screen bg-[#0D0D0D] text-white px-6 py-10">
       <section className="max-w-5xl mx-auto space-y-10 text-center">
         <img
-          src="/finish.png"
+          src="/finish2.png"
           alt="Congratulations APPTLY completion"
           className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
         />
