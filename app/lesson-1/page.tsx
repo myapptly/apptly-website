@@ -77,6 +77,36 @@ export default function LessonOne() {
           </p>
         </div>
 
+          <div className="bg-[#1A1A1A] border border-[#00FF94]/30 rounded-2xl p-6 space-y-4">
+  <h2 className="text-2xl font-bold text-[#00FF94]">
+    Your First Tiny Build: Hello World
+  </h2>
+
+  <p className="text-gray-300 leading-relaxed">
+    Before building a full app, start with the smallest possible win. Ask AI to
+    help you create a simple page that says hello.
+  </p>
+
+  <div className="bg-black/40 border border-white/10 rounded-xl p-5">
+    <p className="text-gray-300 font-bold mb-2">Copy this prompt:</p>
+    <p className="text-gray-200 leading-relaxed">
+      Act as an app-building coach. Help me create a very simple starter app
+      page that says: Hello World. Keep it beginner-friendly. Explain each step
+      clearly and tell me exactly where to paste the code.
+    </p>
+  </div>
+
+  <p className="text-gray-300 leading-relaxed">
+    The goal is not to build something impressive yet. The goal is to prove that
+    you can ask AI for help, follow instructions, make a small change, and see it
+    work.
+  </p>
+
+  <p className="text-[#00FF94] font-bold">
+    Small wins create confidence.
+  </p>
+</div> 
+
         <section className="mt-12">
   <h2 className="text-3xl font-bold text-emerald-400 mb-4">
     How App Builders Make Money
