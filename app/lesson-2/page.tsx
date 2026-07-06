@@ -287,8 +287,7 @@ export default function Lesson2() {
           <a href="/lesson-3" className="bg-[#00FF94] text-black font-bold px-6 py-3 rounded-xl">
             Go to Lesson 3
           </a>
-        </div>
-      </section>
+       </section>
     </main>
   );
 } 
