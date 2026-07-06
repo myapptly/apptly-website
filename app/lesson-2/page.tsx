@@ -277,13 +277,11 @@ export default function Lesson2() {
   </div>
 
   <p className="mt-5 text-gray-300">
-    This will be the app idea you carry into the next lesson. You may improve
-    or change it later, but for now, make a decision and move forward.
-  </p>
-</section> 
+  This will be the app idea you carry into the next lesson. You may improve
+  or change it later, but for now, make a decision and move forward.
+</p>
 
-          <a href="/lesson-1" className="bg-gray-700 px-6 py-3 rounded-xl">
-            Previous Lesson
+<a href="/lesson-1" className="bg-gray-700 px-6 py-3 rounded-xl">
           </a>
 
           <a href="/lesson-3" className="bg-[#00FF94] text-black font-bold px-6 py-3 rounded-xl">
