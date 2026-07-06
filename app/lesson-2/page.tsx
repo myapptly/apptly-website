@@ -21,26 +21,7 @@ export default function Lesson2() {
           </h1>
           <p className="text-gray-300 mt-4 text-xl">
             Your first app does not need to be huge. It needs to solve one clear problem.
-          </p><div className="mt-10 rounded-2xl border border-[#00FF94]/30 bg-white/5 p-8">
-  <h2 className="text-3xl font-bold text-[#00FF94]">
-    Why APPTLY Is Different
-  </h2>
-
-  <p className="mt-4 text-gray-300">
-    Most AI courses teach tools.
-    <br /><br />
-    <strong className="text-white">APPTLY teaches a process.</strong>
-    <br /><br />
-    A few weeks ago, I had never written code, used GitHub, or built an app.
-    Today, APPTLY is a real working business because I followed a repeatable system using AI.
-    <br /><br />
-    Throughout this course, you will build right alongside me. You will see the prompts I used, the mistakes I made, and how I fixed them.
-    <br /><br />
-    You do not have to figure everything out by yourself.
-    Just follow the roadmap, complete each lesson, and keep building.
-  </p>
-</div> 
-
+          
 <div className="my-10"> 
         
         </div>
