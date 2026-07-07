@@ -291,4 +291,4 @@ export default function Lesson2() {
        </section>
     </main>
   );
-} 
+}
