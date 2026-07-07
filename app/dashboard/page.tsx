@@ -1,5 +1,6 @@
 export default function Dashboard() {
   const lessons = [
+  "Before We Begin",
   "Welcome to APPTLY",
   "Choose Your First App Idea",
   "Build with AI",
@@ -73,12 +74,20 @@ export default function Dashboard() {
               return (
                 <a
                   key={lesson}
-                  href={isAvailable ? `/lesson-${lessonNumber}` : "#"} 
+                  href={
+                    isAvailable
+                      ? lessonNumber === 1
+                     ? "/before-we-begin"
+                     : `/lesson-${lessonNumber - 1}`
+                    : "#"
+                  } 
+
                   className="bg-[#1A1A1A] border border-white/10 rounded-xl p-5 flex items-center justify-between hover:border-[#00FF94]/50 transition"
                 >
                   <div>
                     <p className="text-[#00FF94] font-bold">
-                      Lesson {lessonNumber}
+                      {lessonNumber === 1 ? "Start Here" : `Lesson $
+                      {lessonNumber - 1}`}
                     </p>
                     <h3 className="text-xl font-bold">{lesson}</h3>
                   </div>
