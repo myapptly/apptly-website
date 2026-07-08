@@ -85,9 +85,9 @@ export default function Dashboard() {
                   className="bg-[#1A1A1A] border border-white/10 rounded-xl p-5 flex items-center justify-between hover:border-[#00FF94]/50 transition"
                 >
                   <div>
-                    <p className="text-[#00FF94] font-bold">
-                     {lessonNumber === 1 ? "Start Here" : `Lesson $ (lessonNumber - 1)} 
-                    </p>
+                   <p className="text-[#00FF94] font-bold">
+  {lessonNumber === 1 ? "Start Here" : "Lesson " + (lessonNumber - 1)}
+</p> 
                     <h3 className="text-xl font-bold">{lesson}</h3>
                   </div>
                   <span className="text-gray-400">
