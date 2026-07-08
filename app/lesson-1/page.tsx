@@ -41,8 +41,8 @@ export default function LessonOne() {
          
         <div className="my-10">
   <img
-    src="/build your app.png"
-    alt="Build Your App Workspace"
+    src="/welcome to apptly.png"
+    alt="Welcome To Apptly"
     className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
   />
 </div>
