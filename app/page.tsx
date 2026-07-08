@@ -18,7 +18,8 @@ export default function Home() {
 
       <section className="px-4 py-10 sm:px-6">
   <img
-    src="/build your app.png"
+    src="/apptly.png"
+    src="/terry.png"
     alt="Build your first app with APPTLY"
     className="mx-auto h-auto w-full max-w-6xl rounded-2xl border border-white/10 shadow-2xl"
   />
