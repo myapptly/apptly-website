@@ -86,7 +86,7 @@ export default function Dashboard() {
                 >
                   <div>
                     <p className="text-[#00FF94] font-bold">
-                     {lessonNumber === 1 ? "Start Here" : `Lesson $ {lessonNumber - 1}} 
+                     {lessonNumber === 1 ? "Start Here" : `Lesson $ (lessonNumber - 1)} 
                     </p>
                     <h3 className="text-xl font-bold">{lesson}</h3>
                   </div>
