@@ -39,6 +39,52 @@ export default function Lesson3() {
           </p>
         </div>
 
+        <div className="bg-[#1A1A1A] border border-[#00FF94]/30 rounded-2xl p-6 space-y-5">
+  <h2 className="text-3xl font-bold text-[#00FF94]">
+    The APPTLY Build Path
+  </h2>
+
+  <p className="text-gray-300 leading-relaxed">
+    Building an app with AI is not one magic step. It is a repeatable process.
+    Once you understand the path, the whole thing becomes much less confusing.
+  </p>
+
+  <div className="grid gap-4">
+    {[
+      ["💡", "1. Define Your App Idea", "Choose one clear problem your app will solve."],
+      ["🤖", "2. Prompt AI Clearly", "Tell AI exactly what you want the app to do."],
+      ["💻", "3. Ask AI to Write the Code", "Let AI create the first working version."],
+      ["📋", "4. Move the Code into GitHub", "Use GitHub to store, edit, and protect your project files."],
+      ["🔧", "5. Edit and Improve", "Make small changes, ask AI for help, and fix problems one step at a time."],
+      ["🚀", "6. Deploy with Vercel", "Publish the app online so you can test it in a real browser."],
+      ["📱", "7. Test on Laptop and Phone", "Check how the app looks and works on different screens."],
+      ["📸", "8. Use Screenshots", "Show AI exactly what is happening when something looks wrong or breaks."],
+      ["🎨", "9. Add Graphics and Branding", "Upload images, logos, banners, and screenshots into your public folder."],
+      ["📧", "10. Connect Email and Contact Forms", "Make sure users can contact you and receive replies."],
+      ["💳", "11. Add Payments with Stripe", "Use Stripe when you are ready to sell access, services, or products."],
+      ["🌐", "12. Connect a Domain with Namecheap", "Use a domain provider like Namecheap so your app has a real web address."],
+      ["📣", "13. Launch and Market", "Share your app, collect feedback, improve it, and keep building."]
+    ].map(([icon, title, description]) => (
+      <div
+        key={title}
+        className="rounded-xl border border-white/10 bg-black/30 p-4"
+      >
+        <h3 className="text-xl font-bold text-white">
+          {icon} {title}
+        </h3>
+        <p className="text-gray-300 mt-2 leading-relaxed">
+          {description}
+        </p>
+      </div>
+    ))}
+  </div>
+
+  <p className="text-[#00FF94] font-bold">
+    Cliff&apos;s Tip: Do not try to remember everything at once. Follow the path,
+    complete one step, then move to the next.
+  </p>
+</div> 
+
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">The Simple AI App-Building Process</h2>
           <ul className="space-y-3 text-gray-300">
