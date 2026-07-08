@@ -55,7 +55,7 @@ export default function BeforeWeBegin() {
 
           <div className="my-8">
   <img
-    src="/before-we-begin.png"
+    src="/before%20we%20begin.png"
     alt="Before We Begin"
     className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
   />
