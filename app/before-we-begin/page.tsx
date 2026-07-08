@@ -52,6 +52,15 @@ export default function BeforeWeBegin() {
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
+
+          <div className="my-8">
+  <img
+    src="/before-we-begin.png"
+    alt="Before We Begin"
+    className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
+  />
+</div>
+          
           <h2 className="text-2xl font-bold">Your Laptop Is Your Workshop</h2>
           <ul className="space-y-3 text-gray-300">
             <li>✅ An AI platform like ChatGPT</li>
