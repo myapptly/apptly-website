@@ -91,7 +91,7 @@ export default function Dashboard() {
                     <h3 className="text-xl font-bold">{lesson}</h3>
                   </div>
                   <span className="text-gray-400">
-                    {isAvailable ? "Start Lesson" : "Coming Soon"}
+                    {isAvailable ? "Start Lesson" : "Dashboard"}
                   </span>
                 </a>
               );
