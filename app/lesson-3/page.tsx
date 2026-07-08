@@ -24,7 +24,7 @@ export default function Lesson3() {
 
         <div className="my-10">
   <img
-    src="/the right way.png"
+    src="/prompt it right.png"
     alt="Prompt AI the Right Way"
     className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
   />
