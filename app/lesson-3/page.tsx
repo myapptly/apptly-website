@@ -55,15 +55,17 @@ export default function Lesson3() {
       ["🤖", "2. Prompt AI Clearly", "Tell AI exactly what you want the app to do."],
       ["💻", "3. Ask AI to Write the Code", "Let AI create the first working version."],
       ["📋", "4. Move the Code into GitHub", "Use GitHub to store, edit, and protect your project files."],
-      ["🔧", "5. Edit and Improve", "Make small changes, ask AI for help, and fix problems one step at a time."],
-      ["🚀", "6. Deploy with Vercel", "Publish the app online so you can test it in a real browser."],
-      ["📱", "7. Test on Laptop and Phone", "Check how the app looks and works on different screens."],
-      ["📸", "8. Use Screenshots", "Show AI exactly what is happening when something looks wrong or breaks."],
-      ["🎨", "9. Add Graphics and Branding", "Upload images, logos, banners, and screenshots into your public folder."],
-      ["📧", "10. Connect Email and Contact Forms", "Make sure users can contact you and receive replies."],
-      ["💳", "11. Add Payments with Stripe", "Use Stripe when you are ready to sell access, services, or products."],
-      ["🌐", "12. Connect a Domain with Namecheap", "Use a domain provider like Namecheap so your app has a real web address."],
-      ["📣", "13. Launch and Market", "Share your app, collect feedback, improve it, and keep building."]
+      ["🧩", "5. Choose a Building Method", "Continue with AI-generated code and GitHub, or use FlutterFlow to build screens and features visually."],
+      ["🗄️", "6. Add Firestore When Your App Needs Data", "Use Firestore when your app must save accounts, customer information, appointments, messages, progress, or other changing data."], 
+      ["🔧", "7. Edit and Improve", "Make small changes, ask AI for help, and fix problems one step at a time."],
+      ["🚀", "8. Deploy with Vercel", "Publish the app online so you can test it in a real browser."],
+      ["📱", "9. Test on Laptop and Phone", "Check how the app looks and works on different screens."],
+      ["📸", "10. Use Screenshots", "Show AI exactly what is happening when something looks wrong or breaks."],
+      ["🎨", "11. Add Graphics and Branding", "Upload images, logos, banners, and screenshots into your public folder."],
+      ["📧", "12. Connect Email and Contact Forms", "Make sure users can contact you and receive replies."],
+      ["💳", "13. Add Payments with Stripe", "Use Stripe when you are ready to sell access, services, or products."],
+      ["🌐", "14. Connect a Domain with Namecheap", "Use a domain provider like Namecheap so your app has a real web address."],
+      ["📣", "15. Launch and Market", "Share your app, collect feedback, improve it, and keep building."]
     ].map(([icon, title, description]) => (
       <div
         key={title}
