@@ -287,16 +287,23 @@ export default function Lesson2() {
   </div>
 </div>
 
-        <div className="flex flex=wrap gap-4">
+        <div className="flex flex-wrap gap-4">
+  <a
+    href="/lesson-1"
+    className="bg-gray-700 px-6 py-3 rounded-xl text-center"
+  >
+    Previous Lesson
+  </a>
 
-          <a href="/lesson-1" className="bg-gray-700 px-6 py-3 rounded-xl text-center">
-            Previous Lesson
-          </a>
+  <a
+    href="/lesson-3"
+    className="bg-[#00FF94] text-black font-bold px-6 py-3 rounded-xl text-center"
+  >
+    Go to Lesson 3
+  </a>
+</div>
 
-          <a href="/lesson-3" className="bg-[#00FF94] text-black font-bold px-6 py-3 rounded-xl text-center">
-            Go to Lesson 3
-          </a>
-        </div>
-    </main>
-  );
+</section>
+</main>
+);
 } 
