@@ -24,7 +24,7 @@ export default function Lesson3() {
 
         <div className="my-10">
   <img
-    src="/build it right.png"
+    src="/lesson 3.1.png"
     alt="Build AI the Right Way"
     className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
   />
@@ -80,6 +80,12 @@ export default function Lesson3() {
       </div>
     ))}
   </div>
+
+    <img
+    src="/lesson 3.2.png"
+    alt="Build AI the Right Way"
+    className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
+  />      
 
   <p className="text-[#00FF94] font-bold">
     Cliff&apos;s Tip: Do not try to remember everything at once. Follow the path,
