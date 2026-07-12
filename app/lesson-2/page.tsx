@@ -91,10 +91,13 @@ export default function Lesson2() {
     </div>
   </div>
 
-  <p className="text-gray-300 leading-relaxed mt-6">
-    Do not worry if these names feel unfamiliar. When I started, most of them were unfamiliar to me too.
-    APPTLY will help you understand how they fit together one step at a time.
-  </p>
+    <p className="text-gray-300 leading-relaxed mt-6">
+  Do not worry if these names feel unfamiliar. When I started, most of them
+  were unfamiliar to me too. You will not need every tool for every app.
+  APPTLY will help you understand what each tool does and how the right tools
+  fit together one step at a time.
+</p>       
+  
 </div> 
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
