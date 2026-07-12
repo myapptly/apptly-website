@@ -64,8 +64,10 @@ export default function BeforeWeBegin() {
           <h2 className="text-2xl font-bold">Your Laptop Is Your Workshop</h2>
           <ul className="space-y-3 text-gray-300">
             <li>✅ An AI platform like ChatGPT</li>
-            <li>✅ GitHub to store your project</li>
-            <li>✅ Vercel to publish your app</li>
+            <li>✅ GitHub to store your project - if building with AI generated code</li>
+            <li>✅ Vercel to publish a web app</li>
+            <li>✅ FlutterFlow if you chose the visual app-building path</li>
+            <li>✅ Firebase/Firestore only if your app needs to save changing data</li>
             <li>✅ Your email account for confirmations and codes</li>
             <li>✅ Google Chrome with several tabs open</li>
             <li>✅ Your cellphone for verification and testing</li>
@@ -75,11 +77,14 @@ export default function BeforeWeBegin() {
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
           <h2 className="text-2xl font-bold">The Real Process</h2>
           <p className="text-gray-300 leading-relaxed">
-            Open your laptop. Open AI. Describe your app idea. Write a prompt.
-            Read the response. Copy code. Paste code into GitHub. Commit changes.
-            Wait for Vercel. Test the app. Find what doesn't work. Go back to AI.
-            Explain the problem. Get updated code. Copy, paste, commit, deploy,
-            refresh, test again.
+            Open your laptop. Open AI. Describe your app idea. Write a clear prompt.
+Read the response and decide on the simplest building method for your app.
+You may use AI-generated code with GitHub and Vercel, or build visually with
+FlutterFlow. If your app needs to save user accounts, customer information,
+appointments, messages, progress, or other changing data, you may also connect
+Firestore. Build one part at a time. Test the app. Find what does not work.
+Go back to AI and explain the problem clearly. Make one correction, test again,
+and repeat the process until the app works the way you want. 
           </p>
           <p className="text-[#00FF94] font-bold">
             Repeat. That is how real apps get built.
