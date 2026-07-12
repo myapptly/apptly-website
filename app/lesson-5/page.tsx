@@ -467,11 +467,6 @@ export default function Lesson5() {
     Your Blueprint Progress
   </p>
 
-  <div className="mb-8 rounded-2xl border border-green-500/30 bg-[#121212] p-5">
-  <p className="mb-3 text-sm font-bold uppercase tracking-widest text-[#00E676]">
-    Your Blueprint Progress
-  </p>
-
   <div className="flex items-center gap-2 text-xl sm:text-2xl">
     <span className="text-[#00E676]">●</span>
     <span className="text-[#00E676]">●</span>
