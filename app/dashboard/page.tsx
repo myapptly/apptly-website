@@ -52,8 +52,7 @@ export default function Dashboard() {
           />
 
           <p className="mt-4 max-w-2xl text-xl leading-relaxed text-gray-200">
-            Start here. Follow the lessons one step at a time and build your
-            first AI-powered app.
+            Start here. Follow the lessons one step at a time and build your first AI-powered app.
           </p>
         </div>
 
