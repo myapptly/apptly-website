@@ -297,7 +297,6 @@ export default function Lesson2() {
             Go to Lesson 3
           </a>
         </div>
-      </section>
     </main>
   );
 } 
