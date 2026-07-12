@@ -78,13 +78,33 @@ export default function BeforeWeBegin() {
           <h2 className="text-2xl font-bold">The Real Process</h2>
           <p className="text-gray-300 leading-relaxed">
             Open your laptop. Open AI. Describe your app idea. Write a clear prompt.
-Read the response and decide on the simplest building method for your app.
-You may use AI-generated code with GitHub and Vercel, or build visually with
-FlutterFlow. If your app needs to save user accounts, customer information,
-appointments, messages, progress, or other changing data, you may also connect
-Firestore. Build one part at a time. Test the app. Find what does not work.
-Go back to AI and explain the problem clearly. Make one correction, test again,
-and repeat the process until the app works the way you want. 
+
+            Read the response and decide on the simplest building method for your app.
+
+            You may use AI-generated code with GitHub and Vercel, or build visually with FlutterFlow. 
+            
+            If your app needs to save user accounts, customer information, appointments, messages, 
+            progress, or other changing data, you may also connect Firestore.
+            
+            Build one part at a time. Test the app.
+            
+            Find what does not work.
+            
+            Go back to AI and explain the problem clearly. 
+            
+            Make one correction, test again,and repeat the process until the app works the way you want.
+
+            Take your time and pay close attention to the instructions AI (ChatGPT, or whatever AI you chose) 
+            gives you.
+
+            Work in small steps so it doesn't become overwhelming, especially in the beginning.
+
+            Your AI partner may try to write a long code after your instruction.
+
+            Don't let it! Give explicit instructions to AI, ask it where to go next, and make sure 
+            it understands what you want before moving on.
+
+            And most importantly, BE PATIENT! It will take time to do it right!
           </p>
           <p className="text-[#00FF94] font-bold">
             Repeat. That is how real apps get built.
