@@ -34,28 +34,60 @@ export default function Lesson2() {
 
   <div className="grid gap-4 mt-6">
     <div>
-      <h3 className="text-xl font-bold text-[#00FF94]">ChatGPT</h3>
-      <p className="text-gray-300">Your AI partner for planning, writing, fixing, and improving your app.</p>
-    </div>
+      <h3 className="text-[#00FF94] text-2xl font-bold mt-6">
+  ChatGPT
+</h3>
+<p className="text-gray-300 leading-relaxed">
+  Your AI building partner for planning, writing, troubleshooting, and
+  improving your app.
+</p>
 
-    <div>
-      <h3 className="text-xl font-bold text-[#00FF94]">Namecheap</h3>
-      <p className="text-gray-300">Where you can buy your domain name, like yourappname.com.</p>
-    </div>
+<h3 className="text-[#00FF94] text-2xl font-bold mt-6">
+  Namecheap
+</h3>
+<p className="text-gray-300 leading-relaxed">
+  Where you can buy a domain name, like yourappname.com.
+</p>
 
-    <div>
-      <h3 className="text-xl font-bold text-[#00FF94]">GitHub</h3>
-      <p className="text-gray-300">Where your app files are stored and updated safely.</p>
-    </div>
+<h3 className="text-[#00FF94] text-2xl font-bold mt-6">
+  GitHub
+</h3>
+<p className="text-gray-300 leading-relaxed">
+  Where your project files can be stored and updated safely when building
+  with AI-generated code.
+</p>
 
-    <div>
-      <h3 className="text-xl font-bold text-[#00FF94]">Vercel</h3>
-      <p className="text-gray-300">The service that publishes your app online so people can visit it.</p>
-    </div>
+<h3 className="text-[#00FF94] text-2xl font-bold mt-6">
+  Vercel
+</h3>
+<p className="text-gray-300 leading-relaxed">
+  A service that can publish a web app online so people can visit and test it.
+</p>
 
-    <div>
-      <h3 className="text-xl font-bold text-[#00FF94]">Stripe</h3>
-      <p className="text-gray-300">The payment tool you can use when you are ready to accept money from customers.</p>
+<h3 className="text-[#00FF94] text-2xl font-bold mt-6">
+  FlutterFlow
+</h3>
+<p className="text-gray-300 leading-relaxed">
+  A visual app-building platform that lets you create screens, buttons,
+  forms, and features without writing everything as traditional code.
+</p>
+
+<h3 className="text-[#00FF94] text-2xl font-bold mt-6">
+  Firebase and Firestore
+</h3>
+<p className="text-gray-300 leading-relaxed">
+  Google tools that can help your app manage users and save changing data.
+  Firestore can store information such as customer records, appointments,
+  messages, preferences, and progress.
+</p>
+
+<h3 className="text-[#00FF94] text-2xl font-bold mt-6">
+  Stripe
+</h3>
+<p className="text-gray-300 leading-relaxed">
+  A payment tool you can use when you are ready to accept money from
+  customers.
+</p>
     </div>
   </div>
 
