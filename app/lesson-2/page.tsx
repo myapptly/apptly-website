@@ -123,9 +123,7 @@ export default function Lesson2() {
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-4">
-
-          <section className="mt-12">
+           <section className="mt-12">
   <h2 className="text-3xl font-bold text-emerald-400 mb-4">
     Use the Four-Part Idea Test
   </h2>
