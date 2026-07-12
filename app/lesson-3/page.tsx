@@ -85,7 +85,80 @@ export default function Lesson3() {
     Cliff&apos;s Tip: Do not try to remember everything at once. Follow the path,
     complete one step, then move to the next.
   </p>
-</div> 
+</div>
+
+        <section className="rounded-2xl border border-[#00FF94]/30 bg-[#1A1A1A] p-6">
+  <h2 className="mb-4 text-3xl font-bold text-[#00FF94]">
+    Two Ways to Build Your App
+  </h2>
+
+  <p className="mb-6 leading-relaxed text-gray-300">
+    AI can help you build an app through written code, but code is not your
+    only option. Some apps can also be created visually with FlutterFlow.
+    The best method depends on what you are building and how you prefer to work.
+  </p>
+
+  <div className="grid gap-5 md:grid-cols-2">
+    <div className="rounded-xl border border-white/10 bg-black/30 p-5">
+      <h3 className="mb-3 text-xl font-bold text-white">
+        💻 AI, GitHub, and Vercel
+      </h3>
+
+      <p className="leading-relaxed text-gray-300">
+        In this method, AI helps write the code, GitHub stores the project
+        files, and Vercel publishes the app online. This gives you direct
+        control over the code and works especially well for websites and
+        browser-based applications.
+      </p>
+    </div>
+
+    <div className="rounded-xl border border-white/10 bg-black/30 p-5">
+      <h3 className="mb-3 text-xl font-bold text-white">
+        🧩 FlutterFlow
+      </h3>
+
+      <p className="leading-relaxed text-gray-300">
+        FlutterFlow is a visual app-building platform. You create pages,
+        buttons, forms, navigation, and other features by arranging elements
+        on the screen. It can be useful for mobile apps and interactive apps
+        that need more than a basic website.
+      </p>
+    </div>
+  </div>
+
+  <div className="mt-6 rounded-xl border border-emerald-500/30 bg-emerald-950/20 p-5">
+    <h3 className="mb-3 text-xl font-bold text-emerald-400">
+      🗄️ Where Firestore Fits
+    </h3>
+
+    <p className="leading-relaxed text-gray-300">
+      Firestore is a cloud database available through Google Firebase. It gives
+      an app a place to save and retrieve information. You may need it when an
+      app includes user accounts, customer records, appointments, messages,
+      saved preferences, lesson progress, products, or other information that
+      must remain available after the user closes the app.
+    </p>
+
+    <p className="mt-4 leading-relaxed text-gray-300">
+      FlutterFlow can connect to Firebase and Firestore, allowing a visual app
+      to work with real users and real saved data. Firestore is not required
+      for every simple first app. Add it only when the app needs to remember
+      information.
+    </p>
+  </div>
+
+  <div className="mt-6 rounded-xl border border-white/10 bg-black/30 p-5">
+    <p className="font-bold text-[#00FF94]">
+      Cliff&apos;s Tip:
+    </p>
+
+    <p className="mt-2 leading-relaxed text-gray-300">
+      Do not choose a tool because it sounds advanced. Choose the simplest
+      method that can produce a useful first version. You can always add a
+      visual builder, user accounts, or a database after the basic idea works.
+    </p>
+  </div>
+</section>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">The Simple AI App-Building Process</h2>
