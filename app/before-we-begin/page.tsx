@@ -60,19 +60,6 @@ export default function BeforeWeBegin() {
     className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
   />
 </div>
-          
-          <h2 className="text-2xl font-bold">Your Laptop Is Your Workshop</h2>
-          <ul className="space-y-3 text-gray-300">
-            <li>✅ An AI platform like ChatGPT</li>
-            <li>✅ GitHub to store your project - if building with AI generated code</li>
-            <li>✅ Vercel to publish a web app</li>
-            <li>✅ FlutterFlow if you chose the visual app-building path</li>
-            <li>✅ Firebase/Firestore only if your app needs to save changing data</li>
-            <li>✅ Your email account for confirmations and codes</li>
-            <li>✅ Google Chrome with several tabs open</li>
-            <li>✅ Your cellphone for verification and testing</li>
-          </ul>
-        </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
           <h2 className="text-2xl font-bold">The Real Process</h2>
