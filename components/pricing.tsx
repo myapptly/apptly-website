@@ -88,11 +88,11 @@ export function Pricing() {
                 Get Lifetime Access - $37
               </a>
               <p className="mt-4 text-center text-sm font-semibold text-[#00FF94]">
-  Founding-member price: $37 for a limited time.
+  Founding-member price - available now.
 </p>
 
 <p className="mt-1 text-center text-sm text-gray-400">
-  Lock in lifetime access before the price increases.
+  Lifetime access, locked in at todays price.
 </p> 
             </motion.div>
           ))}
