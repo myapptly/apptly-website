@@ -28,17 +28,11 @@ export default function Home() {
 <div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
 
 <Features />
-
 <div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
-
-<Pricing />
-
-<div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
-
 <Bio />
-
 <div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
-
+<Pricing />
+<div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
 <Disclaimer />
 
 <div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
