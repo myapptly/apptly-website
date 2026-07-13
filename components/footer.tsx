@@ -6,12 +6,12 @@ export function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col items-center gap-6">
         <div className="flex items-center gap-3">
           <Image
-            src="https://galaxy-prod.tlcdn.com/gen/user_37MJjcymE8bOUM2E9geQUee0w5V/3341da3f-c232-4e65-89a7-0a9e768e55ef.png"
-            alt="APPTLY"
-            width={48}
-            height={48}
-            className="object-contain"
-          />
+  src="/new%20logo.png"
+  alt="APPTLY"
+  width={48}
+  height={48}
+  className="object-contain"
+/>
           <span className="font-black text-lg">APPTLY</span>
         </div>
 
