@@ -122,6 +122,43 @@ export default function Lesson2() {
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
+  <h2 className="text-2xl font-bold mb-4">Businesses That May Need an App</h2>
+  <p className="text-gray-300 leading-relaxed mb-5">
+    Almost any organization with customers, employees, appointments, information,
+    or repetitive tasks may benefit from an app.
+  </p>
+  <div className="grid gap-3 sm:grid-cols-2">
+    {[
+      "Restaurants, food trucks, bakeries, and caterers",
+      "Hair salons, barbershops, spas, and nail salons",
+      "Plumbers, electricians, HVAC companies, roofers, and landscapers",
+      "Real estate agents, property managers, and home inspectors",
+      "Doctors, dentists, chiropractors, therapists, and caregivers",
+      "Gyms, personal trainers, yoga studios, and sports coaches",
+      "Churches, charities, clubs, and nonprofit organizations",
+      "Schools, tutors, daycare centers, and training companies",
+      "Retail stores, boutiques, antique shops, and specialty businesses",
+      "Hotels, vacation rentals, tour operators, and travel planners",
+      "Event planners, wedding professionals, photographers, and entertainers",
+      "Auto repair shops, detailers, and transportation companies",
+      "Pet groomers, dog walkers, boarding facilities, and veterinarians",
+      "Accountants, attorneys, insurance agents, and financial professionals",
+      "Senior-living communities and home-care services",
+      "Cleaning companies, pest-control services, and repair businesses",
+      "Local associations, networking groups, and membership organizations",
+      "Consultants, coaches, speakers, and independent professionals",
+    ].map((business) => (
+      <div
+        key={business}
+        className="rounded-lg border border-white/10 bg-black/30 p-4 text-gray-200 text-sm"
+      >
+        {business}
+      </div>
+    ))}
+  </div>
+</div>
+
+        <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">Bad Idea vs. Better Idea</h2>
           <p className="text-gray-300 mb-3">
             ❌ Bad first idea: “I want to build the next Facebook.”
