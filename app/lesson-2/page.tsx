@@ -248,6 +248,23 @@ export default function Lesson2() {
   </div>
 </section>
 
+<div className="bg-[#1A1A1A] border border-[#00FF94]/30 rounded-2xl p-6">
+  <h2 className="text-2xl font-bold text-[#00FF94] mb-4">
+    Think Like a Professional App Builder
+  </h2>
+  <p className="text-gray-300 leading-relaxed">
+    A client may not need a complicated app in the Apple App Store or Google
+    Play. The best solution might be a simple web app, customer portal,
+    booking tool, employee dashboard, membership area, or mobile-friendly
+    business system.
+  </p>
+  <p className="text-gray-300 leading-relaxed mt-4">
+    Your job is not merely to build something impressive. Your job is to
+    identify a real problem and create something useful that saves time,
+    improves service, increases sales, or organizes information.
+  </p>
+</div>        
+
 <section className="mt-12 rounded-2xl border border-emerald-500/40 bg-emerald-950/30 p-6">
   <h2 className="text-2xl font-bold text-emerald-400 mb-4">
     Turn a Problem Into an App Idea
