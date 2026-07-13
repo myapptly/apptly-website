@@ -148,25 +148,6 @@ export default function LessonOne() {
   </div>
 </section>
 
-<section className="mt-12 rounded-2xl border border-emerald-500/40 bg-emerald-950/30 p-6">
-  <h2 className="text-2xl font-bold text-emerald-400 mb-3">
-    Think Like a Professional App Builder
-  </h2>
-
-  <p className="text-gray-200 leading-relaxed">
-    A client may not need a complicated app in the Apple App Store or Google
-    Play. The best solution might be a simple web app, customer portal,
-    booking tool, employee dashboard, membership area, or mobile-friendly
-    business system.
-  </p>
-
-  <p className="text-gray-200 leading-relaxed mt-4">
-    Your job is not merely to build something impressive. Your job is to
-    identify a real problem and create something useful that saves time,
-    improves service, increases sales, or organizes information.
-  </p>
-</section>
-
     <section className="mt-12 rounded-2xl border border-emerald-500/40 bg-gray-900 p-6">
   <h2 className="text-2xl font-bold text-emerald-400 mb-3">
     Build Your First Portfolio
