@@ -11,10 +11,10 @@ export function Features() {
       text: "Publish your app to the web or app stores with step-by-step guidance.",
     },
     {
-      icon: "$",
-      title: "Monetize It",
-      text: "Turn your app into a real business with real paying customers.",
-    },
+  icon: "💰",
+  title: "Monetize It",
+  text: "Turn your app into a real business with real paying customers.",
+},
     {
       icon: "📈",
       title: "Grow Your Audience",
