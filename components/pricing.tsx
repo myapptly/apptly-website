@@ -12,7 +12,7 @@ const plans = [
     description: "Become a founding member and get lifetime access to APPTLY.",
     features: [
       "Lifetime access",
-      "All 10 core lessons",
+      "All 12 core lessons",
       "Future course updates included",
       "Build unlimited AI apps",
       "Apps for any business or industry",
