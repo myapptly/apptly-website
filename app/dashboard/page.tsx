@@ -105,7 +105,7 @@ export default function Dashboard() {
   </p>
 
   <img
-    src="/dash 3.png"
+    src="/dash 2.png"
     alt="APPTLY Plan Your First App"
     className="mx-auto w-full max-w-2xl rounded-2xl border border-[#00FF94]/30 shadow-2xl"
   />
