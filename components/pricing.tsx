@@ -66,12 +66,12 @@ export function Pricing() {
                   <span className="text-5xl font-black">{plan.price}</span>
                   <span className="text-gray-400 mb-2">{plan.period}</span>
                 </div>
-                <p className="text-gray-400 text-sm">{plan.description}</p>
+                <p className="text-gray-200 text-sm">{plan.description}</p>
               </div>
 
               <ul className="space-y-3 mb-6 flex-1">
                 {plan.features.map((feature) => (
-                  <li key={feature} className="flex items-center gap-2 text-sm text-gray-300">
+                  <li key={feature} className="flex items-center gap-2 text-sm text-gray-100 font-medium">
                     <CheckCircle className="w-4 h-4 text-[#00FF94] shrink-0" />
                     {feature}
                   </li>
