@@ -3,3 +3,15 @@ node_modules/
 .env*
 .agent-browser/
 *.node
+.cache/
+.config/
+.dbus/
+.local/
+.npm/
+.vnc/
+.bashrc
+.bash_logout
+.profile
+.gitconfig
+.ICEauthority
+.sudo_as_admin_successful
