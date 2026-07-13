@@ -104,12 +104,7 @@ export default function Dashboard() {
     Step 1 — Plan Your First App
   </p>
 
-  <img
-    src="/dash 2.png"
-    alt="APPTLY Plan Your First App"
-    className="mx-auto w-full max-w-2xl rounded-2xl border border-[#00FF94]/30 shadow-2xl"
-  />
-</div>
+  </div>
 
         <section>
           <h2 className="mb-5 text-3xl font-black">Start Your Lessons</h2>
@@ -132,13 +127,7 @@ export default function Dashboard() {
             </span>
           </a>
 
-          <img
-    src="/dash 3.png"
-    alt="APPTLY Plan Your First App"
-    className="mx-auto w-full max-w-2xl rounded-2xl border border-[#00FF94]/30 shadow-2xl"
-  />
-
-          <div className="grid gap-4 md:grid-cols-2">
+            <div className="grid gap-4 md:grid-cols-2">
             {lessons.map((lesson, index) => {
               const lessonNumber = index + 1;
 
