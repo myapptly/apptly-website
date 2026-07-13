@@ -14,7 +14,7 @@ export function Bio() {
           transition={{ duration: 0.6 }}
           className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center"
         >
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center lg:justify-end lg:sticky lg:top-24 lg:self-start">
             <div className="relative">
               <div className="absolute inset-0 bg-[#00FF94]/20 rounded-2xl blur-2xl scale-110" />
               <Image
