@@ -99,6 +99,18 @@ export default function Dashboard() {
           </div>
         </section>
 
+        <div className="my-8">
+  <p className="mb-3 text-sm font-bold uppercase tracking-widest text-[#00FF94]">
+    Step 1 — Plan Your First App
+  </p>
+
+  <img
+    src="/dash 1.png"
+    alt="APPTLY Plan Your First App"
+    className="mx-auto w-full max-w-2xl rounded-2xl border border-[#00FF94]/30 shadow-2xl"
+  />
+</div>
+
         <section>
           <h2 className="mb-5 text-3xl font-black">Start Your Lessons</h2>
 
