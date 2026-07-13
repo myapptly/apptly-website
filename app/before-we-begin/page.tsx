@@ -54,12 +54,13 @@ export default function BeforeWeBegin() {
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
 
           <div className="my-8">
-  <img
-    src="/before%20we%20begin.png"
-    alt="Before We Begin"
-    className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
-  />
-</div>
+    <img
+      src="/before%20we%20begin.png"
+      alt="Before We Begin"
+      className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
+    />
+  </div>
+</div>          
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
           <h2 className="text-2xl font-bold">The Real Process</h2>
@@ -115,8 +116,7 @@ export default function BeforeWeBegin() {
     takes time. Slow down, follow the steps, and do it right.
   </li>
 </ul> 
- 
-          
+    
           <p className="text-[#00FF94] font-bold">
             Repeat. That is how real apps get built.
           </p>
