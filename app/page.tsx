@@ -16,16 +16,7 @@ export default function Home() {
 
 <Hero />
 
-      <section className="px-4 py-10 sm:px-6">
-  <img
-    src="/landing.png"    
-    alt="Build your first app with APPTLY"
-    className="mx-auto h-auto w-full max-w-6xl rounded-2xl border border-white/10 shadow-2xl"
-  />
-           
-</section> 
-
-<div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
+      <div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
 
 <Features />
 <div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
