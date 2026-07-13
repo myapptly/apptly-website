@@ -106,47 +106,6 @@ export default function LessonOne() {
     Small wins create confidence.
   </p>
 </div> 
-  
-<section className="mt-12">
-  <h2 className="text-3xl font-bold text-emerald-400 mb-4">
-    Businesses That May Need an App
-  </h2>
-
-  <p className="text-lg text-gray-300 leading-relaxed mb-6">
-    Almost any organization with customers, employees, appointments,
-    information, or repetitive tasks may benefit from an app.
-  </p>
-
-  <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-    {[
-      "Restaurants, food trucks, bakeries, and caterers",
-      "Hair salons, barbershops, spas, and nail salons",
-      "Plumbers, electricians, HVAC companies, roofers, and landscapers",
-      "Real estate agents, property managers, and home inspectors",
-      "Doctors, dentists, chiropractors, therapists, and caregivers",
-      "Gyms, personal trainers, yoga studios, and sports coaches",
-      "Churches, charities, clubs, and nonprofit organizations",
-      "Schools, tutors, daycare centers, and training companies",
-      "Retail stores, boutiques, antique shops, and specialty businesses",
-      "Hotels, vacation rentals, tour operators, and travel planners",
-      "Event planners, wedding professionals, photographers, and entertainers",
-      "Auto repair shops, detailers, and transportation companies",
-      "Pet groomers, dog walkers, boarding facilities, and veterinarians",
-      "Accountants, attorneys, insurance agents, and financial professionals",
-      "Senior-living communities and home-care services",
-      "Cleaning companies, pest-control services, and repair businesses",
-      "Local associations, networking groups, and membership organizations",
-      "Consultants, coaches, speakers, and independent professionals",
-    ].map((business) => (
-      <div
-        key={business}
-        className="rounded-lg border border-gray-700 bg-gray-900/70 p-4 text-gray-200"
-      >
-        {business}
-      </div>
-    ))}
-  </div>
-</section>
 
     <section className="mt-12 rounded-2xl border border-emerald-500/40 bg-gray-900 p-6">
   <h2 className="text-2xl font-bold text-emerald-400 mb-3">
