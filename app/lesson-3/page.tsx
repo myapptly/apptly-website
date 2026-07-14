@@ -23,11 +23,7 @@ export default function Lesson3() {
         </div>
 
         <div className="my-10">
-  <img
-    src="/lesson 3.2.png"
-    alt="Build AI the Right Way"
-    className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
-  />
+  
 </div>
         
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
