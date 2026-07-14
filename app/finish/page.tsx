@@ -46,11 +46,8 @@ export default function FinishPage() {
           )}
         </div>
 
-        <h2>Meet Cliff</h2>
-  <p>I call my AI Partner <strong>Cliff</strong> because I watched <em>Cheers</em>...</p>
-</div> 
-
-  <h2 className="text-2xl font-bold text-white">Meet Cliff</h2>
+        <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 text-left space-y-4">
+          <h2 className="text-2xl font-bold text-white">Meet Cliff</h2>
           <p className="text-gray-300 leading-relaxed">
             I call my AI Partner <strong>Cliff</strong> because I watched 
             <em> Cheers</em>. Cliff Clavin was the mailman who always seemed to
@@ -79,13 +76,14 @@ export default function FinishPage() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           
-           <a href="/dashboard"
+            href="/dashboard"
             className="bg-[#00FF94] text-black font-bold px-8 py-4 rounded-full text-center"
           >
             Return to Dashboard
           </a>
+
           
-           <a href="/lesson-1"
+            href="/lesson-1"
             className="bg-white text-black font-bold px-8 py-4 rounded-full text-center"
           >
             Start Again
