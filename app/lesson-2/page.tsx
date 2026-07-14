@@ -35,7 +35,7 @@ export default function Lesson2() {
   <div className="grid gap-4 mt-6">
     <div>
       <h3 className="text-[#00FF94] text-2xl font-bold mt-6">
-  ChatGPT
+  Claude, ChatGPT, Gemini or similar AI Partner
 </h3>
 <p className="text-gray-300 leading-relaxed">
   Your AI building partner for planning, writing, troubleshooting, and
