@@ -6,13 +6,6 @@ export default function Lesson11() {
           ← Back to Dashboard
         </a>
 
-        <a
-  href="/lesson-1"
-  className="inline-block mt-4 px-6 py-3 rounded-xl bg-slate-700 hover:bg-slate-600 transition font-semibold"
->
-  ← Back to Lesson 1
-</a> 
-
         <img
           src="/new logo.png"
           alt="APPTLY Logo"
