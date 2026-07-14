@@ -21,8 +21,6 @@ export default function Lesson7() {
             The best app in the world will not succeed if nobody knows it exists.
           </p>
         </div>
-
-        <div className="my-10">
           
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
           <h2 className="text-2xl font-bold">Marketing Is Not Begging</h2>
