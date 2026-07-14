@@ -102,7 +102,7 @@ export default function Lesson10() {
   <ul className="space-y-3 text-gray-300 mt-4">
     <li>🌐 Domain name (usually $10–20 per year)</li>
     <li>🚀 Hosting (Vercel, Netlify, Render, Cloudflare, and others)</li>
-    <li>🤖 AI costs if your app uses ChatGPT or other AI models</li>
+    <li>🤖 AI costs if your app uses Claude, ChatGPT, or other AI models</li>
     <li>💳 Payment processing fees (Stripe, PayPal, etc.)</li>
     <li>📧 Email services for user notifications</li>
     <li>📊 Analytics to see how people use your app</li>
