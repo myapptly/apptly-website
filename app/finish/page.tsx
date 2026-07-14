@@ -1,4 +1,15 @@
+"use client";
+
+import { useState, useEffect } from "react";
+
 export default function FinishPage() {
+  const [name, setName] = useState("");
+
+  useEffect(() => {
+    const saved = localStorage.getItem("apptly_student_name");
+    if (saved) setName(saved);
+  }, []);
+
   return (
     <main className="min-h-screen bg-[#0D0D0D] text-white px-6 py-10">
       <section className="max-w-5xl mx-auto space-y-10 text-center">
@@ -10,7 +21,7 @@ export default function FinishPage() {
 
         <div className="bg-[#1A1A1A] border border-[#00FF94]/30 rounded-2xl p-6 text-left space-y-4">
           <h1 className="text-4xl font-black text-[#00FF94]">
-            Congratulations!
+            Congratulations{name ? `, ${name}` : ""}!
           </h1>
           <h2 className="text-2xl font-bold">
             You&apos;re officially an AI app builder.
@@ -20,6 +31,19 @@ export default function FinishPage() {
             work with AI, edit code, use screenshots, commit changes in GitHub,
             publish with Vercel, test your work, and keep improving.
           </p>
+
+          {name && (
+            <div className="mt-4 rounded-xl border border-[#00FF94]/40 bg-black/30 p-5 text-center">
+              <p className="text-sm uppercase tracking-widest text-[#00FF94] font-bold mb-2">
+                Certificate of Completion
+              </p>
+              <p className="text-gray-300 text-sm mb-1">This certifies that</p>
+              <p className="text-3xl font-black text-white mb-1">{name}</p>
+              <p className="text-gray-300 text-sm">
+                has successfully completed the APPTLY AI App Builder Course
+              </p>
+            </div>
+          )}
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 text-left space-y-4">
@@ -51,13 +75,13 @@ export default function FinishPage() {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
+          
             href="/dashboard"
             className="bg-[#00FF94] text-black font-bold px-8 py-4 rounded-full text-center"
           >
             Return to Dashboard
           </a>
-          <a
+          
             href="/lesson-1"
             className="bg-white text-black font-bold px-8 py-4 rounded-full text-center"
           >
@@ -67,4 +91,4 @@ export default function FinishPage() {
       </section>
     </main>
   );
-} 
+}
