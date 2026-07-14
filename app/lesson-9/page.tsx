@@ -22,8 +22,6 @@ export default function Lesson9() {
           </p>
         </div>
 
-      </div> 
-
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">Growth Does Not Mean Doing Everything</h2>
           <p className="text-gray-300 leading-relaxed">
