@@ -23,12 +23,6 @@ export default function Lesson6() {
           </p>
         </div>
 
-        <div className="my-10">
-          <img
-            src="/build to profit.png"
-            alt="Grow Your App"
-            className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
-          />
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
