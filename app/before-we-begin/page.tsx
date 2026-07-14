@@ -1,29 +1,3 @@
-export default function BeforeWeBegin() {
-  return (
-    <main className="min-h-screen bg-[#0D0D0D] text-white px-6 py-10">
-      <section className="max-w-4xl mx-auto space-y-8">
-        <a href="/dashboard" className="text-[#00FF94] font-bold hover:underline">
-          ← Back to Dashboard
-        </a>
-
-        <img
-          src="/new logo.png"
-          alt="APPTLY Logo"
-          className="mx-auto w-[300px] max-w-full h-auto"
-        />
-
-        <div>
-          <p className="text-[#00FF94] font-bold uppercase tracking-widest text-sm">
-            Before We Begin
-          </p>
-          <h1 className="text-4xl md:text-6xl font-black mt-3">
-            What You're Really About to Do
-          </h1>
-          <p className="text-gray-300 text-xl mt-4">
-            AI can help you build apps, but you still need a process. This page explains what that process really looks like.
-          </p>
-        </div>
-
   "use client";
 
 import { useState, useEffect } from "react";
