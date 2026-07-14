@@ -71,7 +71,7 @@ export default function BeforeWeBegin() {
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
           <h2 className="text-2xl font-bold">Forget the Magic Button Idea</h2>
           <p className="text-gray-300 leading-relaxed">
-            One of the biggest misconceptions about AI is that you type an idea into ChatGPT
+            One of the biggest misconceptions about AI is that you type an idea into (Claude, ChatGPT, Gemini or similar)
             and a finished app magically appears. It doesn't work that way.
           </p>
           <p className="text-gray-300 leading-relaxed">
@@ -172,7 +172,7 @@ export default function BeforeWeBegin() {
             <li>✅ A reliable internet connection</li>
             <li>✅ An email account you can access</li>
             <li>✅ A cellphone nearby</li>
-            <li>✅ An AI assistant (Claude, ChatGPT, or similar) </li>
+            <li>✅ An AI assistant (Claude, ChatGPT, Gemini or similar) </li>
             <li>✅ A GitHub account</li>
             <li>✅ A Vercel account</li>
             <li>✅ Google Chrome installed</li>
