@@ -1,4 +1,4 @@
-  "use client";
+"use client";
 
 import { useState, useEffect } from "react";
 
@@ -196,7 +196,6 @@ export default function BeforeWeBegin() {
             ← Dashboard
           </a>
 
-          
             href="/lesson-1"
             className="px-6 py-3 rounded-xl bg-[#00FF94] text-black font-semibold hover:opacity-90 transition"
           >
