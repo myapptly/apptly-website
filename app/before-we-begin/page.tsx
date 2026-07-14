@@ -188,21 +188,14 @@ export default function BeforeWeBegin() {
           </p>
         </div>
 
-        <div className="flex gap-4 mt-10">
-          
-            href="/dashboard"
-            className="px-6 py-3 rounded-xl bg-slate-600 hover:bg-slate-500 transition"
-          >
-            ← Dashboard
-          </a>
-
-          
-            href="/lesson-1"
-            className="px-6 py-3 rounded-xl bg-[#00FF94] text-black font-semibold hover:opacity-90 transition"
-          >
-            Start Lesson 1 →
-          </a>
-        </div>
+       <div className="flex gap-4 mt-10">
+<a href="/dashboard" className="px-6 py-3 rounded-xl bg-slate-600 hover:bg-slate-500 transition">
+← Dashboard
+</a>
+<a href="/lesson-1" className="px-6 py-3 rounded-xl bg-[#00FF94] text-black font-semibold hover:opacity-90 transition">
+Start Lesson 1 →
+</a>
+</div>
       </section>
     </main>
   );
