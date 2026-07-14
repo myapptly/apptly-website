@@ -148,7 +148,19 @@ export default function Lesson11() {
       100% Complete · 11 of 11 Lessons
     </span>
   </div>
-</div> 
+</div>
+
+     <div className="text-center">
+  <p className="text-gray-400 text-sm mb-2">
+    Came here from Lesson 1 for help?
+  </p>
+  
+    href="/lesson-1"
+    className="inline-block px-5 py-2 rounded-xl bg-slate-700 hover:bg-slate-600 transition text-sm font-semibold"
+  >
+    ← Back to Lesson 1
+  </a>
+</div>   
         
         <div className="flex gap-4 mt-10">
           <a
