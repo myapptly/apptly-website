@@ -24,7 +24,7 @@ export default function BeforeWeBegin() {
           </p>
         </div>
 
-           "use client";
+   "use client";
 
 import { useState, useEffect } from "react";
 
@@ -44,7 +44,25 @@ export default function BeforeWeBegin() {
   return (
     <main className="min-h-screen bg-[#0D0D0D] text-white px-6 py-10">
       <section className="max-w-4xl mx-auto space-y-8">
-        {/* ...existing back link, logo, headline stay exactly the same... */}
+        <a href="/dashboard" className="text-[#00FF94] font-bold hover:underline">
+          ← Back to Dashboard
+        </a>
+        <img
+          src="/new logo.png"
+          alt="APPTLY Logo"
+          className="mx-auto w-[300px] max-w-full h-auto"
+        />
+        <div>
+          <p className="text-[#00FF94] font-bold uppercase tracking-widest text-sm">
+            Before We Begin
+          </p>
+          <h1 className="text-4xl md:text-6xl font-black mt-3">
+            What You're Really About to Do
+          </h1>
+          <p className="text-gray-300 text-xl mt-4">
+            AI can help you build apps, but you still need a process. This page explains what that process really looks like.
+          </p>
+        </div>
 
         <div className="bg-[#1A1A1A] border border-[#00FF94]/40 rounded-2xl p-6 space-y-3">
           <h2 className="text-2xl font-bold text-[#00FF94]">
@@ -62,8 +80,6 @@ export default function BeforeWeBegin() {
           />
         </div>
 
-        {/* ...rest of the page continues exactly as it already is... */}
-        
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
           <h2 className="text-2xl font-bold text-[#00FF94]">Welcome to APPTLY</h2>
           <p className="text-gray-300 leading-relaxed">
