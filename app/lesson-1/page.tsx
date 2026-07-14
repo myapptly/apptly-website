@@ -41,7 +41,7 @@ export default function LessonOne() {
          
         <div className="my-10">
   <img
-    src="/welcome to apptly.png"
+    src="/lesson 1 pic.png"
     alt="Welcome To Apptly"
     className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
   />
