@@ -154,7 +154,8 @@ export default function Lesson11() {
   <p className="text-gray-400 text-sm mb-2">
     Came here from Lesson 1 for help?
   </p>
-  
+
+       <a
     href="/lesson-1"
     className="inline-block px-5 py-2 rounded-xl bg-slate-700 hover:bg-slate-600 transition text-sm font-semibold"
   >
