@@ -52,7 +52,7 @@ export default function FinishPage() {
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 text-left space-y-4">
   <img
-    src="/cliff1.png"
+    src="/cliffy.png"
     alt="Meet Cliff, your AI partner"
     className="w-full max-w-sm mx-auto rounded-2xl border border-[#00FF94]/30 shadow-2xl"
   />
