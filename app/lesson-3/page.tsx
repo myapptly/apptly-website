@@ -92,6 +92,8 @@ export default function Lesson3() {
     AI can help you build an app through written code, but code is not your
     only option. Some apps can also be created visually with FlutterFlow.
     The best method depends on what you are building and how you prefer to work.
+    Your AI Partner can answer all the questions you can think of to help you start
+    building. If you're confused, just stop and ask a question.
   </p>
 
   <div className="grid gap-5 md:grid-cols-2">
@@ -104,7 +106,8 @@ export default function Lesson3() {
         In this method, AI helps write the code, GitHub stores the project
         files, and Vercel publishes the app online. This gives you direct
         control over the code and works especially well for websites and
-        browser-based applications.
+        browser-based applications. Your AI Partner will walk you through all
+        of the steps for each of these tools.
       </p>
     </div>
 
