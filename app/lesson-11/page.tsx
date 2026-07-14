@@ -20,7 +20,8 @@ export default function Lesson11() {
             Build Like a Pro
           </h1>
           <p className="text-gray-300 mt-4 text-xl">
-            Learn how ChatGPT, GitHub, Vercel, screenshots, banners, testing, and fixes all work together.
+            Learn how your AI Partner (Claude, ChatGPT, Gemini, or other), GitHub, Vercel, 
+            screenshots, banners, testing, and fixes all work together.
           </p>
         </div>
 
@@ -39,14 +40,14 @@ export default function Lesson11() {
             build, test, fix, and improve.
           </p>
           <div className="bg-black/40 border border-[#00FF94]/30 rounded-xl p-5 text-gray-200 text-lg leading-relaxed">
-            Idea → ChatGPT → GitHub → Vercel → Test → Fix → Repeat
+            Idea → Your AI Partner → GitHub → Vercel → Test → Fix → Repeat
           </div>
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">The Tabs You’ll Keep Open</h2>
           <ul className="space-y-3 text-gray-300">
-            <li>✅ ChatGPT — for planning, writing, coding, and troubleshooting</li>
+            <li>✅ AI Partner (Claude, ChatGPT, Gemini, etc.) — for planning, writing, coding, and troubleshooting</li>
             <li>✅ GitHub — for editing files and committing changes</li>
             <li>✅ Vercel — for deployment status and live publishing</li>
             <li>✅ Your live website — to test what users actually see</li>
@@ -55,7 +56,7 @@ export default function Lesson11() {
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
-          <h2 className="text-2xl font-bold">Ask AI Better Questions</h2>
+          <h2 className="text-2xl font-bold">Ask Your AI Partner Better Questions</h2>
           <p className="text-gray-300 leading-relaxed">
             Do not just say, “It doesn’t work.” Give AI enough information to help you.
           </p>
@@ -74,7 +75,7 @@ export default function Lesson11() {
           <ul className="space-y-3 text-gray-300">
             <li>1. Make one small change.</li>
             <li>2. Commit the change in GitHub.</li>
-            <li>3. Wait for Vercel to deploy.</li>
+            <li>3. Wait for Vercel to deploy (it could take up to a minute or so).</li>
             <li>4. Refresh your live website.</li>
             <li>5. Test it on desktop and mobile.</li>
             <li>6. Repeat until it works exactly the way you want.</li>
@@ -85,7 +86,9 @@ export default function Lesson11() {
           <h2 className="text-2xl font-bold">Making Banners, Images, and Videos</h2>
           <p className="text-gray-300 leading-relaxed">
             Graphics make your app feel more real. Use AI or Canva to create banners,
-            lesson images, social posts, and short video ideas.
+            lesson images, social posts, and short video ideas. Make sure your graphics
+            fit withing legal guidelines. Never use someone's protected, copyright 
+            protected material. Your AI Partner can help you know what is legal.
           </p>
           <p className="text-gray-300 leading-relaxed">
             Save your images with simple file names like:
@@ -113,7 +116,7 @@ export default function Lesson11() {
         <div className="bg-[#000000] border border-[#00FF94]/40 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">Your Action Step</h2>
           <p className="text-gray-300 leading-relaxed">
-            Open the tools you use most: ChatGPT, GitHub, Vercel, your live app,
+            Open the tools you use most: Your AI Partner, GitHub, Vercel, your live app,
             and your image folder. Bookmark them. Keep them ready. This is your
             app-building command center.
           </p>
@@ -122,7 +125,8 @@ export default function Lesson11() {
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">A Little Reminder</h2>
           <p className="text-gray-300 leading-relaxed">
-            You're no longer learning how to build an app. You're learning a skill that can create apps, businesses, websites, and income for years to come.
+            You're no longer learning how to build an app. You're learning a skill that can create apps, 
+            businesses, websites, and income for years to come.
           </p>
         </div>
 
