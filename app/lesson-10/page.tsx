@@ -29,8 +29,7 @@ export default function Lesson10() {
     className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
   />
 </div> 
-
-
+        
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">You Built More Than an App</h2>
           <p className="text-gray-300 leading-relaxed">
@@ -89,21 +88,6 @@ export default function Lesson10() {
             Let it be your first.
           </p>
         </div>
-        
-<div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
-  <h2 className="text-2xl font-bold text-[#00FF94]">
-    Affiliate Marketing
-  </h2>
-
-  <p className="text-gray-300 leading-relaxed">
-    You do not always have to sell your own product. Sometimes you can make
-    money by recommending someone else&apos;s product or service.
-  </p>
-
-  <p className="text-gray-300 leading-relaxed">
-    When a user clicks your special affiliate link and buys something, you may
-    earn a commission.
-  </p>
 
 <div className="bg-[#1A1A1A] border border-cyan-500/30 rounded-2xl p-6 mt-8">
   <h2 className="text-2xl font-bold text-cyan-400 mb-4">
@@ -234,8 +218,7 @@ export default function Lesson10() {
 >
   Go To Lesson 11 →
 </a>
-        </div>
-       </div>
+      </div>
     </section>
   </main>
 );
