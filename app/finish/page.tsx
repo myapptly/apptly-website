@@ -46,9 +46,7 @@ export default function FinishPage() {
           )}
         </div>
 
-        <div class="meet-cliff-section">
-  <img src="cliff.png" alt="Meet Cliff, your AI partner" class="cliff-image" />
-  <h2>Meet Cliff</h2>
+        <h2>Meet Cliff</h2>
   <p>I call my AI Partner <strong>Cliff</strong> because I watched <em>Cheers</em>...</p>
 </div> 
 
