@@ -24,7 +24,7 @@ export default function BeforeWeBegin() {
           </p>
         </div>
 
-   "use client";
+  "use client";
 
 import { useState, useEffect } from "react";
 
@@ -47,11 +47,13 @@ export default function BeforeWeBegin() {
         <a href="/dashboard" className="text-[#00FF94] font-bold hover:underline">
           ← Back to Dashboard
         </a>
+
         <img
           src="/new logo.png"
           alt="APPTLY Logo"
           className="mx-auto w-[300px] max-w-full h-auto"
         />
+
         <div>
           <p className="text-[#00FF94] font-bold uppercase tracking-widest text-sm">
             Before We Begin
@@ -108,71 +110,70 @@ export default function BeforeWeBegin() {
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
-
           <div className="my-8">
-    <img
-      src="/before%20we%20begin.png"
-      alt="Before We Begin"
-      className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
-    />
-  </div>
-</div>          
+            <img
+              src="/before%20we%20begin.png"
+              alt="Before We Begin"
+              className="w-full rounded-2xl border border-[#00FF94]/30 shadow-2xl"
+            />
+          </div>
+        </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
           <h2 className="text-2xl font-bold">The Real Process</h2>
 
-         <ul className="space-y-4 text-gray-300 leading-relaxed">
-  <li>
-    ✅ <strong className="text-white">Start with your idea.</strong> Open your
-    laptop. Open AI. Describe your app idea and write a clear prompt.
-  </li>
+          <ul className="space-y-4 text-gray-300 leading-relaxed">
+            <li>
+              ✅ <strong className="text-white">Start with your idea.</strong> Open your
+              laptop. Open AI. Describe your app idea and write a clear prompt.
+            </li>
 
-  <li>
-    ✅ <strong className="text-white">Choose the simplest building method.</strong>{" "}
-    Use AI-generated code with GitHub and Vercel, or build visually with
-    FlutterFlow.
-  </li>
+            <li>
+              ✅ <strong className="text-white">Choose the simplest building method.</strong>{" "}
+              Use AI-generated code with GitHub and Vercel, or build visually with
+              FlutterFlow.
+            </li>
 
-  <li>
-    ✅ <strong className="text-white">Add saved data only when needed.</strong>{" "}
-    If your app needs user accounts, customer information, appointments,
-    messages, progress, or other changing data, you may connect Firestore.
-  </li>
+            <li>
+              ✅ <strong className="text-white">Add saved data only when needed.</strong>{" "}
+              If your app needs user accounts, customer information, appointments,
+              messages, progress, or other changing data, you may connect Firestore.
+            </li>
 
-  <li>
-    ✅ <strong className="text-white">Build one part at a time.</strong> Test the
-    app. Find what does not work. Go back to AI and explain the problem clearly.
-  </li>
+            <li>
+              ✅ <strong className="text-white">Build one part at a time.</strong> Test the
+              app. Find what does not work. Go back to AI and explain the problem clearly.
+            </li>
 
-  <li>
-    ✅ <strong className="text-white">Make one correction at a time.</strong>{" "}
-    Test again and repeat the process until the app works the way you want.
-  </li>
+            <li>
+              ✅ <strong className="text-white">Make one correction at a time.</strong>{" "}
+              Test again and repeat the process until the app works the way you want.
+            </li>
 
-  <li>
-    ✅ <strong className="text-white">Pay close attention to AI&apos;s instructions.</strong>{" "}
-    Work in small steps so the process does not become overwhelming, especially
-    in the beginning.
-  </li>
+            <li>
+              ✅ <strong className="text-white">Pay close attention to AI&apos;s instructions.</strong>{" "}
+              Work in small steps so the process does not become overwhelming, especially
+              in the beginning.
+            </li>
 
-  <li>
-    ⚠️ <strong className="text-white">Do not let AI change everything at once.</strong>{" "}
-    Your AI partner may try to rewrite a large amount of code after one
-    instruction. Give explicit instructions and ask it to change only what is
-    necessary.
-  </li>
+            <li>
+              ⚠️ <strong className="text-white">Do not let AI change everything at once.</strong>{" "}
+              Your AI partner may try to rewrite a large amount of code after one
+              instruction. Give explicit instructions and ask it to change only what is
+              necessary.
+            </li>
 
-  <li>
-    👉 <strong className="text-white">Ask AI where to go next.</strong> Make sure
-    it understands what you want before moving on.
-  </li>
+            <li>
+              👉 <strong className="text-white">Ask AI where to go next.</strong> Make sure
+              it understands what you want before moving on.
+            </li>
 
-  <li>
-    ⏳ <strong className="text-[#00FF94]">BE PATIENT!</strong> Building a good app
-    takes time. Slow down, follow the steps, and do it right.
-  </li>
-</ul> 
-    
+            <li>
+              ⏳ <strong className="text-[#00FF94]">BE PATIENT!</strong> Building a good app
+              takes time. Slow down, follow the steps, and do it right.
+            </li>
+          </ul>
+
           <p className="text-[#00FF94] font-bold">
             Repeat. That is how real apps get built.
           </p>
@@ -214,14 +215,14 @@ export default function BeforeWeBegin() {
         </div>
 
         <div className="flex gap-4 mt-10">
-          <a
+          
             href="/dashboard"
             className="px-6 py-3 rounded-xl bg-slate-600 hover:bg-slate-500 transition"
           >
             ← Dashboard
           </a>
 
-          <a
+          
             href="/lesson-1"
             className="px-6 py-3 rounded-xl bg-[#00FF94] text-black font-semibold hover:opacity-90 transition"
           >
