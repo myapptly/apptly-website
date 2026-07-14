@@ -24,6 +24,46 @@ export default function BeforeWeBegin() {
           </p>
         </div>
 
+           "use client";
+
+import { useState, useEffect } from "react";
+
+export default function BeforeWeBegin() {
+  const [name, setName] = useState("");
+
+  useEffect(() => {
+    const saved = localStorage.getItem("apptly_student_name");
+    if (saved) setName(saved);
+  }, []);
+
+  const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setName(e.target.value);
+    localStorage.setItem("apptly_student_name", e.target.value);
+  };
+
+  return (
+    <main className="min-h-screen bg-[#0D0D0D] text-white px-6 py-10">
+      <section className="max-w-4xl mx-auto space-y-8">
+        {/* ...existing back link, logo, headline stay exactly the same... */}
+
+        <div className="bg-[#1A1A1A] border border-[#00FF94]/40 rounded-2xl p-6 space-y-3">
+          <h2 className="text-2xl font-bold text-[#00FF94]">
+            Before You Begin, Tell Us Your Name
+          </h2>
+          <p className="text-gray-300 leading-relaxed">
+            We'll use this to personalize your certificate when you finish the course.
+          </p>
+          <input
+            type="text"
+            value={name}
+            onChange={handleNameChange}
+            placeholder="Enter your full name"
+            className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-[#00FF94] transition-colors"
+          />
+        </div>
+
+        {/* ...rest of the page continues exactly as it already is... */}
+        
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
           <h2 className="text-2xl font-bold text-[#00FF94]">Welcome to APPTLY</h2>
           <p className="text-gray-300 leading-relaxed">
