@@ -25,7 +25,7 @@ export default function FinishPage() {
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 text-left space-y-4">
           <h2 className="text-2xl font-bold text-white">Meet Cliff</h2>
           <p className="text-gray-300 leading-relaxed">
-            I call ChatGPT <strong>Cliff</strong> because I grew up watching
+            I call my AI Partner <strong>Cliff</strong> because I watched 
             <em> Cheers</em>. Cliff Clavin was the mailman who always seemed to
             have an answer for everything — even when nobody asked.
           </p>
