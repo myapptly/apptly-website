@@ -172,7 +172,7 @@ export default function BeforeWeBegin() {
             <li>✅ A reliable internet connection</li>
             <li>✅ An email account you can access</li>
             <li>✅ A cellphone nearby</li>
-            <li>✅ A ChatGPT account or another AI assistant</li>
+            <li>✅ An AI assistant (Claude, ChatGPT, or similar) </li>
             <li>✅ A GitHub account</li>
             <li>✅ A Vercel account</li>
             <li>✅ Google Chrome installed</li>
@@ -184,7 +184,7 @@ export default function BeforeWeBegin() {
           <h2 className="text-2xl font-bold mb-4">The Most Important Thing</h2>
           <p className="text-gray-300 leading-relaxed">
             You don't need coding experience. You don't need a computer science degree.
-            You just need to be willing to learn one step at a time.
+            You just need to be patient and be willing to learn one step at a time.
           </p>
         </div>
 
