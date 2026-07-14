@@ -76,13 +76,13 @@ export default function FinishPage() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           
-            href="/dashboard"
+           <a href="/dashboard"
             className="bg-[#00FF94] text-black font-bold px-8 py-4 rounded-full text-center"
           >
             Return to Dashboard
           </a>
           
-            href="/lesson-1"
+           <a href="/lesson-1"
             className="bg-white text-black font-bold px-8 py-4 rounded-full text-center"
           >
             Start Again
