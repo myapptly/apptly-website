@@ -46,6 +46,12 @@ export default function FinishPage() {
           )}
         </div>
 
+        <div class="meet-cliff-section">
+  <img src="cliff" alt="Meet Cliff, your AI partner" class="cliff-image" />
+  <h2>Meet Cliff</h2>
+  <p>I call my AI Partner <strong>Cliff</strong> because I watched <em>Cheers</em>...</p>
+</div> 
+
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 text-left space-y-4">
           <h2 className="text-2xl font-bold text-white">Meet Cliff</h2>
           <p className="text-gray-300 leading-relaxed">
