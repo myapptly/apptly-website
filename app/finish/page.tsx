@@ -47,6 +47,11 @@ export default function FinishPage() {
         </div>
 
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 text-left space-y-4">
+          <img
+            src="/cliffy.png"
+            alt="Meet Cliff, your AI partner"
+            className="w-full max-w-sm mx-auto rounded-2xl border border-[#00FF94]/30 shadow-2xl"
+          />
           <h2 className="text-2xl font-bold text-white">Meet Cliff</h2>
           <p className="text-gray-300 leading-relaxed">
             I call my AI Partner <strong>Cliff</strong> because I watched 
@@ -76,14 +81,14 @@ export default function FinishPage() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           
-            href="/dashboard"
+            <a href="/dashboard"
             className="bg-[#00FF94] text-black font-bold px-8 py-4 rounded-full text-center"
           >
             Return to Dashboard
           </a>
 
           
-            href="/lesson-1"
+           <a href="/lesson-1"
             className="bg-white text-black font-bold px-8 py-4 rounded-full text-center"
           >
             Start Again
