@@ -23,8 +23,6 @@ export default function Lesson6() {
           </p>
         </div>
 
-        </div>
-
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
           <h2 className="text-2xl font-bold">Version 1 Is Not the Finish Line</h2>
           <p className="text-gray-300 leading-relaxed">
