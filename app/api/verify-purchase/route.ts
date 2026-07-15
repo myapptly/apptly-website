@@ -1,13 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: "2025-02-24.acacia",
-});
-
 // GET /api/verify-purchase?session_id=xxxx
 // Called right after Stripe redirects a customer back to /dashboard
 export async function GET(req: NextRequest) {
+  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+    apiVersion: "2025-02-24.acacia",
+  });
+
   const sessionId = req.nextUrl.searchParams.get("session_id");
 
   if (!sessionId) {
