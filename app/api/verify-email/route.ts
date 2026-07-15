@@ -14,16 +14,17 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Missing email" }, { status: 400 });
   }
 
-  const charges = await stripe.charges.list({ limit: 100 });
   const normalizedEmail = email.toLowerCase().trim();
 
-  const matchingCharges = charges.data.filter((c) => {
-    const billingEmail = c.billing_details?.email?.toLowerCase().trim();
-    const receiptEmail = c.receipt_email?.toLowerCase().trim();
-    return billingEmail === normalizedEmail || receiptEmail === normalizedEmail;
-  });
+  const sessions = await stripe.checkout.sessions.list({ limit: 100 });
 
-  const hasValidPurchase = matchingCharges.some((c) => c.paid && !c.refunded);
+  const hasValidPurchase = sessions.data.some((s) => {
+    const sessionEmail = s.customer_details?.email?.toLowerCase().trim();
+    return (
+      sessionEmail === normalizedEmail &&
+      s.payment_status === "paid"
+    );
+  });
 
   if (hasValidPurchase) {
     const response = NextResponse.json({ access: true });
