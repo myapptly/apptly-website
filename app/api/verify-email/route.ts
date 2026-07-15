@@ -15,9 +15,13 @@ export async function POST(req: NextRequest) {
   }
 
   const charges = await stripe.charges.list({ limit: 100 });
-  const matchingCharges = charges.data.filter(
-    (c) => c.billing_details?.email?.toLowerCase() === email.toLowerCase()
-  );
+  const normalizedEmail = email.toLowerCase().trim();
+
+  const matchingCharges = charges.data.filter((c) => {
+    const billingEmail = c.billing_details?.email?.toLowerCase().trim();
+    const receiptEmail = c.receipt_email?.toLowerCase().trim();
+    return billingEmail === normalizedEmail || receiptEmail === normalizedEmail;
+  });
 
   const hasValidPurchase = matchingCharges.some((c) => c.paid && !c.refunded);
 
