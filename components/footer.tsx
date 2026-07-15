@@ -21,6 +21,8 @@ export function Footer() {
           <a href="#pricing" className="hover:text-white transition-colors">Pricing</a>
           <a href="#about" className="hover:text-white transition-colors">About</a>
           <a href="#contact" className="hover:text-white transition-colors">Contact</a>
+          <a href="/terms" className="hover:text-white transition-colors">Terms</a>
+          <a href="/privacy" className="hover:text-white transition-colors">Privacy</a>
         </div>
 
         <p className="text-gray-600 text-sm text-center">
