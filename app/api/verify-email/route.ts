@@ -14,16 +14,12 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Missing email" }, { status: 400 });
   }
 
-  const customers = await stripe.customers.list({ email, limit: 1 });
+  const charges = await stripe.charges.list({ limit: 100 });
+  const matchingCharges = charges.data.filter(
+    (c) => c.billing_details?.email?.toLowerCase() === email.toLowerCase()
+  );
 
-  if (customers.data.length === 0) {
-    return NextResponse.json({ access: false }, { status: 404 });
-  }
-
-  const customer = customers.data[0];
-  const charges = await stripe.charges.list({ customer: customer.id, limit: 20 });
-
-  const hasValidPurchase = charges.data.some((c) => c.paid && !c.refunded);
+  const hasValidPurchase = matchingCharges.some((c) => c.paid && !c.refunded);
 
   if (hasValidPurchase) {
     const response = NextResponse.json({ access: true });
