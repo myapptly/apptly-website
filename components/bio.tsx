@@ -150,6 +150,48 @@ export function Bio() {
 
   </div>
 
+             <div className="bg-[#111111] border border-[#00FF94] rounded-2xl p-8 space-y-5 mt-8">
+  <h2 className="text-3xl md:text-4xl font-black leading-tight">
+    I'M NO DEVELOPER! <span className="text-[#00FF94]">I DEVELOPED APPTLY!</span>
+  </h2>
+
+  <p className="text-gray-300 leading-relaxed">
+    One month ago, I had no idea where to start. All I did was ask AI one question:
+    <span className="text-white font-semibold"> "How can I build an app that teaches people with no computer skills how to build an app?"</span>
+  </p>
+
+  <p className="text-lg text-white leading-relaxed">
+    One month later, APPTLY was live. Real logins. Real payments. A real app, built by
+    someone who'd never built one before — using the exact process I can teach you.
+  </p>
+
+  <p className="text-gray-300 leading-relaxed">
+    Most "learn to build with AI" courses stop at the prototype. You end up with
+    something that looks like an app in a demo, but breaks the moment a real person
+    tries to log in or pay.
+  </p>
+
+  <p className="text-gray-300 leading-relaxed">
+    APPTLY goes further. By the end, you'll have built an app with:
+  </p>
+
+  <div className="bg-[#003322] border border-[#00FF94]/30 rounded-xl p-6 space-y-2">
+    <p>✅ Real user accounts — people can sign up and log back in</p>
+    <p>✅ Real payments — Stripe checkout that actually charges cards</p>
+    <p>✅ Real hosting — a live URL you can share today, not a local file</p>
+  </div>
+
+  <p className="text-gray-300 leading-relaxed">
+    You won't just learn the tools. You'll walk away with a working product and the
+    exact process to build your next one — faster.
+  </p>
+
+  <div className="text-center pt-4">
+    <p className="text-3xl font-bold text-[#00FF94]">$37</p>
+    <p className="text-gray-400 text-sm">One payment. No subscription.</p>
+  </div>
+</div> 
+
   <div className="bg-[#003322] border border-[#00FF94] rounded-xl p-6">
 
     <p className="text-2xl font-bold text-white">
