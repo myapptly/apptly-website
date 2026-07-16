@@ -2,48 +2,17 @@ import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 
 // POST /api/verify-email  { email: "student@example.com" }
-// Used on the /login page for returning customers without a valid cookie
+// TEMPORARY DEBUG STEP — checks whether STRIPE_SECRET_KEY is actually
+// present at runtime, without exposing the key itself.
 export async function POST(req: NextRequest) {
-  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-    apiVersion: "2025-02-24.acacia",
+  const keyExists = typeof process.env.STRIPE_SECRET_KEY === "string";
+  const keyLength = process.env.STRIPE_SECRET_KEY?.length || 0;
+  const keyPrefix = process.env.STRIPE_SECRET_KEY?.slice(0, 8) || "MISSING";
+
+  return NextResponse.json({
+    debug: true,
+    keyExists,
+    keyLength,
+    keyPrefix,
   });
-
-  const { email } = await req.json();
-
-  if (!email || typeof email !== "string") {
-    return NextResponse.json({ error: "Missing email" }, { status: 400 });
-  }
-
-  const normalizedEmail = email.toLowerCase().trim();
-
-  // Look through recent checkout sessions for a paid match.
-  // limit: 100 covers recent purchases; increase further if your
-  // customer volume grows and older purchases start getting missed.
-  const sessions = await stripe.checkout.sessions.list({ limit: 100 });
-
-  const match = sessions.data.find((s) => {
-    const sessionEmail = (s.customer_details?.email || s.customer_email || "")
-      .toLowerCase()
-      .trim();
-    return sessionEmail === normalizedEmail && s.payment_status === "paid";
-  });
-
-  if (!match) {
-    return NextResponse.json({ access: false }, { status: 402 });
-  }
-
-  const response = NextResponse.json({
-    access: true,
-    email: normalizedEmail,
-  });
-
-  response.cookies.set("apptly_access", "granted", {
-    httpOnly: true,
-    secure: true,
-    sameSite: "lax",
-    maxAge: 60 * 60 * 24 * 365,
-    path: "/",
-  });
-
-  return response;
 } 
