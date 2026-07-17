@@ -55,6 +55,23 @@ export default function Lesson11() {
           </ul>
         </div>
 
+        <div className="bg-[#111111] rounded-2xl p-6 mt-6">
+  <h2 className="text-2xl font-bold text-white mb-4">
+    Two More Tools You Might Use
+  </h2>
+  <p className="text-gray-300 leading-relaxed mb-4">
+    Not every app needs these — only add them if your app needs saved data or you'd rather build visually instead of with code.
+  </p>
+  <p className="text-white font-semibold mb-1">Firestore (by Google)</p>
+  <p className="text-gray-300 leading-relaxed mb-4">
+    A place to store information your app needs to remember — user accounts, messages, appointments, progress. You only need this if your app saves or changes data.
+  </p>
+  <p className="text-white font-semibold mb-1">FlutterFlow</p>
+  <p className="text-gray-300 leading-relaxed">
+    A visual way to build an app by dragging and connecting pieces, instead of writing code with GitHub and Vercel. Some people prefer this method — it's a different path to the same result.
+  </p>
+</div> 
+
         <div className="bg-[#1A1A1A] border border-white/10 rounded-2xl p-6 space-y-4">
           <h2 className="text-2xl font-bold">Ask Your AI Partner Better Questions</h2>
           <p className="text-gray-300 leading-relaxed">
