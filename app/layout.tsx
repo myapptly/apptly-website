@@ -9,8 +9,22 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "APPTLY — Build Profitable Apps Starting Today",
-  description: "APPTLY teaches you to build, launch, and monetize your own profitable app — step by step. Get lifetime access for on $37 payment.",
-};
+  description: "APPTLY teaches you to build, launch, and monetize your own profitable...",
+  openGraph: {
+    title: "APPTLY — Build Profitable Apps Starting Today",
+    description: "Learn to build, launch, and grow real AI apps with simple step-by-step guidance. No coding experience required.",
+    url: "https://myapptly.com",
+    siteName: "APPTLY",
+    images: [
+      {
+        url: "https://myapptly.com/og-image.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+}; 
 
 export default function RootLayout({
   children,
