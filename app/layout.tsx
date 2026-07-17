@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: "APPTLY",
     images: [
       {
-        url: "https://myapptly.com/og-image.png",
+        url: "https://myapptly.com/apptly%20logo.png", 
         width: 1200,
         height: 630,
       },
