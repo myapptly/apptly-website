@@ -44,6 +44,12 @@ export function Pricing() {
           </p>
         </motion.div>
 
+        <p className="text-gray-400 text-sm text-center mt-3">
+  🛡️ 7-Day Money-Back Guarantee — If for any reason you are not completely
+  satisfied, request a refund within 7 days of purchase. Refunds are processed
+  within 5–7 business days.
+</p> 
+
         <div className="grid grid-cols-1 max-w-3xl mx-auto w-full">
           {plans.map((plan, i) => (
             <motion.div
