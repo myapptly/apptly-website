@@ -5,6 +5,7 @@ import { Hero } from "@/components/hero";
 import { Features } from "@/components/features";
 import { Pricing } from "@/components/pricing";
 import { Bio } from "@/components/bio";
+import { Testimonials } from "@/components/testimonials"; 
 import { Disclaimer } from "@/components/disclaimer";
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
@@ -22,14 +23,11 @@ export default function Home() {
 <div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
 <Bio />
 <div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
-<Pricing />
+<Testimonials />
 <div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
-<Disclaimer />
-
+<Pricing /> 
 <div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
-
 <Contact />
-
 <Footer /> 
     </main>
   );
