@@ -43,6 +43,20 @@ export function Disclaimer() {
           <div className="border-t border-white/10 pt-5 text-center">
             <p className="text-2xl font-black text-[#00FF94]">No promises. Just possibility.</p>
           </div>
+          <div className="border-t border-white/10 pt-5">
+  <p className="text-[#00FF94] font-bold text-sm uppercase tracking-widest mb-2">Refund Policy</p>
+  <h2 className="text-3xl font-black mb-3">7-Day Money-Back Guarantee</h2>
+  <p className="text-gray-300 leading-relaxed">
+    We want you to be satisfied with APPTLY. If you&apos;re not completely satisfied, you may request a full refund within 7 days of your purchase date.
+  </p>
+  <p className="text-gray-300 leading-relaxed mt-3">
+    To request a refund, email support@myapptly.com with your purchase email address and order details. Refunds are typically processed within 5–7 business days and returned to your original payment method.
+  </p>
+  <p className="text-gray-300 leading-relaxed mt-3">
+    Please note: access to course materials will be revoked upon refund approval. Refund requests submitted after the 7-day window will be evaluated on a case-by-case basis.
+  </p>
+</div> 
+
         </motion.div>
       </div>
     </section>
