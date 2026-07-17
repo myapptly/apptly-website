@@ -6,7 +6,7 @@ import { Features } from "@/components/features";
 import { Pricing } from "@/components/pricing";
 import { Bio } from "@/components/bio";
 import { Testimonials } from "@/components/testimonials";
-import { WhyApptly } from "@/components/why-apptly";
+import { WhyApptly } from "@/components/WhyApptly";
 import { Disclaimer } from "@/components/disclaimer";
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
@@ -26,7 +26,9 @@ export default function Home() {
 <div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
 <Testimonials />
 <div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
-<Pricing /> 
+<WhyApptly />
+<div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
+<Pricing />
 <div className="mx-auto h-px w-[90%] max-w-6xl bg-white/10" />
 <Contact />
 <Footer /> 
