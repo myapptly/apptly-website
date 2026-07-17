@@ -113,6 +113,52 @@ export default function Lesson11() {
           </ul>
         </div>
 
+        <div className="bg-[#111111] rounded-2xl p-6 mt-8">
+  <h2 className="text-2xl font-bold text-white mb-4">
+    A Real Example From Building APPTLY
+  </h2>
+
+  <p className="text-gray-300 leading-relaxed mb-4">
+    While building APPTLY's own website, I got an email from Firebase that looked like this:
+  </p>
+
+  <blockquote className="border-l-4 border-[#00FF94] pl-4 italic text-white mb-4">
+    "Client access to your Cloud Firestore database expiring in 4 days."
+  </blockquote>
+
+  <p className="text-gray-300 leading-relaxed mb-4">
+    My first thought was panic — I had no idea what it meant. Turns out, it was warning me that my database was wide open to the internet, and it was about to lock down automatically.
+  </p>
+
+  <p className="text-gray-300 leading-relaxed mb-4">
+    I worked through it with my AI partner, and the actual fix was just a few lines of code:
+  </p>
+
+  <div className="bg-[#000000] border border-[#00FF94]/30 rounded-xl p-4 mb-4 font-mono text-sm text-gray-300 overflow-x-auto">
+    <div className="text-red-400">// Before: open to anyone</div>
+    <div>allow read, write: if request.time &lt; timestamp.date(2026,7,21);</div>
+    <div className="mt-2 text-[#00FF94]">// After: locked to each user's own data</div>
+    <div>allow read, write: if request.auth.uid == document;</div>
+  </div>
+
+  <p className="text-gray-300 leading-relaxed mb-2">
+    That's it. Two lines, and the site never went down.
+  </p>
+
+  <p className="text-white font-semibold">
+    The lesson: scary-looking technical emails are usually just warnings, not emergencies. Read them slowly, ask your AI partner to translate them, and fix them calmly.
+  </p>
+</div>
+
+<div className="bg-[#111111] rounded-2xl p-6 mt-6">
+  <h2 className="text-2xl font-bold text-white mb-4">
+    Mistakes Happen Even With a Process
+  </h2>
+  <p className="text-gray-300 leading-relaxed">
+    While adding a new feature, the same code accidentally got pasted in twice — once in the page layout, once again a few lines down. The site didn't break, but it wasn't clean. Catching it just meant re-reading the file carefully before publishing. This happens to everyone, including the person who wrote this course.
+  </p>
+</div> 
+
         <div className="bg-[#000000] border border-[#00FF94]/40 rounded-2xl p-6">
           <h2 className="text-2xl font-bold mb-4">Your Action Step</h2>
           <p className="text-gray-300 leading-relaxed">
