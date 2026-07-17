@@ -50,7 +50,7 @@ export function Pricing() {
   within 5–7 business days.
 </p> 
 
-        <div className="grid grid-cols-1 max-w-3xl mx-auto w-full">
+        <div className="grid grid-cols-1 max-w-3xl mx-auto w-full mt-8">
           {plans.map((plan, i) => (
             <motion.div
               key={plan.name}
