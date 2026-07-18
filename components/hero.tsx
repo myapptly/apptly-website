@@ -39,7 +39,7 @@ export function Hero() {
             We figured it out so you don&apos;t have to.
           </p>
 
-          <p className="text-lg text-[#D8DBD2] leading-relaxed">
+          <p className="text-lg font-bold text-white leading-relaxed">
             Learn to build, launch, and grow real AI apps.
             <br />
             No coding experience required.
@@ -51,7 +51,7 @@ export function Hero() {
               <path d="M6 22 L20 32 L34 22" stroke="#39FF8C" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             <div className="flex items-center gap-2">
-              <div className="text-base uppercase tracking-widest text-[#D8DBD2]">
+              <div className="text-base font-bold uppercase tracking-widest text-white">
                 72-year-old veteran.
                 <br />
                 Zero clue about code.
@@ -98,8 +98,16 @@ export function Hero() {
               <span className="font-medium">$12</span>
             </div>
             <div className="flex justify-between py-1.5 font-mono text-sm">
-              <span>Hosting (free tier)</span>
+              <span>Hosting (Vercel, free tier)</span>
               <span className="font-medium">$0</span>
+            </div>
+            <div className="flex justify-between py-1.5 font-mono text-sm">
+              <span>Code storage (GitHub, free)</span>
+              <span className="font-medium">$0</span>
+            </div>
+            <div className="flex justify-between py-1.5 font-mono text-sm">
+              <span>AI tools (1 month)</span>
+              <span className="font-medium">$20</span>
             </div>
             <div className="flex justify-between py-1.5 font-mono text-sm">
               <span>APPTLY course</span>
@@ -110,7 +118,7 @@ export function Hero() {
 
             <div className="flex items-baseline justify-between font-mono">
               <span className="text-xs uppercase tracking-wide text-[#6B6E5F]">Total to launch</span>
-              <span className="text-3xl font-bold text-[#C1442E]">$49</span>
+              <span className="text-3xl font-bold text-[#C1442E]">$69</span>
             </div>
           </div>
 
