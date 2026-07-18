@@ -82,19 +82,6 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.25 }}
           className="flex flex-col items-start gap-9"
         >
-          <div
-            className="w-full max-w-sm -rotate-2 rounded-t bg-[#F7F3EA] p-6 pb-9 text-[#1C1B19] shadow-2xl"
-            style={{
-              clipPath:
-                "polygon(0% 0%, 100% 0%, 100% 92%, 95% 100%, 90% 92%, 85% 100%, 80% 92%, 75% 100%, 70% 92%, 65% 100%, 60% 92%, 55% 100%, 50% 92%, 45% 100%, 40% 92%, 35% 100%, 30% 92%, 25% 100%, 20% 92%, 15% 100%, 10% 92%, 5% 100%, 0% 92%)",
-            }}
-          >
-            <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.25 }}
-          className="flex flex-col items-start gap-9"
-        >
           <div className="flex items-center gap-2.5">
             <img src="/APPTLY%20logo.png" alt="APPTLY" className="h-10 w-auto" />
             <span className="font-black text-3xl tracking-wide">APPTLY</span>
