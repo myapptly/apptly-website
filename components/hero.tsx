@@ -101,7 +101,8 @@ export function Hero() {
           </div>
 
           <div
-            className="w-full max-w-sm -rotate-2 rounded-t bg-[#F7F3EA] p-6 pb-9 text-[#1C1B19] shadow-2xl" 
+            className="w-full max-w-sm -rotate-2 rounded-t bg-[#F7F3EA] p-6 pb-9 text-[#1C1B19] shadow-2xl"> 
+          
 <div className="mb-3 border-b border-dashed border-[#C9C3B4] pb-3 text-center font-mono text-xs uppercase tracking-widest text-[#6B6E5F]">
               Cost to launch — receipt
             </div>
