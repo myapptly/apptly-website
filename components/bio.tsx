@@ -142,7 +142,7 @@ export function Bio() {
 
   <div className="bg-[#111111] border border-[#00FF94]/30 rounded-xl p-6 space-y-2">
 
-    <p>✅ Domain name: About $10</p>
+    <p>✅ Domain name: Namecheap $12</p>
     <p>✅ GitHub: Free</p>
     <p>✅ Vercel hosting: Free</p>
     <p>✅ Stripe: Free until you make a sale</p>
