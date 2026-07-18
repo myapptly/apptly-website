@@ -1,60 +1,64 @@
 "use client";
 
+import { motion } from "framer-motion";
+
+const competitors = [
+  { name: "Coursera — AI Apps Specialization", note: "Bundled subscription, not standalone", cost: "$199/year" },
+  { name: "DeepLearning.AI — Build with Andrew", note: "Ongoing membership required", cost: "$25–30/month" },
+  { name: "No Code MBA", note: "Recurring monthly cost", cost: "Subscription" },
+  { name: "Udemy Vibe Coding Courses", note: "One-time, but prototype-level only", cost: "$20–90" },
+];
+
 export function WhyApptly() {
-  const comparisons = [
-    {
-      name: "Coursera – AI Apps Specialization",
-      price: "$199/year",
-      note: "Bundled subscription, not standalone",
-    },
-    {
-      name: "DeepLearning.AI – Build with Andrew",
-      price: "$25–30/month",
-      note: "Ongoing membership required",
-    },
-    {
-      name: "No Code MBA",
-      price: "Subscription",
-      note: "Recurring monthly cost",
-    },
-    {
-      name: "Udemy Vibe Coding Courses",
-      price: "$20–90",
-      note: "One-time, but prototype-level only",
-    },
-  ];
-
   return (
-    <section className="py-14 px-6 bg-[#000000]">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-black text-center mb-4">
-          Why <span className="text-[#00FF94]">APPTLY</span>?
-        </h2>
-        <p className="text-gray-300 text-center max-w-2xl mx-auto mb-10">
-          Most courses charge you monthly to keep learning. APPTLY charges you once, and you keep it forever.
-        </p>
+    <section className="bg-[#0D0F0C] px-6 py-20 text-[#EDE9E2] md:px-[6vw]">
+      <div className="mx-auto max-w-6xl">
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="mb-14 text-center"
+        >
+          <p className="mb-2 text-sm font-bold uppercase tracking-[0.2em] text-[#39FF8C]">
+            Do the math yourself
+          </p>
+          <h2 className="font-black uppercase tracking-tight text-[clamp(1.8rem,3.4vw,2.6rem)]">
+            Why APPTLY
+          </h2>
+        </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {comparisons.map((c, i) => (
-            <div
-              key={i}
-              className="bg-[#111111] border border-white/10 rounded-2xl p-6"
+        <div className="grid gap-4 md:grid-cols-2">
+          {competitors.map((c, i) => (
+            <motion.div
+              key={c.name}
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: i * 0.06 }}
+              className="rounded-xl border border-[#C1442E]/20 bg-[#14170F] p-6"
             >
-              <p className="text-white font-semibold mb-1">{c.name}</p>
-              <p className="text-gray-400 text-sm mb-2">{c.note}</p>
-              <p className="text-red-400 font-bold">{c.price}</p>
-            </div>
+              <h3 className="mb-1 font-bold">{c.name}</h3>
+              <p className="mb-3 text-sm text-[#9A9E92]">{c.note}</p>
+              <p className="font-mono text-lg font-bold text-[#C1442E]">{c.cost}</p>
+            </motion.div>
           ))}
         </div>
 
-        <div className="bg-[#003322] border-2 border-[#00FF94] rounded-2xl p-8 mt-8 text-center">
-          <p className="text-white font-semibold mb-1">APPTLY</p>
-          <p className="text-gray-300 text-sm mb-2">
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="mt-6 rounded-2xl border-2 border-[#39FF8C] bg-gradient-to-br from-[#39FF8C]/10 to-[#2DD4BF]/5 p-10 text-center"
+        >
+          <h3 className="mb-2 text-2xl font-black">APPTLY</h3>
+          <p className="mb-4 text-[#D8DBD2]">
             Full real-world course — idea to live app, payments, and launch
           </p>
-          <p className="text-[#00FF94] text-3xl font-bold">$37</p>
-          <p className="text-gray-400 text-sm">One payment. Lifetime access.</p>
-        </div>
+          <p className="mb-1 font-mono text-5xl font-black text-[#39FF8C]">$37</p>
+          <p className="text-sm text-[#9A9E92]">One payment. Lifetime access.</p>
+        </motion.div>
       </div>
     </section>
   );
