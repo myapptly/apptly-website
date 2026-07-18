@@ -120,10 +120,20 @@ export function Hero() {
               <span className="text-xs uppercase tracking-wide text-[#6B6E5F]">Total to launch</span>
               <span className="text-3xl font-bold text-[#C1442E]">$69</span>
             </div>
-          </div>
+            <p className="mt-2 text-xs text-center text-[#6B6E5F]">
+  No subscriptions. No upsells. What you see is what you pay.
+</p>
+           </div>
 
           <div className="relative z-20 flex flex-wrap items-center gap-5 mt-4">
-            <span className="text-sm text-[#9A9E92]">One-time payment. Lifetime access.</span>
+            <div className="w-full text-center">
+  <p className="font-black uppercase tracking-tight text-[#39FF8C]">
+    $37 means $37.
+  </p>
+  <p className="text-sm text-[#9A9E92] mt-1">
+    Not $40. Not $140. Not $940. One-time payment, lifetime access — no upsells, ever.
+  </p>
+</div> 
           </div>
         </motion.div>
       </div>
