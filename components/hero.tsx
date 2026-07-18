@@ -13,14 +13,14 @@ export function Hero() {
           <span className="font-black text-2xl tracking-wide">APPTLY</span>
         </div>
         <a
-          href="/pricing"
+          href="#pricing"
           className="rounded-full border border-white/25 px-5 py-2.5 text-sm font-semibold hover:border-[#39FF8C] hover:text-[#39FF8C] transition-colors"
         >
           Get APPTLY — $37
         </a>
       </nav>
 
-      <div className="relative z-10 mx-auto grid max-w-6xl gap-12 px-6 py-10 md:grid-cols-[0.85fr_1.15fr] md:gap-[5vw] md:px-[6vw] md:py-16">
+      <div className="relative z-10 mx-auto grid max-w-6xl items-center gap-12 px-6 py-10 md:grid-cols-[0.85fr_1.15fr] md:gap-[5vw] md:px-[6vw] md:py-14">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
@@ -39,7 +39,7 @@ export function Hero() {
             We figured it out so you don&apos;t have to.
           </p>
 
-          <p className="text-base text-[#D8DBD2] leading-relaxed">
+          <p className="text-lg text-[#D8DBD2] leading-relaxed">
             Learn to build, launch, and grow real AI apps.
             <br />
             No coding experience required.
@@ -51,7 +51,7 @@ export function Hero() {
               <path d="M6 22 L20 32 L34 22" stroke="#39FF8C" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             <div className="flex items-center gap-2">
-              <div className="text-sm uppercase tracking-widest text-[#D8DBD2]">
+              <div className="text-base uppercase tracking-widest text-[#D8DBD2]">
                 72-year-old veteran.
                 <br />
                 Zero clue about code.
@@ -115,16 +115,12 @@ export function Hero() {
           </div>
 
           <div className="relative z-20 flex flex-wrap items-center gap-5 mt-4">
-            <a
-              href="/pricing"
-              className="rounded-full bg-[#39FF8C] px-8 py-4 font-bold text-[#0D0F0C] shadow-lg transition-transform hover:-translate-y-0.5"
-            >
-              Get APPTLY Now — $37
-            </a>
             <span className="text-sm text-[#9A9E92]">One-time payment. Lifetime access.</span>
           </div>
         </motion.div>
       </div>
+
+      <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-b from-transparent to-black/40" />
     </section>
   );
 } 
