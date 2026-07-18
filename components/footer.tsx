@@ -8,12 +8,11 @@ export function Footer() {
           <Image
   src="/new%20logo.png"
   alt="APPTLY"
-  width={48}
-  height={48}
+  width={100}
+  height={100}
   className="object-contain"
 />
-          <span className="font-black text-lg">APPTLY</span>
-        </div>
+          </div>
 
         <p className="text-[#00FF94] font-bold text-lg">Build Apps. Make Money.</p>
 
