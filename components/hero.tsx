@@ -27,6 +27,9 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="flex flex-col items-start gap-4"
         >
+          <div className="inline-flex items-center gap-2 rounded-full border border-[#39FF8C]/30 bg-[#39FF8C]/5 px-3 py-1 text-xs text-[#39FF8C] mb-4">
+  📱 Coming soon to Google Play
+</div> 
           <h1 className="font-black uppercase leading-[1.02] tracking-tight text-[clamp(2rem,4vw,3.2rem)]">
             Build Your First
             <br />
