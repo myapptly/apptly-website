@@ -83,7 +83,7 @@ export function Hero() {
           className="flex flex-col items-start gap-9"
         >
           <div className="flex items-center gap-2.5">
-            <img src="/small%20apptly%20logo.png" alt="APPTLY" className="h-105 w-auto"/>
+            <img src="/small%20apptly%20logo.png" alt="APPTLY" className="h-105 w-auto mix-blend-lighten"/>
           </div>
 
           <div
