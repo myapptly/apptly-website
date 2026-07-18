@@ -1,53 +1,130 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { CheckCircle } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-40 pb-10">
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.7 }}
-        className="max-w-4xl mx-auto space-y-6"
-      >
-        
-        <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-tight">
-          Build Your First AI App{" "}
-          
-          <span className="text-[#00FF94]">Even If You Can't Code</span>
-        </h1>
+    <section className="relative bg-[#0D0F0C] text-[#EDE9E2] overflow-hidden">
+      <div className="pointer-events-none absolute -top-32 -right-32 h-96 w-96 rounded-full bg-[#39FF8C]/10 blur-3xl" />
 
-        <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-          Learn to build, launch, and grow real AI apps with simple step-by-step guidance. No coding experience required.
-        </p>
-
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
-          <a
-            href="#pricing"
-            className="flex items-center gap-2 bg-[#00FF94] text-black font-black px-10 py-4 rounded-full text-lg hover:bg-[#00e085] transition-all hover:scale-105 shadow-lg shadow-[#00FF94]/20"
-          >
-            <CheckCircle className="w-5 h-5" />
-            Get APPTLY Now for $37
-          </a>
+      <nav className="relative z-10 flex items-center justify-between px-6 py-7 md:px-[6vw]">
+        <div className="flex items-center gap-2.5">
+          <img src="/APPTLY%20logo.png" alt="APPTLY" className="h-7 w-auto" />
+          <span className="font-black text-2xl tracking-wide">APPTLY</span>
         </div>
+        <a
+          href="/pricing"
+          className="rounded-full border border-white/25 px-5 py-2.5 text-sm font-semibold hover:border-[#39FF8C] hover:text-[#39FF8C] transition-colors"
+        >
+          Get APPTLY — $37
+        </a>
+      </nav>
 
-        <p className="text-gray-500 text-sm">One-time payment - Lifetime access - No monthly fees</p>
+      <div className="relative z-10 mx-auto grid max-w-6xl gap-12 px-6 py-10 md:grid-cols-[0.85fr_1.15fr] md:gap-[5vw] md:px-[6vw] md:py-16">
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.1 }}
+          className="flex flex-col items-start gap-4"
+        >
+          <h1 className="font-black uppercase leading-[1.02] tracking-tight text-[clamp(2rem,4vw,3.2rem)]">
+            Build Your First
+            <br />
+            AI App —
+            <br />
+            <span className="text-[#39FF8C]">Even If You Can&apos;t Code</span>
+          </h1>
 
-        <div className="flex flex-wrap items-center justify-center gap-8 pt-6 border-t border-white/10">
-        {[
-  { value: "1 Price", label: "Simple Offer" },
-  { value: "Lifetime", label: "Access" },
-  { value: "Step-by-Step", label: "Guided Learning" },
-].map((stat) => (
-            <div key={stat.label} className="text-center">
-              <div className="text-2xl font-black text-[#00FF94]">{stat.value}</div>
-              <div className="text-sm text-gray-400">{stat.label}</div>
+          <p className="text-xl font-extrabold text-[#39FF8C] leading-snug">
+            We figured it out so you don&apos;t have to.
+          </p>
+
+          <p className="text-[#9A9E92] leading-relaxed">
+            Learn to build, launch, and grow real AI apps.
+            <br />
+            No coding experience required.
+          </p>
+
+          <div className="flex w-full max-w-[280px] items-center gap-3 border-t border-white/15 pt-4">
+            <svg className="h-7 w-7 flex-shrink-0" viewBox="0 0 40 40" fill="none">
+              <path d="M6 14 L20 24 L34 14" stroke="#39FF8C" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M6 22 L20 32 L34 22" stroke="#39FF8C" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            <div className="flex items-center gap-2">
+              <div className="text-xs uppercase tracking-widest text-[#9A9E92]">
+                72-year-old veteran.
+                <br />
+                Zero clue about code.
+                <br />
+                Built this anyway.
+              </div>
+              <span className="rotate-[-8deg] rounded border-2 border-[#C1442E] px-2 py-1 text-[0.65rem] font-black tracking-widest text-[#C1442E]">
+                PROOF
+              </span>
             </div>
-          ))}
-        </div>
-      </motion.div>
+          </div>
+
+          <div className="border-t border-white/15 pt-4">
+            <p className="font-black uppercase leading-[1.05] text-[clamp(1.8rem,3.4vw,2.6rem)]">
+              Build an app
+              <br />
+              for under
+              <br />
+              <span className="text-[#39FF8C]">$100.</span>
+            </p>
+            <p className="mt-1 text-sm text-[#9A9E92]">This one&apos;s included.</p>
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.25 }}
+          className="flex flex-col items-start gap-9"
+        >
+          <div
+            className="w-full max-w-sm -rotate-2 rounded-t bg-[#F7F3EA] p-6 pb-9 text-[#1C1B19] shadow-2xl"
+            style={{
+              clipPath:
+                "polygon(0% 0%, 100% 0%, 100% 92%, 95% 100%, 90% 92%, 85% 100%, 80% 92%, 75% 100%, 70% 92%, 65% 100%, 60% 92%, 55% 100%, 50% 92%, 45% 100%, 40% 92%, 35% 100%, 30% 92%, 25% 100%, 20% 92%, 15% 100%, 10% 92%, 5% 100%, 0% 92%)",
+            }}
+          >
+            <div className="mb-3 border-b border-dashed border-[#C9C3B4] pb-3 text-center font-mono text-xs uppercase tracking-widest text-[#6B6E5F]">
+              Cost to launch — receipt
+            </div>
+
+            <div className="flex justify-between py-1.5 font-mono text-sm">
+              <span>Domain name</span>
+              <span className="font-medium">$12</span>
+            </div>
+            <div className="flex justify-between py-1.5 font-mono text-sm">
+              <span>Hosting (free tier)</span>
+              <span className="font-medium">$0</span>
+            </div>
+            <div className="flex justify-between py-1.5 font-mono text-sm">
+              <span>APPTLY course</span>
+              <span className="font-medium">$37</span>
+            </div>
+
+            <hr className="my-3 border-t border-dashed border-[#C9C3B4]" />
+
+            <div className="flex items-baseline justify-between font-mono">
+              <span className="text-xs uppercase tracking-wide text-[#6B6E5F]">Total to launch</span>
+              <span className="text-3xl font-bold text-[#C1442E]">$49</span>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap items-center gap-5">
+            <a
+              href="/pricing"
+              className="rounded-full bg-[#39FF8C] px-8 py-4 font-bold text-[#0D0F0C] shadow-lg transition-transform hover:-translate-y-0.5"
+            >
+              Get APPTLY Now — $37
+            </a>
+            <span className="text-sm text-[#9A9E92]">One-time payment. Lifetime access.</span>
+          </div>
+        </motion.div>
+      </div>
     </section>
   );
-}
+} 
