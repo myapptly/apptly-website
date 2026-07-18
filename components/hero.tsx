@@ -9,7 +9,7 @@ export function Hero() {
 
       <nav className="relative z-10 flex items-center justify-between px-6 py-7 md:px-[6vw]">
         <div className="flex items-center gap-2.5">
-          <img src="/APPTLY%20logo.png" alt="APPTLY" className="h-7 w-auto" />
+          <img src="/apptly%20real%20logo.png" alt="APPTLY" className="h-7 w-auto" />
           <span className="font-black text-2xl tracking-wide">APPTLY</span>
         </div>
         <a
