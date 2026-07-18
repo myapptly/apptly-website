@@ -136,7 +136,20 @@ export function Hero() {
   <p className="text-sm text-[#9A9E92] mt-1">
     Not $40. Not $140. Not $940. One-time payment, lifetime access — no upsells, ever.
   </p>
+</div>
+
+     <div className="max-w-3xl mx-auto text-center px-6 py-10">
+  <h2 className="font-black uppercase tracking-tight text-xl mb-3">
+    The Only Promise We Make
+  </h2>
+  <p className="text-[#EDE9E2] leading-relaxed">
+    We make no promises or assumptions that you will ever make money from APPTLY.
+    This is a course designed to help you learn a skill. What we do promise is this:
+    if you follow the steps in this course, you will build an app and/or a website.
+    If you don't, we'll give you your money back, within 7 days, that is.
+  </p>
 </div> 
+       
           </div>
         </motion.div>
       </div>
