@@ -39,19 +39,19 @@ export function Hero() {
             We figured it out so you don&apos;t have to.
           </p>
 
-          <p className="text-[#9A9E92] leading-relaxed">
+          <p className="text-base text-[#D8DBD2] leading-relaxed">
             Learn to build, launch, and grow real AI apps.
             <br />
             No coding experience required.
           </p>
 
-          <div className="flex w-full max-w-[280px] items-center gap-3 border-t border-white/15 pt-4">
+          <div className="flex w-full max-w-[280px] items-center gap-3 border-t border-white/5 pt-4">
             <svg className="h-7 w-7 flex-shrink-0" viewBox="0 0 40 40" fill="none">
               <path d="M6 14 L20 24 L34 14" stroke="#39FF8C" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
               <path d="M6 22 L20 32 L34 22" stroke="#39FF8C" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             <div className="flex items-center gap-2">
-              <div className="text-xs uppercase tracking-widest text-[#9A9E92]">
+              <div className="text-sm uppercase tracking-widest text-[#D8DBD2]">
                 72-year-old veteran.
                 <br />
                 Zero clue about code.
@@ -64,7 +64,7 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="border-t border-white/15 pt-4">
+          <div className="border-t border-white/5 pt-4">
             <p className="font-black uppercase leading-[1.05] text-[clamp(1.8rem,3.4vw,2.6rem)]">
               Build an app
               <br />
@@ -114,7 +114,7 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center gap-5">
+          <div className="relative z-20 flex flex-wrap items-center gap-5 mt-4">
             <a
               href="/pricing"
               className="rounded-full bg-[#39FF8C] px-8 py-4 font-bold text-[#0D0F0C] shadow-lg transition-transform hover:-translate-y-0.5"
