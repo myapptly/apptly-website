@@ -17,6 +17,16 @@ export default function BuildForMe() {
         </span>
 
         {/* Hero Title & Subtitle */}
+<h1 className="font-black uppercase tracking-tight text-[clamp(2rem,4vw,3.2rem)] leading-tight">
+  Professional Apps — <br className="hidden sm:inline" />
+  <span className="text-[#39FF8C]">Your Brand, Your Logo</span>
+</h1>
+
+<p className="text-sm sm:text-base text-[#EDE9E2]/80 font-normal max-w-xl">
+  Real apps built and launched at a fraction of the cost of traditional app builders
+</p>
+
+        {/* Hero Title & Subtitle */}
         <h1 className="font-black uppercase tracking-tight text-[clamp(2rem,4vw,3.2rem)] leading-tight">
           I Build Inexpensive, Professional Apps and Websites
         </h1>
