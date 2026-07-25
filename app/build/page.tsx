@@ -1,36 +1,15 @@
-import Image from 'next/image';
-
-export default function BuildForMe() {
-  return (
-    <section className="relative bg-[#0D0F0C] text-[#EDE9E2] min-h-screen px-6 py-16">
-      <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-6">
-       
-        {/* APPTLY Logo */}
-        <div className="mb-2">
-          <Image
-            src="/logo.png" // Replace with your logo file path in public/
-            alt="APPTLY Logo"
-            width={160}
-            height={40}
-            priority
-            className="h-auto w-auto max-w-[160px]"
-          />
-        </div>
-
-        {/* Badge */}
-        <span className="text-xs font-mono font-semibold tracking-widest uppercase bg-[#39FF8C]/10 text-[#39FF8C] border border-[#39FF8C]/30 px-3 py-1 rounded-full">
-          Done-For-You Services
-        </span>
-
-        {/* Rest of page content... */}
-
- 
+import Image from "next/image";
 
 export default function BuildForMe() {
   return (
     <section className="relative bg-[#0D0F0C] text-[#EDE9E2] min-h-screen px-6 py-20">
       <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-6">
        
+        {/* APPTLY Logo */}
+        <div className="mb-2">
+          <Image alt="APPTLY Logo" className="h-auto w-auto max-w-[160px]" height="{40}" priority src="/logo.png" width="{160}"/>
+        </div>
+
         {/* Badge */}
         <span className="text-xs font-mono font-semibold tracking-widest uppercase bg-[#39FF8C]/10 text-[#39FF8C] border border-[#39FF8C]/30 px-3 py-1 rounded-full">
           Done-For-You Services
