@@ -7,7 +7,7 @@ export default function BuildForMe() {
        
         {/* APPTLY Logo */}
         <div className="mb-2">
-          <Image alt="APPTLY Logo" className="h-auto w-auto max-w-[160px]" height={40} priority src="/logo.png" width={160}/>
+          <Image alt="APPTLY Logo" className="h-auto w-auto max-w-[160px]" height={50} priority src="/apptly logo.png" width={180}/>
         </div>
 
         {/* Badge */}
