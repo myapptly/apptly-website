@@ -62,6 +62,54 @@ export default function BuildForMe() {
           </ul>
         </div>
 
+        {/* Cost Comparison Table */}
+        <div className="w-full max-w-xl mt-12 text-left">
+          <h2 className="text-center font-black uppercase text-xl text-[#39FF8C] mb-2 font-mono">
+            How APPTLY Compares
+          </h2>
+          <p className="text-center text-xs text-[#9A9E92] mb-6">
+            Stop paying agency markups or endless monthly software subscriptions.
+          </p>
+
+          <div className="overflow-x-auto rounded-lg border border-[#272B24] bg-[#161914]">
+            <table className="w-full text-left text-xs border-collapse">
+              <thead>
+                <tr className="border-b border-[#272B24] bg-[#0D0F0C]/50 text-[#9A9E92] uppercase font-mono">
+                  <th className="p-3">Option</th>
+                  <th className="p-3">Upfront Cost</th>
+                  <th className="p-3">Monthly Rent</th>
+                  <th className="p-3">Your Time</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-[#272B24] text-[#EDE9E2]">
+                {/* Traditional Agency */}
+                <tr className="hover:bg-[#1A1D17]">
+                  <td className="p-3 font-semibold text-red-400">Custom Agency</td>
+                  <td className="p-3 font-mono">$10,000 – $40,000+</td>
+                  <td className="p-3 font-mono text-[#9A9E92]">$200+/mo maintenance</td>
+                  <td className="p-3 text-[#9A9E92]">Months of meetings</td>
+                </tr>
+
+                {/* DIY Builders */}
+                <tr className="hover:bg-[#1A1D17]">
+                  <td className="p-3 font-semibold text-amber-400">DIY App Builders</td>
+                  <td className="p-3 font-mono">$0 upfront</td>
+                  <td className="p-3 font-mono text-[#9A9E92]">$30 – $300/mo forever</td>
+                  <td className="p-3 text-[#9A9E92]">40+ hours learning</td>
+                </tr>
+
+                {/* APPTLY */}
+                <tr className="bg-[#39FF8C]/10 border-l-4 border-l-[#39FF8C] font-semibold">
+                  <td className="p-3 text-[#39FF8C] font-bold">APPTLY (Done-For-You)</td>
+                  <td className="p-3 font-mono text-[#39FF8C] font-bold">$125 – $500</td>
+                  <td className="p-3 font-mono text-[#39FF8C] font-bold">$0 markup</td>
+                  <td className="p-3 text-[#39FF8C]">Zero — We build it</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
         {/* How It Works */}
         <div className="w-full max-w-xl mt-10 text-left">
           <h2 className="text-center font-black uppercase text-xl text-[#39FF8C] mb-6">
