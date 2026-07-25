@@ -7,8 +7,8 @@ export default function BuildForMe() {
        
         {/* APPTLY Logo */}
         <div className="mb-2 flex justify-center">
-          <Image alt="APPTLY Logo" className="h-auto w-auto w-[240px] sm:w-[260px]"
-          height={260} priority src="/apptly real logo.png" width={150}/>
+          <Image alt="APPTLY Logo" className="h-auto w-auto w-[300px] sm:w-[360px]"
+          height={360} priority src="/apptly real logo.png" width={250}/>
         </div>
 
         {/* Badge */}
@@ -18,22 +18,13 @@ export default function BuildForMe() {
 
         {/* Hero Title & Subtitle */}
 <h1 className="font-black uppercase tracking-tight text-[clamp(2rem,4vw,3.2rem)] leading-tight">
-  Professional Apps — <br className="hidden sm:inline" />
+  Professional Apps And Websites — <br className="hidden sm:inline" />
   <span className="text-[#39FF8C]">Your Brand, Your Logo</span>
 </h1>
 
 <p className="text-sm sm:text-base text-[#EDE9E2]/80 font-normal max-w-xl">
-  Real apps built and launched at a fraction of the cost of traditional app builders
+  Real apps and websites built and launched at a fraction of the cost of traditional app builders
 </p>
-
-        {/* Hero Title & Subtitle */}
-        <h1 className="font-black uppercase tracking-tight text-[clamp(2rem,4vw,3.2rem)] leading-tight">
-          I Build Inexpensive, Professional Apps and Websites
-        </h1>
-
-        <p className="text-lg text-[#39FF8C] font-semibold max-w-xl">
-          Fast, simple, and clean — built for you, with no agency markup. Affordable, done right.
-        </p>
 
         {/* Pricing Receipt Card */}
         <div className="w-full max-w-sm rounded-t bg-[#F7F3EA] p-6 pb-9 text-[#1C1B19] shadow-2xl mt-4 text-left">
