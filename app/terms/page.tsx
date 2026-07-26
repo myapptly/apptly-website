@@ -23,9 +23,9 @@ export default function TermsPage() {
           <h2 className="text-2xl font-bold text-white">2. 7-Day Refund Guarantee</h2>
           <p className="text-gray-300">
             If APPTLY isn't right for you, email us within 7 days of purchase at{" "}
-            <a href="mailto:support@myapptly.com" className="text-[#00FF7F] underline">
-              support@myapptly.com
-            </a>{" "}
+            <a href="mailto:support@myapptly.com" className="text-[#00FF7F] underline hover:text-[#00FF7F]/80">
+  Click here
+</a>
             and we'll issue a full refund. No forms, no reason required.
           </p>
           <p className="text-gray-300">
