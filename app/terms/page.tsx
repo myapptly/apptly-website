@@ -22,10 +22,9 @@ export default function TermsPage() {
         <div className="bg-[#1A1A1A] border border-[#00FF7F]/20 rounded-2xl p-6 space-y-4">
           <h2 className="text-2xl font-bold text-white">2. 7-Day Refund Guarantee</h2>
           <p className="text-gray-300">
-            If APPTLY isn't right for you, email us within 7 days of purchase at{" "}
-            <a href="mailto:support@myapptly.com" className="text-[#00FF7F] underline hover:text-[#00FF7F]/80">
-  Click here 
-</a>
+            If APPTLY isn't right for you, email us within 7 days of purchase at {" "}
+            <a href="mailto:support@myapptly.com" className="text-[#00FF7F] underline">Click here</a>{" "}
+
             and we'll issue a full refund. No forms, no reason required.
           </p>
           <p className="text-gray-300">
