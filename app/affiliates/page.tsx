@@ -4,17 +4,11 @@ export default function AffiliatesPage() {
   return (
     <section className="relative bg-[#0D0F0C] text-[#EDE9E2] min-h-screen px-6 py-20">
       <div className="max-w-2xl mx-auto flex flex-col items-center text-center gap-6">
-       
-        {/* Logo */}
+            
+        {/* APPTLY Logo */}
         <div className="mb-2 flex justify-center">
-          <Image
-            alt="APPTLY Logo"
-            className="h-auto w-[130px]"
-            height={130}
-            priority
-            src="/apptly real logo.png"
-            width={130}
-          />
+          <Image alt="APPTLY Logo" className="h-auto w-auto w-[420px] sm:w-[500px]"
+          height={500} priority src="/apptly real logo.png" width={420}/>
         </div>
 
         {/* Badge */}
