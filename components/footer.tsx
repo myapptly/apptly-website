@@ -24,6 +24,12 @@ export function Footer() {
           <a href="/privacy" className="hover:text-white transition-colors">Privacy</a>
         </div>
 
+        <div className="mt-8 text-center text-xs font-mono text-[#9A9E92]/60">
+  <a href="/affiliates" className="hover:text-[#39FF8C] transition-colors">
+    Affiliate Program
+  </a>
+</div>
+
         <p className="text-gray-600 text-sm text-center">
           © 2026 APPTLY | myapptly.com · All rights reserved<br />
           <span className="text-gray-700">Results are not guaranteed. Individual outcomes will vary.</span>
