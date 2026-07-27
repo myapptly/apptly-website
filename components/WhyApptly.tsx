@@ -57,7 +57,7 @@ export function WhyApptly() {
             Full real-world course — idea to live app, payments, and launch
           </p>
           <p className="mb-1 font-mono text-5xl font-black text-[#39FF8C]">$37</p>
-          <p className="text-sm text-[#9A9E92]">One payment. Lifetime access.</p>
+          <p className="text-sm text-[#9A9E92]">One payment and it belongs to you</p>
         </motion.div>
       </div>
     </section>
