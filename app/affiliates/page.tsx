@@ -53,11 +53,13 @@ export default function AffiliatesPage() {
         <div className="w-full bg-[#161914] p-6 rounded-lg border border-[#39FF8C]/30 mt-4">
           <h3 className="font-bold text-base text-[#EDE9E2] mb-2">Ready to Start Earning?</h3>
           <p className="text-xs text-[#9A9E92] mb-5">
-            Send us a quick message to get your unique tracking link and promo code setup.
+            Sign up instantly to get your unique tracking link and promo code setup automatically.
           </p>
           <a
-            href="mailto:partner@myapptly.com?subject=APPTLY Affiliate Application"
-            className="inline-block text-xs font-mono font-bold text-black bg-[#39FF8C] px-8 py-3.5 rounded-full hover:bg-[#39FF8C]/90 transition-transform transform hover:scale-105"
+            href="https://apptly.promotekit.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block text-xs font-mono font-bold text-black bg-[#39FF8C] px-8 py-3.5 rounded-full hover:bg-[#39FF8C]/95 transition-all"
           >
             Apply For Partner Link
           </a>
