@@ -152,7 +152,7 @@ export function Bio() {
 
              <div className="bg-[#111111] border border-[#00FF94] rounded-2xl p-8 space-y-5 mt-8">
   <h2 className="text-3xl md:text-4xl font-black leading-tight">
-  I'M NO DEVELOPER!{" "}
+  I'M NO DEVELOPER, BUT!{" "}
   <span className="text-[#00FF94]">I&nbsp;DEVELOPED APPTLY!</span>
 </h2> 
 
