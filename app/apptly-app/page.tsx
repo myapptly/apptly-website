@@ -16,8 +16,17 @@ export default function ApptlyAppPage() {
   const [selectedType, setSelectedType] = useState<string | null>(null);
   const [businessName, setBusinessName] = useState("");
   const [primaryColor, setPrimaryColor] = useState("#10b981");
+  const [logoUrl, setLogoUrl] = useState<string | null>(null);
 
   const currentTypeObj = BUSINESS_TYPES.find((t) => t.id === selectedType);
+
+  const handleLogoUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      const url = URL.createObjectURL(file);
+      setLogoUrl(url);
+    }
+  };
 
   return (
     <div className="min-h-[calc(100vh-65px)] bg-slate-950 text-white flex flex-col items-center justify-center p-4 md:p-8 font-sans">
@@ -62,7 +71,7 @@ export default function ApptlyAppPage() {
           </div>
         )}
 
-        {/* STEP 2: APP DETAILS */}
+        {/* STEP 2: APP DETAILS & LOGO UPLOAD */}
         {step === 2 && (
           <div>
             <button 
@@ -72,7 +81,7 @@ export default function ApptlyAppPage() {
               ← Back to business types
             </button>
             <h2 className="text-lg md:text-xl font-semibold mb-2">Name & Branding</h2>
-            <p className="text-slate-400 text-sm mb-6">Enter your business name as you want it to appear inside your app.</p>
+            <p className="text-slate-400 text-sm mb-6">Enter your business details and upload your logo to customize your app preview.</p>
 
             <div className="space-y-6">
               <div>
@@ -88,6 +97,39 @@ export default function ApptlyAppPage() {
                 />
               </div>
 
+              {/* Logo Upload Field */}
+              <div>
+                <label className="block text-xs uppercase tracking-wider font-semibold text-slate-400 mb-2">
+                  App Logo (Optional)
+                </label>
+                <div className="flex items-center space-x-4">
+                  {logoUrl ? (
+                    <div className="relative w-16 h-16 rounded-xl overflow-hidden border border-slate-700 bg-slate-950 flex items-center justify-center group">
+                      <img src={logoUrl} alt="Uploaded App Logo" className="w-full h-full object-cover" />
+                      <button
+                        type="button"
+                        onClick={() => setLogoUrl(null)}
+                        className="absolute top-1 right-1 bg-rose-600 hover:bg-rose-500 text-white text-[10px] w-5 h-5 rounded-full flex items-center justify-center font-bold shadow"
+                        title="Remove Logo"
+                      >
+                        ✕
+                      </button>
+                    </div>
+                  ) : (
+                    <label className="w-16 h-16 flex flex-col items-center justify-center rounded-xl border-2 border-dashed border-slate-700 hover:border-emerald-500 bg-slate-950 cursor-pointer transition">
+                      <span className="text-xl">📷</span>
+                      <span className="text-[9px] text-slate-400 mt-0.5 font-semibold">Upload</span>
+                      <input type="file" accept="image/*" onChange={handleLogoUpload} className="hidden" />
+                    </label>
+                  )}
+                  <div className="text-xs text-slate-400">
+                    <p className="font-medium text-slate-300 mb-0.5">Upload an image file</p>
+                    <p className="text-[11px] text-slate-500">Appears on the app header bar and main card screen.</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Theme Color Picker */}
               <div>
                 <label className="block text-xs uppercase tracking-wider font-semibold text-slate-400 mb-2">
                   Brand Theme Color
@@ -133,6 +175,7 @@ export default function ApptlyAppPage() {
                   setStep(1);
                   setBusinessName("");
                   setSelectedType(null);
+                  setLogoUrl(null);
                 }}
                 className="text-xs text-rose-400 hover:text-rose-300 transition"
               >
@@ -152,16 +195,26 @@ export default function ApptlyAppPage() {
               {/* Phone Notch */}
               <div className="w-24 h-4 bg-slate-800 rounded-full mx-auto mb-4"></div>
 
-              {/* App Header Bar */}
-              <div className="p-3 rounded-lg text-center font-bold text-slate-950 text-sm mb-3 shadow" style={{ backgroundColor: primaryColor }}>
-                {businessName || "My Business App"}
+              {/* App Header Bar with Logo */}
+              <div className="p-3 rounded-lg text-center font-bold text-slate-950 text-sm mb-3 shadow flex items-center justify-center gap-2 overflow-hidden" style={{ backgroundColor: primaryColor }}>
+                {logoUrl && (
+                  <img src={logoUrl} alt="Logo" className="w-6 h-6 rounded-full object-cover border border-slate-950/20 shrink-0" />
+                )}
+                <span className="truncate">{businessName || "My Business App"}</span>
               </div>
 
               {/* Dynamic Blueprint Content */}
               <div className="flex-1 space-y-3 overflow-y-auto px-1">
-                <div className="p-3 bg-slate-900 border border-slate-800 rounded-lg">
-                  <div className="text-xs font-semibold text-slate-200">{currentTypeObj?.icon} Welcome to {businessName}</div>
-                  <div className="text-[10px] text-slate-400 mt-1">Book services, view details, and contact us directly from your phone.</div>
+                <div className="p-3 bg-slate-900 border border-slate-800 rounded-lg flex items-center gap-3">
+                  {logoUrl ? (
+                    <img src={logoUrl} alt="App Icon" className="w-10 h-10 rounded-lg object-cover border border-slate-800 shrink-0" />
+                  ) : (
+                    <span className="text-2xl">{currentTypeObj?.icon}</span>
+                  )}
+                  <div>
+                    <div className="text-xs font-semibold text-slate-200">Welcome to {businessName}</div>
+                    <div className="text-[10px] text-slate-400 mt-0.5">Book services & view store info.</div>
+                  </div>
                 </div>
 
                 <div className="p-3 bg-slate-900 border border-slate-800 rounded-lg">
@@ -171,7 +224,7 @@ export default function ApptlyAppPage() {
                 </div>
 
                 <div className="p-3 bg-slate-900 border border-slate-800 rounded-lg flex justify-between items-center">
-                  <span className="text-xs text-slate-300">Quick Action / Contact</span>
+                  <span className="text-xs text-slate-300">Quick Contact / Book</span>
                   <span className="text-[10px] px-2 py-1 rounded text-slate-950 font-bold" style={{ backgroundColor: primaryColor }}>
                     Action
                   </span>
