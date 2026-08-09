@@ -251,6 +251,76 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* OUR WORK */}
+<section id="work" className="bg-slate-950 px-6 py-20">
+  <div className="mx-auto max-w-6xl">
+    <div className="mb-12 text-center">
+      <p className="mb-3 font-semibold uppercase tracking-widest text-emerald-400">
+        Our Work
+      </p>
+
+      <h2 className="text-3xl font-extrabold md:text-5xl">
+        Don&apos;t Just Take Our Word for It.
+        <br />
+        <span className="text-emerald-400">See What We&apos;ve Built.</span>
+      </h2>
+
+      <p className="mx-auto mt-5 max-w-2xl text-lg text-slate-300">
+        Real projects built for real businesses and organizations.
+      </p>
+    </div>
+
+    <div className="grid gap-6 md:grid-cols-3">
+      <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
+        <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
+          APPTLY
+        </p>
+
+        <h3 className="mb-4 text-2xl font-bold">
+          Business Website + App
+        </h3>
+
+        <p className="text-slate-300">
+          A mobile-first business website and installable app with custom
+          branding, service packages, responsive design and secure Stripe
+          purchasing.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
+        <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
+          New Hope Baptist Church
+        </p>
+
+        <h3 className="mb-4 text-2xl font-bold">
+          Church Website + App
+        </h3>
+
+        <p className="text-slate-300">
+          A custom church experience featuring sermons, special events,
+          Bible College information, photos and secure owner-managed content.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
+        <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
+          Sky-Vue Skateland
+        </p>
+
+        <h3 className="mb-4 text-2xl font-bold">
+          Small-Business App
+        </h3>
+
+        <p className="text-slate-300">
+          A custom business app designed around an established local brand,
+          giving customers quick access to business information, online
+          resources and existing website content.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
       {/* FOOTER */}
       <footer className="px-6 py-10 text-center text-sm text-slate-400">
         <p>© 2026 APPTLY. Affordable websites and apps for small businesses.</p>
