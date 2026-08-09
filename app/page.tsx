@@ -169,11 +169,19 @@ export default function HomePage() {
                 paying APPTLY a required monthly maintenance fee.
               </p>
             </div>
+          <a
+            href="https://buy.stripe.com/28E00ja6jeVM8Dp3QDc3m09"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded-xl bg-emerald-500 
+            px-8 py-4 text-lg font-bold text-slate-950"
+            >
+              Buy Enhanced Business App — $249
+          </a> 
 
           </div>
         </div>
       </section>
-
       {/* BUSINESS PLUS PACKAGE */}
       <section className="bg-slate-900 px-6 py-16">
         <div className="mx-auto max-w-3xl">
