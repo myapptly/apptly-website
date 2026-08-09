@@ -165,6 +165,66 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* BUSINESS PLUS PACKAGE */}
+      <section className="bg-slate-900 px-6 py-16">
+        <div className="mx-auto max-w-3xl">
+          <div className="rounded-2xl border border-emerald-500 bg-slate-950 p-8 md:p-12">
+
+            <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
+              APPTLY Business Plus
+            </p>
+
+            <h2 className="text-3xl font-bold">
+              Website + Business App
+            </h2>
+
+            <div className="my-6">
+              <span className="text-6xl font-extrabold">$349</span>
+              <span className="ml-2 text-slate-400">one-time build price</span>
+            </div>
+
+            <p className="mb-4 text-lg text-slate-300">
+              A complete business presence with both a professional website-style
+              experience and an installable app for your customers.
+            </p>
+
+            <p className="mb-8 font-semibold text-emerald-400">
+              Everything in the $249 Business App, plus:
+            </p>
+
+            <div className="grid gap-4 text-lg sm:grid-cols-2">
+              <p>✓ Website + installable web app</p>
+              <p>✓ Full multi-page or multi-section design</p>
+              <p>✓ Homepage, About, Services & Contact</p>
+              <p>✓ Expanded services or products</p>
+              <p>✓ Larger gallery or portfolio</p>
+              <p>✓ Owner-editable changing content</p>
+              <p>✓ Contact/request forms</p>
+              <p>✓ Testimonials & reviews</p>
+              <p>✓ Frequently asked questions</p>
+              <p>✓ Booking, ordering or payment links</p>
+              <p>✓ Custom app icon & QR code</p>
+              <p>✓ Basic search-engine setup</p>
+              <p>✓ Enhanced desktop design</p>
+              <p>✓ Mobile-first responsive design</p>
+              <p>✓ Up to 2 revisions before handoff</p>
+              <p>✓ Complete owner handoff</p>
+            </div>
+
+            <div className="mt-10 rounded-xl bg-slate-900 p-6 text-center">
+              <h3 className="mb-2 text-xl font-bold text-emerald-400">
+                Your Website. Your App. Your Business.
+              </h3>
+              <p className="text-slate-300">
+                APPTLY builds the complete package, shows you how to manage it
+                and turns it over to you.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       {/* FOOTER */}
       <footer className="px-6 py-10 text-center text-sm text-slate-400">
         <p>© 2026 APPTLY. Affordable websites and apps for small businesses.</p>
