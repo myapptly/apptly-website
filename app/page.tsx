@@ -1,67 +1,117 @@
-import Link from "next/link";
-
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-slate-950 text-white font-sans flex flex-col justify-between">
-      {/* Top Header */}
-      <header className="border-b border-slate-800 px-6 py-4 flex justify-between items-center max-w-6xl mx-auto w-full">
-        <div className="flex items-center space-x-2">
-          <span className="text-2xl font-bold text-emerald-400 tracking-tight">APPTLY</span>
-        </div>
-        <div className="space-x-4">
-          <Link 
-            href="/apptly-app" 
-            className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 px-4 py-2 rounded-lg font-bold text-sm transition"
+    <main className="min-h-screen bg-slate-950 text-white">
+
+      {/* HEADER */}
+      <header className="border-b border-slate-800 px-6 py-5">
+        <div className="mx-auto flex max-w-6xl items-center justify-between">
+          <div>
+            <h1 className="text-3xl font-bold text-emerald-400">APPTLY</h1>
+            <p className="text-sm text-slate-400">
+              Built For You. Managed By You.
+            </p>
+          </div>
+
+          <a
+            href="#starter"
+            className="rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
           >
-            Launch App Builder
-          </Link>
+            See Our Apps
+          </a>
         </div>
       </header>
 
-      {/* Hero Section */}
-      <main className="max-w-4xl mx-auto text-center px-6 py-16 flex-1 flex flex-col items-center justify-center">
-        <span className="text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1 rounded-full uppercase tracking-wider mb-4">
-          No-Code App Generator
-        </span>
-        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
-          Build & Deploy Your Custom Mobile App in Minutes
-        </h1>
-        <p className="text-slate-400 text-lg md:text-xl max-w-2xl mb-10">
-          Select your business type, customize your branding, and preview your application instantly with APPTLY.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4">
-          <Link 
-            href="/apptly-app" 
-            className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold px-8 py-4 rounded-xl text-lg transition"
+      {/* HERO */}
+      <section className="px-6 py-20 text-center">
+        <div className="mx-auto max-w-4xl">
+          <p className="mb-4 font-semibold uppercase tracking-widest text-emerald-400">
+            Affordable Apps for Small Business
+          </p>
+
+          <h2 className="mb-6 text-4xl font-extrabold md:text-6xl">
+            Put Your Business
+            <span className="text-emerald-400"> In Their Pocket.</span>
+          </h2>
+
+          <p className="mx-auto mb-8 max-w-2xl text-lg text-slate-300 md:text-xl">
+            APPTLY builds simple, professional business apps that make it easy
+            for customers to find your services, contact you, get directions
+            and stay connected.
+          </p>
+
+          <a
+            href="#starter"
+            className="inline-block rounded-xl bg-emerald-500 px-8 py-4 text-lg font-bold text-slate-950"
           >
-            Start Building Now ($0)
-          </Link>
+            Apps Starting at $149
+          </a>
+
+          <p className="mt-5 text-sm text-slate-400">
+            One-time build price. No required monthly maintenance fee from APPTLY.
+          </p>
         </div>
+      </section>
 
-        {/* Integrated Features Grid */}
-        <section className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-6 text-left w-full">
-          <div className="p-6 bg-slate-900 border border-slate-800 rounded-xl">
-            <div className="text-2xl mb-2">⚡</div>
-            <h3 className="font-bold text-slate-200 mb-1">Instant Blueprints</h3>
-            <p className="text-xs text-slate-400">Pre-configured tailored features for salons, repair shops, retail, and creators.</p>
-          </div>
-          <div className="p-6 bg-slate-900 border border-slate-800 rounded-xl">
-            <div className="text-2xl mb-2">📱</div>
-            <h3 className="font-bold text-slate-200 mb-1">Live Mobile Preview</h3>
-            <p className="text-xs text-slate-400">Render your theme colors, logo, and layout real-time in an interactive smartphone shell.</p>
-          </div>
-          <div className="p-6 bg-slate-900 border border-slate-800 rounded-xl">
-            <div className="text-2xl mb-2">🔥</div>
-            <h3 className="font-bold text-slate-200 mb-1">Firestore Connected</h3>
-            <p className="text-xs text-slate-400">Save and store app configurations directly in Cloud Firestore with zero setup.</p>
-          </div>
-        </section>
-      </main>
+      {/* STARTER PACKAGE */}
+      <section id="starter" className="bg-slate-900 px-6 py-16">
+        <div className="mx-auto max-w-3xl">
+          <div className="rounded-2xl border border-emerald-500 bg-slate-950 p-8 md:p-12">
 
-      {/* Footer */}
-      <footer className="border-t border-slate-800 text-center py-6 text-xs text-slate-500">
-        © {new Date().getFullYear()} APPTLY. All rights reserved.
+            <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
+              APPTLY Starter
+            </p>
+
+            <h2 className="text-3xl font-bold">
+              Starter Business App
+            </h2>
+
+            <div className="my-6">
+              <span className="text-6xl font-extrabold">$149</span>
+              <span className="ml-2 text-slate-400">one-time build price</span>
+            </div>
+
+            <p className="mb-8 text-lg text-slate-300">
+              Everything your customers need to connect with your business,
+              right from their phone.
+            </p>
+
+            <div className="grid gap-4 text-lg sm:grid-cols-2">
+              <p>✓ Business name & branding</p>
+              <p>✓ About your business</p>
+              <p>✓ Up to 6 services</p>
+              <p>✓ Business hours</p>
+              <p>✓ Tap-to-call button</p>
+              <p>✓ Email button</p>
+              <p>✓ Directions & map link</p>
+              <p>✓ Social media links</p>
+              <p>✓ Up to 5 photos</p>
+              <p>✓ Share button</p>
+              <p>✓ Home-screen app capability</p>
+              <p>✓ Custom app icon</p>
+              <p>✓ Business QR code</p>
+              <p>✓ Mobile & desktop friendly</p>
+            </div>
+
+            <div className="mt-10 rounded-xl bg-slate-900 p-6 text-center">
+              <h3 className="mb-2 text-xl font-bold text-emerald-400">
+                Built For You. Managed By You.
+              </h3>
+              <p className="text-slate-300">
+                We build your app, show you how it works and turn it over to you.
+                No required monthly APPTLY maintenance plan.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* FOOTER */}
+      <footer className="px-6 py-10 text-center text-sm text-slate-400">
+        <p>© 2026 APPTLY. Affordable websites and apps for small businesses.</p>
       </footer>
-    </div>
+
+    </main>
   );
-}
+} 
+
