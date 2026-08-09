@@ -1,6 +1,6 @@
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-slate-950 text-white">
+    <main id="top" className="min-h-screen bg-slate-950 text-white">
 
       {/* HEADER */}
       <header className="border-b border-slate-800 px-6 py-5">
@@ -291,6 +291,13 @@ export default function HomePage() {
           branding, service packages, responsive design and secure Stripe
           purchasing.
         </p>
+      
+        <a
+          href="#top"
+          className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
+        >
+        View APPTLY
+      </a> 
       </div>
 
       <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
