@@ -10,6 +10,10 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://myapptly.com"),
+  icons: {
+  icon: "/apptly A.png",
+  apple: "/apptly A.png",
+}, 
   title: "APPTLY — Build Your First Real App Starting Today",
   description: "APPTLY teaches you to build, launch, and monetize your own real app...",
   openGraph: {
