@@ -280,6 +280,12 @@ export default function HomePage() {
           Business Website + App
         </h3>
 
+        <img
+        src="/apptly-home.png"
+        alt="APPTLY website and app homepage"
+        className="mb-5 w-full rounded-xl border border-slate-700"
+      /> 
+
         <p className="text-slate-300">
           A mobile-first business website and installable app with custom
           branding, service packages, responsive design and secure Stripe
