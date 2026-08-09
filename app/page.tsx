@@ -29,9 +29,12 @@ export default function HomePage() {
           </p>
 
           <h2 className="mb-6 text-4xl font-extrabold md:text-6xl">
-            Put Your Business
-            <span className="text-emerald-400"> In Their Pocket.</span>
-          </h2>
+  Put Your Business
+  <br />
+  <span className="text-emerald-400">
+    In Your Customers&apos; Pocket.
+  </span>
+</h2>
 
           <p className="mx-auto mb-8 max-w-2xl text-lg text-slate-300 md:text-xl">
             APPTLY builds simple, professional business apps that make it easy
