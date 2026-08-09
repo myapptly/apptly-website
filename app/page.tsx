@@ -104,6 +104,15 @@ export default function HomePage() {
                 No required monthly APPTLY maintenance plan.
               </p>
             </div>
+            <a 
+            href="https://buy.stripe.com/8x2eVd5Q3dRIg5R1Ivc3m08" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="inline-block rounded-xl bg-emerald-500 
+            px-8 py-4 text-lg font-bold text-slate-950"
+            >
+              Buy Starter App — $149
+            </a> 
 
           </div>
         </div>
