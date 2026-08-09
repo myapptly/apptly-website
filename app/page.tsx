@@ -237,6 +237,15 @@ export default function HomePage() {
                 and turns it over to you.
               </p>
             </div>
+          <a
+            href="https://buy.stripe.com/7sY8wP3HVaFw4n972Pc3m0a"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded-xl bg-emerald-500 
+          px-8 py-4 text-lg font-bold text-slate-950"
+          >
+           Buy Business Plus — $349
+          </a>  
 
           </div>
         </div>
