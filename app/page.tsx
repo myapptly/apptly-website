@@ -302,6 +302,12 @@ export default function HomePage() {
           Church Website + App
         </h3>
 
+        <img
+          src="/new-hope-home.png"
+          alt="New Hope Baptist Church website and app homepage"
+          className="mb-5 w-full rounded-xl border border-slate-700"
+        /> 
+
         <p className="text-slate-300">
           A custom church experience featuring sermons, special events,
           Bible College information, photos and secure owner-managed content.
