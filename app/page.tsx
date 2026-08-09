@@ -350,6 +350,16 @@ export default function HomePage() {
           giving customers quick access to business information, online
           resources and existing website content.
         </p>
+
+        <a
+          href="https://sky-vue-skateland.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
+        >
+          View Sky-Vue Project
+        </a> 
+     
       </div>
     </div>
   </div>
