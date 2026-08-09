@@ -319,6 +319,15 @@ export default function HomePage() {
           A custom church experience featuring sermons, special events,
           Bible College information, photos and secure owner-managed content.
         </p>
+     
+        <a
+  href="https://new-hope-baptist-seven.vercel.app"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
+>
+  View New Hope Project
+</a> 
       </div>
 
       <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
