@@ -323,6 +323,12 @@ export default function HomePage() {
           Small-Business App
         </h3>
 
+        <img
+          src="/sky-vue-home.png"
+          alt="Sky-Vue Skateland business app homepage"
+          className="mb-5 w-full rounded-xl border border-slate-700"
+        />
+
         <p className="text-slate-300">
           A custom business app designed around an established local brand,
           giving customers quick access to business information, online
