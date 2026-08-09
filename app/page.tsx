@@ -109,6 +109,62 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* BUSINESS PACKAGE */}
+      <section className="px-6 py-16">
+        <div className="mx-auto max-w-3xl">
+          <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-8 md:p-12">
+
+            <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
+              APPTLY Business
+            </p>
+
+            <h2 className="text-3xl font-bold">
+              Business App
+            </h2>
+
+            <div className="my-6">
+              <span className="text-6xl font-extrabold">$249</span>
+              <span className="ml-2 text-slate-400">one-time build price</span>
+            </div>
+
+            <p className="mb-4 text-lg text-slate-300">
+              A more complete business app for companies that need more
+              content, customer interaction and owner-controlled updates.
+            </p>
+
+            <p className="mb-8 font-semibold text-emerald-400">
+              Everything in the $149 Starter App, plus:
+            </p>
+
+            <div className="grid gap-4 text-lg sm:grid-cols-2">
+              <p>✓ Multiple sections or pages</p>
+              <p>✓ Expanded services</p>
+              <p>✓ Expanded photo gallery</p>
+              <p>✓ Customer contact/request form</p>
+              <p>✓ Specials & announcements</p>
+              <p>✓ Testimonials & reviews</p>
+              <p>✓ Frequently asked questions</p>
+              <p>✓ Booking or payment links</p>
+              <p>✓ Enhanced custom branding</p>
+              <p>✓ Owner-editable content</p>
+              <p>✓ One revision before handoff</p>
+              <p>✓ Complete owner handoff</p>
+            </div>
+
+            <div className="mt-10 rounded-xl bg-slate-950 p-6 text-center">
+              <h3 className="mb-2 text-xl font-bold text-emerald-400">
+                More Capability. Still Yours.
+              </h3>
+              <p className="text-slate-300">
+                Keep important business information current yourself without
+                paying APPTLY a required monthly maintenance fee.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       {/* FOOTER */}
       <footer className="px-6 py-10 text-center text-sm text-slate-400">
         <p>© 2026 APPTLY. Affordable websites and apps for small businesses.</p>
