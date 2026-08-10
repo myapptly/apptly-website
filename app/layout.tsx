@@ -14,11 +14,11 @@ export const metadata: Metadata = {
   icon: "/apptly A.png",
   apple: "/apptly A.png",
 }, 
-  title: "APPTLY — Build Your First Real App Starting Today",
-  description: "APPTLY teaches you to build, launch, and monetize your own real app...",
+  title: "APPTLY — Your Business App or Website, Built Just For You",
+description: "Professional business apps and websites built for you, with simple one-time pricing and no required monthly APPTLY maintenance fee.", 
   openGraph: {
-    title: "APPTLY — Build Your First Real App Starting Today",
-    description: "Learn to build, launch, and grow real AI apps with simple step-by-step guidance. No coding experience required.",
+    title: "APPTLY — Your Business App or Website, Built Just For You",
+description: "Professional business apps and websites built for you, with simple one-time pricing and no required monthly APPTLY maintenance fee.", 
     url: "https://myapptly.com",
     siteName: "APPTLY",
     images: [
