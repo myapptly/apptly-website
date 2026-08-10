@@ -277,6 +277,56 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-5xl px-6 py-16">
+  <div className="rounded-2xl border border-emerald-500/30 bg-slate-900 p-8">
+    <h2 className="text-3xl font-bold text-white">
+      No Surprise App Fees
+    </h2>
+
+    <p className="mt-4 text-lg text-slate-300">
+      APPTLY is designed to keep ongoing app costs as low as possible.
+      For standard small-business apps, our goal is $0 in monthly APPTLY
+      hosting or maintenance fees.
+    </p>
+
+    <div className="mt-8 grid gap-6 md:grid-cols-3">
+      <div>
+        <h3 className="font-bold text-emerald-400">Standard Apps</h3>
+        <p className="mt-2 text-slate-300">
+          Simple business apps can often operate with no additional monthly
+          app cost.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-bold text-emerald-400">Interactive Apps</h3>
+        <p className="mt-2 text-slate-300">
+          Apps with features such as dashboards, databases, or photo uploads
+          are built using no-cost services whenever practical.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-bold text-emerald-400">Advanced Apps</h3>
+        <p className="mt-2 text-slate-300">
+          If your project requires a paid third-party service, heavy usage,
+          e-commerce, or specialized hosting, we will identify that before
+          you approve the project.
+        </p>
+      </div>
+    </div>
+
+    <p className="mt-8 font-semibold text-white">
+      You will never be surprised by an APPTLY-related charge.
+    </p>
+
+    <p className="mt-2 text-sm text-slate-400">
+      Existing expenses such as your domain name, website hosting, payment
+      processing, or other third-party services remain separate.
+    </p>
+  </div>
+</section>
+
       {/* OUR WORK */}
 <section id="work" className="bg-slate-950 px-6 py-20">
   <div className="mx-auto max-w-6xl">
