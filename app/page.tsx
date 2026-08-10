@@ -68,18 +68,87 @@ export default function HomePage() {
             and stay connected.
           </p>
 
-          <a
-            href="#starter"
-            className="inline-block rounded-xl bg-emerald-500 px-8 py-4 text-lg font-bold text-slate-950"
-          >
-            Apps Starting at $149
-          </a>
+          <div className="flex flex-wrap justify-center gap-3">
+  <a
+    href="#digital-card"
+    className="rounded-xl bg-emerald-500 px-5 py-3 font-bold text-slate-950"
+  >
+    $99 Digital Card
+  </a>
+
+  <a
+    href="#starter"
+    className="rounded-xl bg-emerald-500 px-5 py-3 font-bold text-slate-950"
+  >
+    $199 Starter App
+  </a>
+
+  <a
+    href="#business"
+    className="rounded-xl bg-emerald-500 px-5 py-3 font-bold text-slate-950"
+  >
+    $299 Business App
+  </a>
+
+  <a
+    href="#website-app"
+    className="rounded-xl bg-emerald-500 px-5 py-3 font-bold text-slate-950"
+  >
+    $449 Website + App
+  </a>
+</div>
 
           <p className="mt-5 text-sm text-slate-400">
             One-time build price. No required monthly maintenance fee from APPTLY.
           </p>
         </div>
       </section>
+
+{/* DIGITAL BUSINESS CARD */}
+      <section id="digital-card" className="bg-slate-950 px-6 py-16">
+        <div className="mx-auto max-w-3xl">
+          <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-8 md:p-12">
+
+            <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
+              APPTLY Digital Business Card
+            </p>
+
+            <h2 className="text-3xl font-bold">
+              Digital Business Card
+            </h2>
+
+            <div className="my-6">
+              <span className="text-6xl font-extrabold">$99</span>
+              <span className="ml-2 text-slate-400">one-time build price</span>
+            </div>
+
+            <p className="mb-6 text-lg text-slate-300">
+              A simple, professional mobile presence that puts your essential
+              business information one tap away.
+            </p>
+
+            <ul className="space-y-3 text-slate-200">
+              <li>✓ Business name and branding</li>
+              <li>✓ Tap-to-call phone button</li>
+              <li>✓ Directions and map link</li>
+              <li>✓ One business photo</li>
+              <li>✓ Custom app icon</li>
+              <li>✓ Email link</li>
+              <li>✓ Business hours</li>
+            </ul>
+
+          <a
+  href="https://buy.stripe.com/4gM00j6U7dRI8Dpdrdc3m0b"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block mt-8 rounded-xl bg-emerald-500 px-8 py-4 text-lg font-bold text-slate-950"
+>
+  Buy Digital Business Card — $99
+</a> 
+
+          </div>
+        </div>
+      </section> 
 
       {/* STARTER PACKAGE */}
       <section id="starter" className="bg-slate-900 px-6 py-16">
@@ -95,7 +164,7 @@ export default function HomePage() {
             </h2>
 
             <div className="my-6">
-              <span className="text-6xl font-extrabold">$149</span>
+              <span className="text-6xl font-extrabold">$199</span>
               <span className="ml-2 text-slate-400">one-time build price</span>
             </div>
 
@@ -131,13 +200,13 @@ export default function HomePage() {
               </p>
             </div>
             <a 
-            href="https://buy.stripe.com/8x2eVd5Q3dRIg5R1Ivc3m08" 
+            href="https://buy.stripe.com/28EdR9bancNE3j50Erc3m0c" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="inline-block rounded-xl bg-emerald-500 
             px-8 py-4 text-lg font-bold text-slate-950"
             >
-              Buy Starter App — $149
+              Buy Starter App — $199
             </a> 
 
           </div>
@@ -145,7 +214,7 @@ export default function HomePage() {
       </section>
 
       {/* BUSINESS PACKAGE */}
-      <section className="px-6 py-16">
+      <section id= "business" className="px-6 py-16">
         <div className="mx-auto max-w-3xl">
           <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-8 md:p-12">
 
@@ -158,7 +227,7 @@ export default function HomePage() {
             </h2>
 
             <div className="my-6">
-              <span className="text-6xl font-extrabold">$249</span>
+              <span className="text-6xl font-extrabold">$299</span>
               <span className="ml-2 text-slate-400">one-time build price</span>
             </div>
 
@@ -168,7 +237,7 @@ export default function HomePage() {
             </p>
 
             <p className="mb-8 font-semibold text-emerald-400">
-              Everything in the $149 Starter App, plus:
+              Everything in the $199 Starter App, plus:
             </p>
 
             <div className="grid gap-4 text-lg sm:grid-cols-2">
@@ -196,20 +265,20 @@ export default function HomePage() {
               </p>
             </div>
           <a
-            href="https://buy.stripe.com/28E00ja6jeVM8Dp3QDc3m09"
+            href="https://buy.stripe.com/8x2eVd92f6pgbPBevhc3m0e"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block rounded-xl bg-emerald-500 
             px-8 py-4 text-lg font-bold text-slate-950"
             >
-              Buy Enhanced Business App — $249
+              Buy Business App — $299
           </a> 
 
           </div>
         </div>
       </section>
       {/* BUSINESS PLUS PACKAGE */}
-      <section className="bg-slate-900 px-6 py-16">
+      <section id="website-app" className="bg-slate-900 px-6 py-16">
         <div className="mx-auto max-w-3xl">
           <div className="rounded-2xl border border-emerald-500 bg-slate-950 p-8 md:p-12">
 
@@ -222,7 +291,7 @@ export default function HomePage() {
             </h2>
 
             <div className="my-6">
-              <span className="text-6xl font-extrabold">$349</span>
+              <span className="text-6xl font-extrabold">$449</span>
               <span className="ml-2 text-slate-400">one-time build price</span>
             </div>
 
@@ -232,7 +301,7 @@ export default function HomePage() {
             </p>
 
             <p className="mb-8 font-semibold text-emerald-400">
-              Everything in the $249 Business App, plus:
+              Everything in the $299 Business App, plus:
             </p>
 
             <div className="grid gap-4 text-lg sm:grid-cols-2">
@@ -264,13 +333,13 @@ export default function HomePage() {
               </p>
             </div>
           <a
-            href="https://buy.stripe.com/7sY8wP3HVaFw4n972Pc3m0a"
+            href="https://buy.stripe.com/7sY28rdiv3d43j5af1c3m0d"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block rounded-xl bg-emerald-500 
           px-8 py-4 text-lg font-bold text-slate-950"
           >
-           Buy Business Plus — $349
+           Buy Website + Business App — $449
           </a>  
 
           </div>
