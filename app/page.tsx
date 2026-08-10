@@ -1,4 +1,21 @@
+"use client"
+
 export default function HomePage() {
+  const handleShare = async () => {
+    const shareData = {
+      title: "APPTLY",
+      text: "Affordable custom websites and apps built for your business.",
+      url: "https://myapptly.com",
+    };
+
+    if (navigator.share) {
+      await navigator.share(shareData);
+    } else {
+      await navigator.clipboard.writeText(shareData.url);
+      alert("APPTLY link copied!");
+    }
+  }; 
+
   return (
     <main id="top" className="min-h-screen bg-slate-950 text-white">
 
@@ -12,12 +29,21 @@ export default function HomePage() {
             </p>
           </div>
 
-          <a
-            href="#starter"
-            className="rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
-          >
-            See Our Apps
-          </a>
+ <div className="flex gap-3">
+  <a
+    href="#starter"
+    className="rounded-lg bg-emerald-500 px-5 py-3 font-bold text-white"
+  >
+    See Our Apps
+  </a>
+
+  <button
+    onClick={handleShare}
+    className="rounded-lg border border-emerald-500 px-5 py-3 font-bold text-emerald-400"
+  >
+    Share APPTLY
+  </button>
+</div> 
         </div>
       </header>
 
