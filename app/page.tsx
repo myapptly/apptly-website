@@ -45,6 +45,45 @@ export default function HomePage() {
   </button>
 </div> 
         </div>
+
+<nav className="mx-auto mt-5 flex max-w-6xl flex-wrap justify-center gap-3 border-t border-slate-800 pt-4 text-sm font-semibold">
+  
+  <a
+    href="#digital-card"
+    className="rounded-lg px-3 py-2 text-slate-300 hover:bg-slate-800 hover:text-white"
+  >
+    Packages
+  </a>
+
+  <a
+    href="#compare"
+    className="rounded-lg px-3 py-2 text-slate-300 hover:bg-slate-800 hover:text-white"
+  >
+    Compare
+  </a>
+
+  <a
+    href="#work"
+    className="rounded-lg px-3 py-2 text-slate-300 hover:bg-slate-800 hover:text-white"
+  >
+    Our Work
+  </a>
+
+  <a
+  href="#fees"
+  className="rounded-lg px-3 py-2 text-slate-300 hover:bg-slate-800 hover:text-white"
+>
+  No Surprise Fees
+</a> 
+
+  <button
+    onClick={handleShare}
+    className="rounded-lg px-3 py-2 text-emerald-400 hover:bg-slate-800"
+  >
+    Share APPTLY
+  </button>
+</nav> 
+
       </header>
 
       {/* HERO */}
@@ -101,6 +140,16 @@ export default function HomePage() {
           <p className="mt-5 text-sm text-slate-400">
             One-time build price. No required monthly maintenance fee from APPTLY.
           </p>
+        
+        <div className="mt-10 text-center">
+  <a
+    href="#top"
+    className="inline-block rounded-lg border border-emerald-500 px-4 py-2 text-sm font-bold text-emerald-400 hover:bg-emerald-500 hover:text-slate-950"
+  >
+    ↑ Back to Top
+  </a>
+</div> 
+        
         </div>
       </section>
 
@@ -147,6 +196,16 @@ export default function HomePage() {
 </a> 
 
           </div>
+        
+        <div className="mt-10 text-center">
+  <a
+    href="#top"
+    className="inline-block rounded-lg border border-emerald-500 px-4 py-2 text-sm font-bold text-emerald-400 hover:bg-emerald-500 hover:text-slate-950"
+  >
+    ↑ Back to Top
+  </a>
+</div> 
+        
         </div>
       </section> 
 
@@ -210,6 +269,16 @@ export default function HomePage() {
             </a> 
 
           </div>
+       
+       <div className="mt-10 text-center">
+  <a
+    href="#top"
+    className="inline-block rounded-lg border border-emerald-500 px-4 py-2 text-sm font-bold text-emerald-400 hover:bg-emerald-500 hover:text-slate-950"
+  >
+    ↑ Back to Top
+  </a>
+</div> 
+       
         </div>
       </section>
 
@@ -275,6 +344,16 @@ export default function HomePage() {
           </a> 
 
           </div>
+       
+       <div className="mt-10 text-center">
+  <a
+    href="#top"
+    className="inline-block rounded-lg border border-emerald-500 px-4 py-2 text-sm font-bold text-emerald-400 hover:bg-emerald-500 hover:text-slate-950"
+  >
+    ↑ Back to Top
+  </a>
+</div> 
+       
         </div>
       </section>
       {/* BUSINESS PLUS PACKAGE */}
@@ -343,10 +422,20 @@ export default function HomePage() {
           </a>  
 
           </div>
+
+<div className="mt-10 text-center">
+  <a
+    href="#top"
+    className="inline-block rounded-lg border border-emerald-500 px-4 py-2 text-sm font-bold text-emerald-400 hover:bg-emerald-500 hover:text-slate-950"
+  >
+    ↑ Back to Top
+  </a>
+</div> 
+
         </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-6 py-16">
+<section id="fees" className="mx-auto max-w-5xl px-6 py-16"> 
   <div className="rounded-2xl border border-emerald-500/30 bg-slate-900 p-8">
     <h2 className="text-3xl font-bold text-white">
       No Surprise App Fees
@@ -393,8 +482,135 @@ export default function HomePage() {
       Existing expenses such as your domain name, website hosting, payment
       processing, or other third-party services remain separate.
     </p>
+
+    <div className="mt-10 text-center">
+  <a
+    href="#top"
+    className="inline-block rounded-lg border border-emerald-500 px-4 py-2 text-sm font-bold text-emerald-400 hover:bg-emerald-500 hover:text-slate-950"
+  >
+    ↑ Back to Top
+  </a>
+</div> 
+
   </div>
 </section>
+
+{/* PRICE COMPARISON */}
+      <section id="compare" className="bg-slate-900 px-6 py-16">
+        <div className="mx-auto max-w-6xl">
+          <div className="mb-10 text-center">
+            <p className="mb-3 font-semibold uppercase tracking-widest text-emerald-400">
+              Compare Your Options
+            </p>
+
+            <h2 className="text-3xl font-extrabold md:text-5xl">
+              Different Ways to Get a Business App
+            </h2>
+
+            <p className="mx-auto mt-4 max-w-3xl text-lg text-slate-300">
+              From do-it-yourself app builders to full-service agencies,
+              pricing and responsibility can vary dramatically.
+            </p>
+          </div>
+
+          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+            <div className="rounded-2xl border border-slate-700 bg-slate-950 p-6">
+              <h3 className="text-xl font-bold text-white">
+                DIY App Builder
+              </h3>
+
+              <p className="mt-4 text-3xl font-extrabold text-emerald-400">
+                ~$36–$199+/mo
+              </p>
+
+              <p className="mt-4 text-slate-300">
+                You build and manage the app yourself using a no-code platform.
+              </p>
+
+              <p className="mt-5 text-sm font-semibold text-slate-400">
+                Best for: People comfortable building and maintaining their own app.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-slate-700 bg-slate-950 p-6">
+              <h3 className="text-xl font-bold text-white">
+                Freelancer
+              </h3>
+
+              <p className="mt-4 text-3xl font-extrabold text-emerald-400">
+                Hundreds–Thousands
+              </p>
+
+              <p className="mt-4 text-slate-300">
+                A freelancer builds the project for you. Pricing and ongoing
+                support vary widely.
+              </p>
+
+              <p className="mt-5 text-sm font-semibold text-slate-400">
+                Best for: Custom projects with flexible budgets.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-slate-700 bg-slate-950 p-6">
+              <h3 className="text-xl font-bold text-white">
+                Development Agency
+              </h3>
+
+              <p className="mt-4 text-3xl font-extrabold text-emerald-400">
+                $12,000–$300,000+
+              </p>
+
+              <p className="mt-4 text-slate-300">
+                Full custom development with larger teams, complex systems,
+                and enterprise-level capabilities.
+              </p>
+
+              <p className="mt-5 text-sm font-semibold text-slate-400">
+                Best for: Large or highly complex applications.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-emerald-500 bg-slate-950 p-6">
+              <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
+                APPTLY
+              </p>
+
+              <h3 className="text-xl font-bold text-white">
+                Built For You
+              </h3>
+
+              <p className="mt-4 text-3xl font-extrabold text-emerald-400">
+                $99–$449
+              </p>
+
+              <p className="mt-4 text-slate-300">
+                We build the app for your business, show you how it works,
+                and turn it over to you.
+              </p>
+
+              <p className="mt-5 text-sm font-bold text-white">
+                No required monthly APPTLY maintenance fee.
+              </p>
+            </div>
+          </div>
+
+          <p className="mt-8 text-center text-sm text-slate-400">
+            Comparison ranges are general market examples and may change.
+            Complex features, third-party services, and unusually high usage
+            may affect total cost.
+          </p>
+        
+        <div className="mt-10 text-center">
+  <a
+    href="#top"
+    className="inline-block rounded-lg border border-emerald-500 px-4 py-2 text-sm font-bold text-emerald-400 hover:bg-emerald-500 hover:text-slate-950"
+  >
+    ↑ Back to Top
+  </a>
+</div> 
+
+        </div>
+      </section>
 
       {/* OUR WORK */}
 <section id="work" className="bg-slate-950 px-6 py-20">
@@ -507,6 +723,16 @@ export default function HomePage() {
      
       </div>
     </div>
+
+<div className="mt-10 text-center">
+  <a
+    href="#top"
+    className="inline-block rounded-lg border border-emerald-500 px-4 py-2 text-sm font-bold text-emerald-400 hover:bg-emerald-500 hover:text-slate-950"
+  >
+    ↑ Back to Top
+  </a>
+</div> 
+
   </div>
 </section>
 
