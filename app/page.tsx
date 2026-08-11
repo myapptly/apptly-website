@@ -533,6 +533,24 @@ export default function HomePage() {
             </div>
 
             <div className="rounded-2xl border border-slate-700 bg-slate-950 p-6">
+  <h3 className="text-xl font-bold text-white">
+              Replit AI
+             </h3>
+
+             <p className="mt-4 text-3xl font-extrabold text-emerald-400">
+             Free–$95+/mo
+            </p>
+
+  <p className="mt-4 text-slate-300">
+    AI helps you build the website or app, but you still build, manage, and maintain the project yourself. Paid plans and additional usage can add ongoing costs.
+  </p>
+
+  <p className="mt-5 text-sm font-semibold text-slate-400">
+    Best for: People comfortable using AI tools to build and manage their own project.
+  </p>
+</div> 
+
+            <div className="rounded-2xl border border-slate-700 bg-slate-950 p-6">
               <h3 className="text-xl font-bold text-white">
                 Freelancer
               </h3>
@@ -570,44 +588,56 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="rounded-2xl border border-emerald-500 bg-slate-950 p-6">
-              <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
-                APPTLY
-              </p>
+            <div className="rounded-2xl border border-emerald-500 bg-slate-950 p-6 md:col-span-4 ">
+                <div className="flex items-center gap-4">
+  <img
+    src="/apptly A.png"
+    alt="APPTLY"
+    className="h-16 w-16 object-contain"
+  />
 
-              <h3 className="text-xl font-bold text-white">
-                Built For You
-              </h3>
+  <span className="text-4xl font-extrabold text-white">
+    APPTLY
+  </span>
+</div>
 
-              <p className="mt-4 text-3xl font-extrabold text-emerald-400">
-                $99–$449
-              </p>
+<div className="mt-5 text-center">
+  <h3 className="text-4xl font-extrabold text-white md:text-5xl">
+    BUILT FOR YOU
+  </h3>
 
-              <p className="mt-4 text-slate-300">
-                We build the app for your business, show you how it works,
-                and turn it over to you.
-              </p>
+  <p className="mt-3 text-4xl font-extrabold text-emerald-400">
+    $99–$449
+    <span className="ml-3 text-xl uppercase">
+      One Time
+    </span>
+  </p>
 
-              <p className="mt-5 text-sm font-bold text-white">
-                No required monthly APPTLY maintenance fee.
-              </p>
-            </div>
-          </div>
+  <p className="mt-5 text-lg text-slate-200">
+    No learning an app builder. No AI prompting. No development-agency price tag.
+  </p>
 
-          <p className="mt-8 text-center text-sm text-slate-400">
+  <p className="mt-2 text-xl font-bold text-emerald-400">
+    Tell us what you want — we build it and turn it over to you.
+  </p>
+</div>
+</div>
+
+<p className="mt-8 mx-auto max-w-3xl text-center text-sm text-slate-400 md:col-span-4"> 
             Comparison ranges are general market examples and may change.
             Complex features, third-party services, and unusually high usage
             may affect total cost.
           </p>
         
-        <div className="mt-10 text-center">
+<div className="mt-10 text-center md:col-span-4"> 
   <a
     href="#top"
     className="inline-block rounded-lg border border-emerald-500 px-4 py-2 text-sm font-bold text-emerald-400 hover:bg-emerald-500 hover:text-slate-950"
   >
     ↑ Back to Top
   </a>
-</div> 
+  </div>
+ </div>
 
         </div>
       </section>
