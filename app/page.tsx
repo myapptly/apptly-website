@@ -187,9 +187,9 @@ export default function HomePage() {
             </ul>
 
           <a
-  href="https://buy.stripe.com/4gM00j6U7dRI8Dpdrdc3m0b"
-  target="_blank"
-  rel="noopener noreferrer"
+              href="/checkout?package=digital-card"
+              target="_blank"
+              rel="noopener noreferrer" 
   className="inline-block mt-8 rounded-xl bg-emerald-500 px-8 py-4 text-lg font-bold text-slate-950"
 >
   Buy Digital Business Card — $99
@@ -258,10 +258,10 @@ export default function HomePage() {
                 No required monthly APPTLY maintenance plan.
               </p>
             </div>
-            <a 
-            href="https://buy.stripe.com/28EdR9bancNE3j50Erc3m0c" 
-            target="_blank" 
-            rel="noopener noreferrer" 
+            <a
+              href="/checkout?package=starter-app"
+              target="_blank"
+              rel="noopener noreferrer" 
             className="inline-block rounded-xl bg-emerald-500 
             px-8 py-4 text-lg font-bold text-slate-950"
             >
