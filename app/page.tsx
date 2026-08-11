@@ -334,7 +334,7 @@ export default function HomePage() {
               </p>
             </div>
           <a
-            href="https://buy.stripe.com/8x2eVd92f6pgbPBevhc3m0e"
+            href="/checkout?package=business-app" 
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block rounded-xl bg-emerald-500 
