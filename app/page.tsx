@@ -23,8 +23,11 @@ export default function HomePage() {
       <header className="border-b border-slate-800 px-6 py-5">
         <div className="mx-auto flex max-w-6xl items-center justify-between">
           <div>
-            <h1 className="text-3xl font-bold text-emerald-400">APPTLY</h1>
-            <p className="text-sm text-slate-400">
+<img
+  src="/apptly A.png"
+  alt="APPTLY"
+  className="h-16 w-auto object-contain"
+/>             <p className="text-sm text-slate-400">
               Built For You. Managed By You.
             </p>
           </div>
