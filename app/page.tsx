@@ -26,7 +26,7 @@ export default function HomePage() {
 <img
   src="/apptly A.png"
   alt="APPTLY"
-  className="h-16 w-auto object-contain"
+  className="h-20 w-auto object-contain"
 />             <p className="text-sm text-slate-400">
               Built For You. Managed By You.
             </p>
