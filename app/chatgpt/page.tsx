@@ -478,7 +478,7 @@ export default function ChatGPTLandingPage() {
               borderRadius: 11,
             }}
           >
-            Get Started with APPTLY
+            
           </a>
         </div>
       </section>
