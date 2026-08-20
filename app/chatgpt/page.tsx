@@ -242,7 +242,7 @@ export default function ChatGPTLandingPage() {
           </p>
 
           <a
-            href="/checkout"
+            href="/checkout?package=website-app"
             style={{
               display: "inline-block",
               background: "#ffffff",
