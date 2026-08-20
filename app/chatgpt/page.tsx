@@ -399,7 +399,7 @@ export default function ChatGPTLandingPage() {
                   style={{
                     color: "#5c6977",
                     lineHeight: 1.55,
-                    minHeight: 100,
+                    minHeight: 125,
                   }}
                 >
                   {pkg.description}
