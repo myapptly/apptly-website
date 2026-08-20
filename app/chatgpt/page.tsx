@@ -466,7 +466,7 @@ export default function ChatGPTLandingPage() {
           </p>
 
           <a
-            href="/checkout?package=website-app"
+            href="#packages"
             style={{
               display: "inline-block",
               background: "#ffffff",
@@ -478,7 +478,9 @@ export default function ChatGPTLandingPage() {
               borderRadius: 11,
             }}
           >
-            
+
+            View Packages
+
           </a>
         </div>
       </section>
