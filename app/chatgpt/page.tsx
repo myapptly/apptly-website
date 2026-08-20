@@ -1,24 +1,28 @@
 export default function ChatGPTLandingPage() {
   const packages = [
     {
+      key: "digital-card",
       name: "Digital Business Card",
       price: "$99",
       description:
         "A simple, professional mobile page that puts your business information in your customers’ hands.",
     },
     {
+      key: "starter-app",
       name: "Starter Business App",
       price: "$199",
       description:
         "A polished business app with the essentials your customers need to reach and learn about you.",
     },
     {
+      key: "business-app",
       name: "Business App",
       price: "$299",
       description:
         "A more complete business app with expanded information, features and customer connections.",
     },
     {
+      key: "website-app",
       name: "Website + Business App",
       price: "$449",
       description:
@@ -417,7 +421,7 @@ export default function ChatGPTLandingPage() {
                 </p>
 
                 <a
-                  href="/checkout"
+                  href={`/checkout?package=${pkg.key}`} 
                   style={{
                     display: "block",
                     textAlign: "center",
