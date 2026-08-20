@@ -76,7 +76,7 @@ export default function ChatGPTLandingPage() {
           </a>
 
           <a
-            href="/#packages"
+            href="#packages"
             style={{
               background: "#1769aa",
               color: "#ffffff",
@@ -161,7 +161,7 @@ export default function ChatGPTLandingPage() {
             }}
           >
             <a
-              href="/#packages"
+              href="/"
               style={{
                 background: "#1769aa",
                 color: "#ffffff",
@@ -171,23 +171,8 @@ export default function ChatGPTLandingPage() {
                 padding: "15px 24px",
                 borderRadius: 12,
               }}
-            >
-              See Our Packages
-            </a>
-
-            <a
-              href="/"
-              style={{
-                background: "#ffffff",
-                color: "#1769aa",
-                textDecoration: "none",
-                fontWeight: 800,
-                fontSize: 18,
-                padding: "14px 24px",
-                borderRadius: 12,
-                border: "1px solid #cbd9e7",
-              }}
-            >
+              >
+            
               Visit APPTLY
             </a>
           </div>
