@@ -1,7 +1,7 @@
  type CheckoutPageProps = {
-  searchParams?: {
+  searchParams:Promise<{
     package?: string;
-  };
+  }>;
 };
 
 const packages = {
@@ -27,8 +27,12 @@ const packages = {
   },
 };
 
-export default function CheckoutPage({ searchParams }: CheckoutPageProps) {
-  const packageKey = searchParams?.package || "digital-card";
+export default async function CheckoutPage({
+  searchParams,
+}: CheckoutPageProps) {
+  const params = await searchParams;
+  const packageKey = params.package || "digital-card"; 
+
 
   const selectedPackage =
     packages[packageKey as keyof typeof packages] || packages["digital-card"]; 
