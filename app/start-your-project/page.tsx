@@ -83,14 +83,6 @@ export default function StartYourProjectPage() {
             />
           </Section>
 
-          <Section title="What Are You Interested In?">
-            <Check label="Digital Business Card" />
-            <Check label="Business App" />
-            <Check label="Website" />
-            <Check label="Website + Business App" />
-            <Check label="Not Sure — Help Me Decide" />
-          </Section>
-
           <Section title="What Should Customers Be Able To Do?">
             <div style={styles.checkGrid}>
               <Check label="Call Us" />
