@@ -351,6 +351,7 @@ const styles: Record<string, React.CSSProperties> = {
     border: "1px solid #e5e7eb",
     borderRadius: "8px",
     cursor: "pointer",
+    color: "#111827",
   },
 
   checkbox: {
