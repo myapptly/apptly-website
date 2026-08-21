@@ -5,10 +5,30 @@ import { useState } from "react";
 export default function StartYourProjectPage() {
   const [submitted, setSubmitted] = useState(false);
 
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault();
+ async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  e.preventDefault();
+
+  const form = e.currentTarget;
+  const formData = new FormData(form);
+
+  try {
+    const response = await fetch(
+      "https://formsubmit.co/ajax/tbledsoe1954@gmail.com",
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error("Form submission failed");
+    }
+
     setSubmitted(true);
+  } catch (error) {
+    alert("Something went wrong. Please try again.");
   }
+} 
 
   if (submitted) {
     return (
@@ -212,6 +232,7 @@ function Field({
       {label}
       <input
         type={type}
+        name={label}
         required={required}
         placeholder={placeholder}
         style={styles.input}
@@ -231,6 +252,7 @@ function TextArea({
     <label style={styles.label}>
       {label}
       <textarea
+        name={label}
         rows={5}
         placeholder={placeholder}
         style={styles.textarea}
@@ -242,7 +264,12 @@ function TextArea({
 function Check({ label }: { label: string }) {
   return (
     <label style={styles.checkLabel}>
-      <input type="checkbox" style={styles.checkbox} />
+<input
+  type="checkbox"
+  name={label}
+  value="Yes"
+  style={styles.checkbox}
+/> 
       <span>{label}</span>
     </label>
   );
