@@ -415,7 +415,7 @@ export default function HomePage() {
               </p>
             </div>
           <a
-            href="/checkout?package=business-plus" 
+            href="/checkout?package=website-app" 
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block rounded-xl bg-emerald-500 
