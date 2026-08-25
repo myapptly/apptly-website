@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   icon: "/apptly A.png",
   apple: "/apptly A.png",
 }, 
-  title: "APPTLY — Your Business App or Website, Built Just For You",
-description: "Professional business apps and websites built for you, with simple one-time pricing and no required monthly APPTLY maintenance fee.", 
+  title: "APPTLY — Affordable Business Websites & Apps for Small Businesses",
+description: "Professional websites, business apps and digital business cards for small businesses. Simple one-time pricing with no on-going monthly website fees.", 
   openGraph: {
     title: "APPTLY — Your Business App or Website, Built Just For You",
 description: "Professional business apps and websites built for you, with simple one-time pricing and no required monthly APPTLY maintenance fee.", 
