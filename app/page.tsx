@@ -105,9 +105,9 @@ export default function HomePage() {
 </h1>
 
           <p className="mx-auto mb-8 max-w-2xl text-lg text-slate-300 md:text-xl">
-            APPTLY builds simple, professional business apps that make it easy
-            for customers to find your services, contact you, get directions
-            and stay connected.
+            APPTLY builds affordable, professional websites, business apps, and 
+            digital business cards for small businesses — with simple one-time 
+            pricing and no ongoing monthly fees. 
           </p>
 
           <div className="flex flex-wrap justify-center gap-3">
