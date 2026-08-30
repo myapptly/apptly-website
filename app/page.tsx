@@ -694,6 +694,35 @@ export default function HomePage() {
       </a> 
       </div>
 
+<div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
+  <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
+    Bei Capelli Salon
+  </p>
+
+  <h3 className="mb-4 text-2xl font-bold">
+    Digital Business Card
+  </h3>
+
+  <img
+    src="/bei-capelli-home.png"
+    alt="Bei Capelli Salon digital business card"
+    className="mb-5 w-full rounded-xl border border-slate-700"
+  />
+
+  <p className="text-slate-300">
+    An elegant digital business card designed for a local salon,
+    giving customers quick access to contact information, hours,
+    pricing, photos, directions and social media.
+  </p>
+
+  <a
+    href="#"
+    className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
+  >
+    View Bei Capelli Project
+  </a>
+</div> 
+      
       <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
         <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
           New Hope Baptist Church
@@ -755,6 +784,38 @@ export default function HomePage() {
         </a> 
      
       </div>
+
+      <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
+  <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
+    Carolina Vacuums & More
+  </p>
+
+  <h3 className="mb-4 text-2xl font-bold">
+    Business Website App
+  </h3>
+
+  <img
+    src="/carolina-vacuums-home.png"
+    alt="Carolina Vacuums & More business app homepage"
+    className="mb-5 w-full rounded-xl border border-slate-700"
+  />
+
+  <p className="text-slate-300">
+    A custom business app built around an established retail brand,
+    giving customers quick access to locations, service, products
+    and existing website resources.
+  </p>
+
+  <a
+    href="https://carolina-vacuums-app.vercel.app"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
+  >
+    View Carolina Vacuums Project
+  </a>
+</div> 
+
     </div>
 
 <div className="mt-10 text-center">
