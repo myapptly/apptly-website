@@ -716,11 +716,15 @@ export default function HomePage() {
   </p>
 
   <a
-    href="#"
-    className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
-  >
-    View Bei Capelli Project
+  href="https://bei-capelli-salon.vercel.app"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
+>
+  View Bei Capelli Project
+    
   </a>
+  
 </div> 
       
       <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
