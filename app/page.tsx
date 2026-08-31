@@ -620,6 +620,26 @@ export default function HomePage() {
             </div>
 
             <div className="rounded-2xl border border-slate-700 bg-slate-950 p-6">
+  <h3 className="text-xl font-bold text-white">
+    The Website Inventor
+  </h3>
+
+  <p className="mt-4 text-3xl font-extrabold text-emerald-400">
+    $249–$749+
+  </p>
+
+  <p className="mt-4 text-slate-300">
+    A done-for-you website service with packages ranging from smaller
+    business websites to larger sites with booking, CRM, and other
+    business features.
+  </p>
+
+  <p className="mt-5 text-sm font-semibold text-slate-400">
+    Best for: Businesses wanting a professionally built traditional website.
+  </p>
+</div> 
+
+            <div className="rounded-2xl border border-slate-700 bg-slate-950 p-6">
               <h3 className="text-xl font-bold text-white">
                 Development Agency
               </h3>
@@ -641,7 +661,7 @@ export default function HomePage() {
             <div className="rounded-2xl border border-emerald-500 bg-slate-950 p-6 md:col-span-4 ">
                 <div className="flex items-center gap-4">
   <img
-    src="/apptly-logo.png"
+    src="/apptly-logo1.png"
     alt="APPTLY"
     className="h-16 w-16 object-contain"
   />
