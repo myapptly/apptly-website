@@ -730,36 +730,6 @@ export default function HomePage() {
       </p>
     </div>
 
-    <div className="grid gap-6 md:grid-cols-3">
-      <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
-        <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
-          APPTLY
-        </p>
-
-        <h3 className="mb-4 text-2xl font-bold">
-          Business Website + App
-        </h3>
-
-        <img
-        src="/apptly-home.png"
-        alt="APPTLY website and app homepage"
-        className="mb-5 w-full rounded-xl border border-slate-700"
-      /> 
-
-        <p className="text-slate-300">
-          A mobile-first business website and installable app with custom
-          branding, service packages, responsive design and secure Stripe
-          purchasing.
-        </p>
-      
-        <a
-          href="#top"
-          className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
-        >
-        View APPTLY
-      </a> 
-      </div>
-
 <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
   <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
     Bei Capelli Salon
@@ -887,6 +857,36 @@ export default function HomePage() {
 </div> 
 
     </div>
+
+ <div className="grid gap-6 md:grid-cols-3">
+      <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
+        <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
+          APPTLY
+        </p>
+
+        <h3 className="mb-4 text-2xl font-bold">
+          Business Website + App
+        </h3>
+
+        <img
+        src="/apptly-home.png"
+        alt="APPTLY website and app homepage"
+        className="mb-5 w-full rounded-xl border border-slate-700"
+      /> 
+
+        <p className="text-slate-300">
+          A mobile-first business website and installable app with custom
+          branding, service packages, responsive design and secure Stripe
+          purchasing.
+        </p>
+      
+        <a
+          href="#top"
+          className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
+        >
+        View APPTLY
+      </a> 
+      </div>   
 
 <div className="mt-10 text-center">
   <a
