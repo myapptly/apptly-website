@@ -24,15 +24,12 @@ export default function HomePage() {
         <div className="mx-auto flex max-w-6xl items-center justify-between">
           <div>
 <img
-  src="/apptly A.png"
+  src="/apptly-logo.png"
   alt="APPTLY"
   className="h-20 w-auto object-contain"
-/>             <p className="text-sm text-slate-400">
-              Built For You. Managed By You.
-            </p>
-          </div>
-
- <div className="flex gap-3">
+/>             
+ 
+    <div className="flex gap-3">
   <a
     href="#starter"
     className="rounded-lg bg-emerald-500 px-5 py-3 font-bold text-white"
