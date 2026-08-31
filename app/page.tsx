@@ -898,8 +898,7 @@ export default function HomePage() {
   </a>
 </div> 
 
-  </div>
-</section>
+ </section>
 
       {/* FOOTER */}
       <footer className="px-6 py-10 text-center text-sm text-slate-400">
