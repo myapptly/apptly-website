@@ -140,7 +140,7 @@ export default function HomePage() {
 </div>
 
           <p className="mt-5 text-sm text-slate-400">
-            One-time build price. No required monthly maintenance fee from APPTLY.
+            One-time build price. APPTLY builds it for you, then turns it over to you.
           </p>
         
         <div className="mt-10 text-center">
@@ -182,7 +182,7 @@ export default function HomePage() {
               <li>✓ Business name and branding</li>
               <li>✓ Tap-to-call phone button</li>
               <li>✓ Directions and map link</li>
-              <li>✓ One business photo</li>
+              <li>✓ One business photo or logo</li>
               <li>✓ Custom app icon</li>
               <li>✓ Email link</li>
               <li>✓ Business hours</li>
@@ -253,11 +253,11 @@ export default function HomePage() {
 
             <div className="mt-10 rounded-xl bg-slate-900 p-6 text-center">
               <h3 className="mb-2 text-xl font-bold text-emerald-400">
-                Built For You. Managed By You.
+                Built For You. Yours To Keep.
               </h3>
               <p className="text-slate-300">
                 We build your app, show you how it works and turn it over to you.
-                No required monthly APPTLY maintenance plan.
+                No required monthly APPTLY maintenance fee.
               </p>
             </div>
             <a
@@ -303,7 +303,7 @@ export default function HomePage() {
             </div>
 
             <p className="mb-4 text-lg text-slate-300">
-              A more complete business app for companies that need more
+              A more complete business app for businesses that need more
               content, customer interaction and owner-controlled updates.
             </p>
 
@@ -322,7 +322,7 @@ export default function HomePage() {
               <p>✓ Booking or payment links</p>
               <p>✓ Enhanced custom branding</p>
               <p>✓ Owner-editable content</p>
-              <p>✓ One revision before handoff</p>
+              <p>✓ One revision before final handoff</p>
               <p>✓ Complete owner handoff</p>
             </div>
 
@@ -331,8 +331,8 @@ export default function HomePage() {
                 More Capability. Still Yours.
               </h3>
               <p className="text-slate-300">
-                Keep important business information current yourself without
-                paying APPTLY a required monthly maintenance fee.
+                Keep important business information current yourself - with no
+                required monthly APPTLY maintenance fee.
               </p>
             </div>
           <a
@@ -358,13 +358,17 @@ export default function HomePage() {
        
         </div>
       </section>
-      {/* BUSINESS PLUS PACKAGE */}
+      {/* APPTLY COMPLETE PACKAGE */}
       <section id="website-app" className="bg-slate-900 px-6 py-16">
         <div className="mx-auto max-w-3xl">
           <div className="rounded-2xl border border-emerald-500 bg-slate-950 p-8 md:p-12">
 
+            <p className="mb-2 text-sm font-extrabold uppercase tracking-widest text-emerald-300">
+              ★ BEST VALUE
+            </p> 
+
             <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
-              APPTLY Business Plus
+              APPTLY Complete
             </p>
 
             <h2 className="text-3xl font-bold">
@@ -377,8 +381,8 @@ export default function HomePage() {
             </div>
 
             <p className="mb-4 text-lg text-slate-300">
-              A complete business presence with both a professional website-style
-              experience and an installable app for your customers.
+              A complete business presence with a professional website and an 
+              installable app for your customers.
             </p>
 
             <p className="mb-8 font-semibold text-emerald-400">
@@ -391,16 +395,16 @@ export default function HomePage() {
               <p>✓ Homepage, About, Services & Contact</p>
               <p>✓ Expanded services or products</p>
               <p>✓ Larger gallery or portfolio</p>
-              <p>✓ Owner-editable changing content</p>
+              <p>✓ Owner-editable content where needed</p>
               <p>✓ Contact/request forms</p>
               <p>✓ Testimonials & reviews</p>
               <p>✓ Frequently asked questions</p>
               <p>✓ Booking, ordering or payment links</p>
               <p>✓ Custom app icon & QR code</p>
-              <p>✓ Basic search-engine setup</p>
+              <p>✓ Basic SEO setup & sitemap</p>
               <p>✓ Enhanced desktop design</p>
               <p>✓ Mobile-first responsive design</p>
-              <p>✓ Up to 2 revisions before handoff</p>
+              <p>✓ Up to 2 revisions before final handoff</p>
               <p>✓ Complete owner handoff</p>
             </div>
 
@@ -432,7 +436,51 @@ export default function HomePage() {
   >
     ↑ Back to Top
   </a>
-</div> 
+</div>
+
+          {/* DOMAIN & LAUNCH SETUP */}
+<section className="border-t border-slate-800 px-6 py-16">
+  <div className="mx-auto max-w-5xl">
+    <div className="rounded-3xl border border-slate-700 bg-slate-900/70 p-8 md:p-10">
+
+      <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
+        Optional Launch Help
+      </p>
+
+      <h2 className="text-3xl font-extrabold md:text-4xl">
+        Need Help Getting Online?
+      </h2>
+
+      <p className="mt-4 max-w-3xl text-lg text-slate-300">
+        Already have a domain? Great — we’ll help connect it to your new
+        APPTLY website. Need one? We can help you choose, purchase, and
+        properly connect your business domain.
+      </p>
+
+      <div className="mt-8 grid gap-4 text-slate-200 md:grid-cols-2">
+        <p>✓ Domain selection and setup assistance</p>
+        <p>✓ DNS connection to your APPTLY website</p>
+        <p>✓ HTTPS and security setup</p>
+        <p>✓ Launch verification</p>
+        <p>✓ Your domain stays in your name</p>
+        <p>✓ You keep control of your accounts</p>
+      </div>
+
+      <div className="mt-8 rounded-2xl border border-emerald-500/30 bg-emerald-500/10 p-5">
+        <p className="font-bold text-emerald-300">
+          No hosting lock-in.
+        </p>
+
+        <p className="mt-2 text-slate-300">
+          APPTLY does not mark up your domain or require you to purchase
+          hosting from us. Any domain, email, hosting, or third-party service
+          charges are paid directly to the provider.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section> 
 
         </div>
       </section>
@@ -506,7 +554,7 @@ export default function HomePage() {
             </p>
 
             <h2 className="text-3xl font-extrabold md:text-5xl">
-              Different Ways to Get a Business App
+              Different Ways to Get a Business Website or App
             </h2>
 
             <p className="mx-auto mt-4 max-w-3xl text-lg text-slate-300">
@@ -515,7 +563,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             <div className="rounded-2xl border border-slate-700 bg-slate-950 p-6">
               <h3 className="text-xl font-bold text-white">
                 DIY App Builder
@@ -593,7 +641,7 @@ export default function HomePage() {
             <div className="rounded-2xl border border-emerald-500 bg-slate-950 p-6 md:col-span-4 ">
                 <div className="flex items-center gap-4">
   <img
-    src="/apptly A.png"
+    src="/apptly-logo.png"
     alt="APPTLY"
     className="h-16 w-16 object-contain"
   />
