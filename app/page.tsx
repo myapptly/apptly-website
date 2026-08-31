@@ -888,7 +888,7 @@ export default function HomePage() {
       </a> 
       </div>   
 
-<div className="mt-10 text-center">
+<div className="mt-6 text-center">
   <a
     href="#top"
     className="inline-block rounded-lg border border-emerald-500 px-4 py-2 text-sm font-bold text-emerald-400 hover:bg-emerald-500 hover:text-slate-950"
