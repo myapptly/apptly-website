@@ -660,6 +660,8 @@ export default function HomePage() {
 
           </div>
 
+          <div className="mt-8 rounded-2xl border border-emerald-500 bg-slate-950 p-6">
+
 <div className="flex justify-center mb-6"> 
   <img
     src="/apptly-logo1.png"
