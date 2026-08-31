@@ -27,7 +27,7 @@ export default function HomePage() {
           <img
             src="/apptly-logo.png"
             alt="APPTLY"
-            className="h-20 w-auto object-contain"
+            className="h-28 w-auto object-contain md:h-32"
           />
         </div>
 
