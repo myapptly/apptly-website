@@ -485,7 +485,7 @@ export default function HomePage() {
         </div>
       </section>
 
-<section id="fees" className="mx-auto max-w-5xl px-6 py-16"> 
+<section id="fees" className="mx-auto max-w-5xl px-6 py-8"> 
   <div className="rounded-2xl border border-emerald-500/30 bg-slate-900 p-8">
     <h2 className="text-3xl font-bold text-white">
       No Surprise App Fees
@@ -663,14 +663,10 @@ export default function HomePage() {
             <div className="mt-8 rounded-2xl border border-emerald-500 bg-slate-950 p-6"> 
 
   <img
-    src="/apptly-logo.png"
+    src="/apptly-logo1.png"
     alt="APPTLY"
     className="h-16 w-16 object-contain"
   />
-
-  <span className="text-4xl font-extrabold text-white">
-    APPTLY
-  </span>
 
 <div className="mt-5 text-center">
   <h3 className="text-4xl font-extrabold text-white md:text-5xl">
