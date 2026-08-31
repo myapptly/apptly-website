@@ -658,10 +658,10 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="rounded-2xl border border-emerald-500 bg-slate-950 p-6 md:col-span-4 ">
+            <div className="rounded-2xl border border-emerald-500 bg-slate-950 p-6 md:col-span-2 lg:col-span-3">
                 <div className="flex items-center gap-4">
   <img
-    src="/apptly-logo1.png"
+    src="/apptly-logo.png"
     alt="APPTLY"
     className="h-16 w-16 object-contain"
   />
