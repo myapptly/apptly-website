@@ -31,7 +31,7 @@ export default function HomePage() {
           />
         </div>
 
-        <div className="flex gap-3">
+        <div className="flex gap-5">
           <a
             href="#starter"
             className="rounded-lg bg-emerald-500 px-5 py-3 font-bold text-white"
@@ -859,7 +859,7 @@ export default function HomePage() {
     </div>
 
  <div className="grid gap-6 md:grid-cols-3">
-      <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
+      <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6 md:col-span-3">
         <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
           APPTLY
         </p>
