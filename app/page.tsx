@@ -156,7 +156,7 @@ export default function HomePage() {
       </section>
 
 {/* DIGITAL BUSINESS CARD */}
-      <section id="digital-card" className="bg-slate-950 px-6 py-16">
+      <section id="digital-card" className="bg-slate-950 px-6 py-8">
         <div className="mx-auto max-w-3xl">
           <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-8 md:p-12">
 
@@ -663,7 +663,7 @@ export default function HomePage() {
             <div className="mt-8 rounded-2xl border border-emerald-500 bg-slate-950 p-6"> 
 
   <img
-    src="/apptly-logo.png"
+    src="/apptly-logo1.png"
     alt="APPTLY"
     className="h-16 w-16 object-contain"
   />
