@@ -663,7 +663,7 @@ export default function HomePage() {
             <div className="mt-8 rounded-2xl border border-emerald-500 bg-slate-950 p-6"> 
 
   <img
-    src="/apptly-logo1.png"
+    src="/apptly-logo.png"
     alt="APPTLY"
     className="h-16 w-16 object-contain"
   />
@@ -671,7 +671,6 @@ export default function HomePage() {
   <span className="text-4xl font-extrabold text-white">
     APPTLY
   </span>
-</div>
 
 <div className="mt-5 text-center">
   <h3 className="text-4xl font-extrabold text-white md:text-5xl">
@@ -699,7 +698,9 @@ export default function HomePage() {
             Complex features, third-party services, and unusually high usage
             may affect total cost.
           </p>
-        
+
+ </div>
+          
 <div className="mt-10 text-center md:col-span-4"> 
   <a
     href="#top"
