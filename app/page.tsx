@@ -660,13 +660,13 @@ export default function HomePage() {
 
           </div>
 
-            <div className="mt-8 rounded-2xl border border-emerald-500 bg-slate-950 p-6"> 
-
+<div className="flex justify-center mb-6"> 
   <img
     src="/apptly-logo1.png"
     alt="APPTLY"
-    className="h-16 w-16 object-contain"
+    className="w-full max-w-sm h-auto object-contain"
   />
+</div>
 
 <div className="mt-5 text-center">
   <h3 className="text-4xl font-extrabold text-white md:text-5xl">
@@ -764,7 +764,7 @@ export default function HomePage() {
   </p>
 
   <h3 className="mb-4 text-2xl font-bold">
-    Digital Business Card
+    Digital Business Web App
   </h3>
 
   <img
