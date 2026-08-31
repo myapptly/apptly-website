@@ -92,7 +92,7 @@ export default function HomePage() {
       <section className="px-6 py-20 text-center">
         <div className="mx-auto max-w-4xl">
           <p className="mb-4 font-semibold uppercase tracking-widest text-emerald-400">
-            Affordable Apps for Small Business
+            AFFORDABLE WEBSITES & APPS FOR SMALL BUSINESS
           </p>
 
           <h1 className="mb-6 text-4xl font-extrabold md:text-6xl">
@@ -106,7 +106,7 @@ export default function HomePage() {
           <p className="mx-auto mb-8 max-w-2xl text-lg text-slate-300 md:text-xl">
             APPTLY builds affordable, professional websites, business apps, and 
             digital business cards for small businesses — with simple one-time 
-            pricing and no ongoing monthly fees. 
+            pricing and no required monthly APPTLY maintenance fee. 
           </p>
 
           <div className="flex flex-wrap justify-center gap-3">
