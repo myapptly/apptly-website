@@ -658,8 +658,10 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="rounded-2xl border border-emerald-500 bg-slate-950 p-6 md:col-span-2 lg:col-span-3">
-                <div className="flex items-center gap-4">
+          </div>
+
+            <div className="mt-8 rounded-2xl border border-emerald-500 bg-slate-950 p-6"> 
+
   <img
     src="/apptly-logo.png"
     alt="APPTLY"
@@ -691,9 +693,8 @@ export default function HomePage() {
     Tell us what you want — we build it and turn it over to you.
   </p>
 </div>
-</div>
 
-<p className="mt-8 mx-auto max-w-3xl text-center text-sm text-slate-400 md:col-span-4"> 
+<p className="mt-8 mx-auto max-w-3xl text-center text-sm text-slate-400"> 
             Comparison ranges are general market examples and may change.
             Complex features, third-party services, and unusually high usage
             may affect total cost.
