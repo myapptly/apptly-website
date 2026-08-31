@@ -879,6 +879,11 @@ export default function HomePage() {
           branding, service packages, responsive design and secure Stripe
           purchasing.
         </p>
+
+        <a
+  href="#top"
+  className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
+> 
       
         View APPTLY
       </a> 
