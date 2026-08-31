@@ -887,7 +887,8 @@ export default function HomePage() {
       
         View APPTLY
       </a> 
-      </div>   
+      </div>
+ </div>
 
 <div className="mt-6 text-center">
   <a
