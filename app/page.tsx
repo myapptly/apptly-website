@@ -720,7 +720,7 @@ export default function HomePage() {
         Our Work
       </p>
 
-      <h2 className="text-3xl font-extrabold md:text-5xl">
+      <h2 className="text-3xl font-extrabold md:text-4xl">
         Don&apos;t Just Take Our Word for It.
         <br />
         <span className="text-emerald-400">See What We&apos;ve Built.</span>
