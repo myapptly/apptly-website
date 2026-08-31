@@ -23,11 +23,12 @@ export default function HomePage() {
       <header className="border-b border-slate-800 px-6 py-5">
         <div className="mx-auto flex max-w-6xl items-center justify-between">
           <div>
-<img
+     <img
   src="/apptly-logo.png"
   alt="APPTLY"
   className="h-20 w-auto object-contain"
-/>             
+/> 
+<div>            
  
     <div className="flex gap-3">
   <a
