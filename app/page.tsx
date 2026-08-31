@@ -859,7 +859,7 @@ export default function HomePage() {
     </div>
 
  <div className="grid gap-6 md:grid-cols-3">
-      <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6 md:col-span-3">
+      <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
         <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
           APPTLY
         </p>
@@ -869,7 +869,7 @@ export default function HomePage() {
         </h3>
 
         <img
-        src="/apptly-home.png"
+        src="/apptly-logo1.png"
         alt="APPTLY website and app homepage"
         className="mb-5 w-full rounded-xl border border-slate-700"
       /> 
