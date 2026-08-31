@@ -708,7 +708,6 @@ export default function HomePage() {
     ↑ Back to Top
   </a>
   </div>
- </div>
 
         </div>
       </section>
