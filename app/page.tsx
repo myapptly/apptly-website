@@ -858,8 +858,8 @@ export default function HomePage() {
 
     </div>
 
-<div className="mx-auto max-w-6xl grid gap-6 md:grid-cols-3"> 
-      <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6 md:col-start-2">
+<div className="grid gap-6 md:grid-cols-3"> 
+<div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6 md:col-start-2 md:w-full"> 
         <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
           APPTLY
         </p>
