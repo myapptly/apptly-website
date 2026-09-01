@@ -12,10 +12,9 @@ export default function TermsPage() {
         <div className="bg-[#1A1A1A] border border-[#00FF7F]/20 rounded-2xl p-6 space-y-4">
           <h2 className="text-2xl font-bold text-white">1. What You're Purchasing</h2>
           <p className="text-gray-300">
-            APPTLY is a digital, self-paced educational course consisting of 11 lessons
-            plus a "Before We Begin" orientation, delivered online. Your one-time payment
-            of $37 grants lifetime access to the current course content and any future
-            updates to that same course.
+            APPTLY creates digital products for small businesses and indivdual use. 
+            If for any reason you are not satisfied with any product, notify us within 
+            7 days of your purchase and we will gladly refund your money, no questions asked.
           </p>
         </div>
 
@@ -40,12 +39,7 @@ export default function TermsPage() {
         <div className="bg-[#1A1A1A] border border-[#00FF7F]/20 rounded-2xl p-6 space-y-4">
           <h2 className="text-2xl font-bold text-white">3. No Income Guarantee</h2>
           <p className="text-gray-300">
-            APPTLY teaches skills related to building, launching, and marketing
-            applications using AI tools. We do not guarantee any specific financial
-            outcome, income, or result. Your results depend on your own effort, market
-            conditions, and factors outside our control. Testimonials and examples, if
-            shown, represent individual experiences and are not typical or guaranteed
-            outcomes.
+            APPTLY builds quality, professional digital products for small businesses.
           </p>
         </div>
 
