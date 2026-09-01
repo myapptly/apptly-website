@@ -906,17 +906,6 @@ export default function HomePage() {
   </div>
 </section> 
 
-<div className="mt-6 text-center">
-  <a
-    href="#top"
-    className="inline-block rounded-lg border border-emerald-500 px-4 py-2 text-sm font-bold text-emerald-400 hover:bg-emerald-500 hover:text-slate-950"
-  >
-    ↑ Back to Top
-  </a>
-</div> 
-
- </section>
-
       {/* FOOTER */}
       <footer className="px-6 py-10 text-center text-sm text-slate-400">
         <p>© 2026 APPTLY. Affordable websites and apps for small businesses.</p>
