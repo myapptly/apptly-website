@@ -81,9 +81,9 @@ export default function TermsPage() {
             Questions about these terms or a refund request? Email{" "}
             <a
   href="mailto:tbledsoe1954@gmail.com"
-  className="text-emerald-400 underline"
+  className="underline hover:text-lime-400"
 >
-  Email APPTLY
+  Click Here
 </a> 
             . I personally read and respond to every message.
           </p>
