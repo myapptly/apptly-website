@@ -24,11 +24,11 @@ export default function TermsPage() {
           <p className="text-gray-300">
             If APPTLY isn't right for you, email us within 7 days of purchase at {" "}
             <a
-  href="mailto:tbledsoe1954@gmail.com?subject=APPTLY%20Refund%20Request"
-  className="text-emerald-400 underline"
+  href="mailto:tbledsoe1954@gmail.com"
+  className="underline hover:text-lime-400"
 >
   Click Here
-</a> 
+</a>
             and we'll issue a full refund. No forms, no reason required.
           </p>
           <p className="text-gray-300">
