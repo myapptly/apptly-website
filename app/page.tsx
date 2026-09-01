@@ -925,6 +925,10 @@ export default function HomePage() {
   <p>
     © 2026 APPTLY. Affordable websites and apps for small businesses.
   </p>
-</footer> 
+      </footer>
+    </main>
+  );
+}
+  
 
 
