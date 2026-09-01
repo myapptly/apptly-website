@@ -78,7 +78,7 @@ export default function PrivacyPage() {
         <div className="bg-[#1A1A1A] border border-[#00FF7F]/20 rounded-2xl p-6 space-y-4">
           <h2 className="text-2xl font-bold text-white">8. Contact</h2>
           <p className="text-gray-300">
-            Questions about this policy? Email{" "}
+            Questions about this policy? {" "}
             
             <a href="mailto:tbledsoe1954@gmail.com"> 
   Email APPTLY
