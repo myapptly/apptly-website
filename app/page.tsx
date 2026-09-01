@@ -711,9 +711,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* OUR WORK */}
+     {/* OUR WORK */}
 <section id="work" className="bg-slate-950 px-6 py-20">
   <div className="mx-auto max-w-6xl">
+
     <div className="mb-12 text-center">
       <p className="mb-3 font-semibold uppercase tracking-widest text-emerald-400">
         Our Work
@@ -722,7 +723,9 @@ export default function HomePage() {
       <h2 className="text-3xl font-extrabold md:text-4xl">
         Don&apos;t Just Take Our Word for It.
         <br />
-        <span className="text-emerald-400">See What We&apos;ve Built.</span>
+        <span className="text-emerald-400">
+          See What We&apos;ve Built.
+        </span>
       </h2>
 
       <p className="mx-auto mt-5 max-w-2xl text-lg text-slate-300">
@@ -730,39 +733,41 @@ export default function HomePage() {
       </p>
     </div>
 
-<div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
-  <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
-    Bei Capelli Salon
-  </p>
+    <div className="space-y-6">
 
-  <h3 className="mb-4 text-2xl font-bold">
-    Digital Business Web App
-  </h3>
+      {/* BEI CAPELLI */}
+      <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
+        <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
+          Bei Capelli Salon
+        </p>
 
-  <img
-    src="/bei-capelli-home.png"
-    alt="Bei Capelli Salon digital business card"
-    className="mb-5 w-full rounded-xl border border-slate-700"
-  />
+        <h3 className="mb-4 text-2xl font-bold">
+          Digital Business Web App
+        </h3>
 
-  <p className="text-slate-300">
-    An elegant digital business card designed for a local salon,
-    giving customers quick access to contact information, hours,
-    pricing, photos, directions and social media.
-  </p>
+        <img
+          src="/bei-capelli-home.png"
+          alt="Bei Capelli Salon digital business card"
+          className="mb-5 w-full rounded-xl border border-slate-700"
+        />
 
-  <a
-  href="https://bei-capelli-salon.vercel.app"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
->
-  View Bei Capelli Project
-    
-  </a>
-  
-</div> 
-      
+        <p className="text-slate-300">
+          An elegant digital business card designed for a local salon,
+          giving customers quick access to contact information, hours,
+          pricing, photos, directions and social media.
+        </p>
+
+        <a
+          href="https://bei-capelli-salon.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
+        >
+          View Bei Capelli Project
+        </a>
+      </div>
+
+      {/* NEW HOPE */}
       <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
         <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
           New Hope Baptist Church
@@ -776,23 +781,24 @@ export default function HomePage() {
           src="/new-hope-home.png"
           alt="New Hope Baptist Church website and app homepage"
           className="mb-5 w-full rounded-xl border border-slate-700"
-        /> 
+        />
 
         <p className="text-slate-300">
           A custom church experience featuring sermons, special events,
           Bible College information, photos and secure owner-managed content.
         </p>
-     
+
         <a
-  href="https://new-hope-baptist-seven.vercel.app"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
->
-  View New Hope Project
-</a> 
+          href="https://new-hope-baptist-seven.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
+        >
+          View New Hope Project
+        </a>
       </div>
 
+      {/* SKY-VUE */}
       <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
         <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
           Sky-Vue Skateland
@@ -821,45 +827,43 @@ export default function HomePage() {
           className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
         >
           View Sky-Vue Project
-        </a> 
-     
+        </a>
       </div>
 
+      {/* CAROLINA VACUUMS */}
       <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
-  <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
-    Carolina Vacuums & More
-  </p>
+        <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
+          Carolina Vacuums &amp; More
+        </p>
 
-  <h3 className="mb-4 text-2xl font-bold">
-    Business Website App
-  </h3>
+        <h3 className="mb-4 text-2xl font-bold">
+          Business Website App
+        </h3>
 
-  <img
-    src="/carolina-vacuums-home.png"
-    alt="Carolina Vacuums & More business app homepage"
-    className="mb-5 w-full rounded-xl border border-slate-700"
-  />
+        <img
+          src="/carolina-vacuums-home.png"
+          alt="Carolina Vacuums & More business app homepage"
+          className="mb-5 w-full rounded-xl border border-slate-700"
+        />
 
-  <p className="text-slate-300">
-    A custom business app built around an established retail brand,
-    giving customers quick access to locations, service, products
-    and existing website resources.
-  </p>
+        <p className="text-slate-300">
+          A custom business app built around an established retail brand,
+          giving customers quick access to locations, service, products
+          and existing website resources.
+        </p>
 
-  <a
-    href="https://carolina-vacuums-app.vercel.app"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
-  >
-    View Carolina Vacuums Project
-  </a>
-</div> 
+        <a
+          href="https://carolina-vacuums-app.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
+        >
+          View Carolina Vacuums Project
+        </a>
+      </div>
 
-    </div>
-
-<div className="grid gap-6 md:grid-cols-3"> 
-<div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6 md:col-start-2 md:w-full"> 
+      {/* APPTLY */}
+      <div className="rounded-2xl border border-emerald-500 bg-slate-900 p-6">
         <p className="mb-2 font-bold uppercase tracking-wider text-emerald-400">
           APPTLY
         </p>
@@ -869,10 +873,10 @@ export default function HomePage() {
         </h3>
 
         <img
-        src="/apptly-logo1.png"
-        alt="APPTLY website and app homepage"
-        className="mb-5 w-full rounded-xl border border-slate-700"
-      /> 
+          src="/apptly-logo1.png"
+          alt="APPTLY website and app homepage"
+          className="mb-5 w-full rounded-xl border border-slate-700"
+        />
 
         <p className="text-slate-300">
           A mobile-first business website and installable app with custom
@@ -881,14 +885,26 @@ export default function HomePage() {
         </p>
 
         <a
-  href="#top"
-  className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
-> 
-      
-        View APPTLY
-      </a> 
+          href="#top"
+          className="mt-6 inline-block rounded-lg bg-emerald-500 px-5 py-3 font-bold text-slate-950"
+        >
+          View APPTLY
+        </a>
       </div>
- </div>
+
+    </div>
+
+    <div className="mt-10 text-center">
+      <a
+        href="#top"
+        className="inline-block rounded-lg border border-emerald-500 px-4 py-2 text-sm font-bold text-emerald-400 hover:bg-emerald-500 hover:text-slate-950"
+      >
+        ↑ Back to Top
+      </a>
+    </div>
+
+  </div>
+</section> 
 
 <div className="mt-6 text-center">
   <a
