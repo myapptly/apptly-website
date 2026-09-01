@@ -907,11 +907,24 @@ export default function HomePage() {
 </section> 
 
       {/* FOOTER */}
-      <footer className="px-6 py-10 text-center text-sm text-slate-400">
-        <p>© 2026 APPTLY. Affordable websites and apps for small businesses.</p>
-      </footer>
+<footer className="px-6 py-10 text-center text-sm text-slate-400">
+  <div className="mb-4 flex flex-wrap justify-center gap-5">
+    <a href="/about" className="hover:text-emerald-400">
+      About
+    </a>
 
-    </main>
-  );
-} 
+    <a href="/terms" className="hover:text-emerald-400">
+      Terms
+    </a>
+
+    <a href="/privacy" className="hover:text-emerald-400">
+      Privacy
+    </a>
+  </div>
+
+  <p>
+    © 2026 APPTLY. Affordable websites and apps for small businesses.
+  </p>
+</footer> 
+
 
