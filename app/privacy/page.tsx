@@ -84,7 +84,7 @@ export default function PrivacyPage() {
   className="underline hover:text-lime-400"
 >
   Email APPTLY
-</a> 
+</a>
             .
           </p>
         </div>
@@ -92,4 +92,3 @@ export default function PrivacyPage() {
     </main>
   );
 } 
-
