@@ -11,8 +11,8 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://myapptly.com"),
   icons: {
-  icon: "/apptly A.png",
-  apple: "/apptly A.png",
+  icon: "/apptly-logo.png",
+  apple: "/apptly-logo.png",
 }, 
   title: "APPTLY — Affordable Business Websites & Apps for Small Businesses",
 description: "Professional websites, business apps and digital business cards for small businesses. Simple one-time pricing with no on-going monthly website fees.", 
@@ -23,7 +23,7 @@ description: "Professional business apps and websites built for you, with simple
     siteName: "APPTLY",
     images: [
       {
-        url: "https://myapptly.com/apptly%20real%20logo.png", 
+        url: "https://myapptly.com/apptly-logo.png", 
         width: 1200,
         height: 630,
       },
