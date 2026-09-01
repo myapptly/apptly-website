@@ -909,10 +909,7 @@ export default function HomePage() {
       {/* FOOTER */}
 <footer className="px-6 py-10 text-center text-sm text-slate-400">
   <div className="mb-4 flex flex-wrap justify-center gap-5">
-    <a href="/about" className="hover:text-emerald-400">
-      About
-    </a>
-
+   
     <a href="/terms" className="hover:text-emerald-400">
       Terms
     </a>
