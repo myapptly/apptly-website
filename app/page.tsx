@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 export default function HomePage() {
   const handleShare = async () => {
@@ -14,10 +14,10 @@ export default function HomePage() {
       await navigator.clipboard.writeText(shareData.url);
       alert("APPTLY link copied!");
     }
-  }; 
+  };
 
   return (
-  <main id="top" className="min-h-screen bg-slate-950 text-white">
+    <main id="top" className="min-h-screen bg-slate-950 text-white"> 
 
     {/* HEADER */}
     <header className="border-b border-slate-800 px-6 py-5">
