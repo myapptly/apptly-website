@@ -38,10 +38,10 @@ export default function HomePage() {
             <img src="/apptly-logo.png" alt="APPTLY" className="h-11 w-11 rounded-xl object-cover" />
             <div className="leading-none"><div className="text-lg font-black tracking-[0.16em]">APPTLY</div><div className="mt-1 text-[10px] font-bold uppercase tracking-[0.18em] text-emerald-400">Built For You.</div></div>
           </a>
-          <nav className="hidden items-center gap-6 text-sm font-bold text-slate-300 md:flex"><a href="#work" className="transition hover:text-emerald-400">Work</a><a href="#services" className="transition hover:text-emerald-400">Services</a><a href="#comparison" className="transition hover:text-emerald-400">Value</a><a href="#process" className="transition hover:text-emerald-400">Process</a><a href="#why" className="transition hover:text-emerald-400">Why APPTLY</a></nav>
+          <nav className="hidden items-center gap-6 text-sm font-bold text-slate-300 md:flex"><a href="#work" className="transition hover:text-emerald-400">Work</a><a href="#services" className="transition hover:text-emerald-400">Services</a><a href="#comparison" className="transition hover:text-emerald-400">Value</a><a href="#process" className="transition hover:text-emerald-400">Process</a><a href="#why" className="transition hover:text-emerald-400">Why APPTLY</a><button onClick={handleShare} className="transition hover:text-emerald-400">Share</button></nav>
           <a href="#services" className="rounded-xl bg-emerald-400 px-4 py-2.5 text-sm font-black text-slate-950 transition hover:bg-emerald-300">Start Your Project</a>
         </div>
-        <div className="mx-auto mt-3 flex max-w-7xl justify-center gap-5 overflow-x-auto border-t border-white/5 pt-2 text-xs font-bold text-slate-400 md:hidden"><a href="#work">Work</a><a href="#services">Services</a><a href="#comparison">Value</a><a href="#process">Process</a><a href="#why">Why APPTLY</a></div>
+        <div className="mx-auto mt-3 flex max-w-7xl justify-center gap-5 overflow-x-auto border-t border-white/5 pt-2 text-xs font-bold text-slate-400 md:hidden"><a href="#work">Work</a><a href="#services">Services</a><a href="#comparison">Value</a><a href="#process">Process</a><a href="#why">Why APPTLY</a><button onClick={handleShare} className="whitespace-nowrap">Share</button></div>
       </header>
 
       <section className="relative overflow-hidden border-b border-emerald-400/20 px-6 py-20 md:py-28">
