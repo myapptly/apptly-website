@@ -11,9 +11,6 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.myapptly.com"),
   applicationName: "APPTLY",
-  alternates: {
-    canonical: "https://www.myapptly.com/",
-  },
   icons: {
     icon: "/apptly-logo.png",
     apple: "/apptly-logo.png",
