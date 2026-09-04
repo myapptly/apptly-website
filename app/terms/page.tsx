@@ -62,7 +62,7 @@ export default function TermsPage() {
           <p className="text-gray-300">
             To request a refund,{" "}
             <a
-              href="mailto:tbledsoe1954@gmail.com"
+              href="mailto:support@myapptly.com"
               className="underline hover:text-lime-400"
             >
               Email APPTLY
@@ -178,7 +178,7 @@ export default function TermsPage() {
           <p className="text-gray-300">
             Questions about these terms, your project, or a refund request?{" "}
             <a
-              href="mailto:tbledsoe1954@gmail.com"
+              href="mailto:support@myapptly.com"
               className="underline hover:text-lime-400"
             >
               Email APPTLY
@@ -189,4 +189,4 @@ export default function TermsPage() {
       </section>
     </main>
   );
-} 
+}
