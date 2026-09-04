@@ -161,7 +161,7 @@ export default function BuildForMe() {
 
         {/* Call to Action CTA */}
         <a
-          href="mailto:builditnow@myapptly.com"
+          href="mailto:support@myapptly.com"
           className="mt-4 inline-block rounded-full bg-[#39FF8C] text-black font-bold px-8 py-3.5 hover:bg-[#39FF8C]/90 transition-colors shadow-lg shadow-[#39FF8C]/20"
         >
           Tell Me What You Need
@@ -170,5 +170,3 @@ export default function BuildForMe() {
     </section>
   );
 }
-
- 
