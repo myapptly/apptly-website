@@ -79,14 +79,10 @@ export default function PrivacyPage() {
           <h2 className="text-2xl font-bold text-white">8. Contact</h2>
           <p className="text-gray-300">
             Questions about this policy? {" "}
-            
-            <a href="mailto:tbledsoe1954@gmail.com"> 
-  Email APPTLY
-</a>
-            .
+            <a href="mailto:support@myapptly.com">Email APPTLY</a>.
           </p>
         </div>
       </section>
     </main>
   );
-} 
+}
