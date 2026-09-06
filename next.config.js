@@ -12,6 +12,21 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'myapptly.com',
+          },
+        ],
+        destination: 'https://www.myapptly.com/:path*',
+        permanent: true,
+      },
+    ];
+  },
 }
 
 module.exports = nextConfig
