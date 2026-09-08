@@ -105,6 +105,31 @@ const faqs = [
   },
 ];
 
+const aiReviews = [
+  {
+    name: "ChatGPT",
+    score: "Independent review",
+    quote: "A compelling value proposition for small businesses.",
+    detail:
+      "The review highlighted APPTLY's affordable done-for-you model, transparent pricing, mobile-first approach and practical fit for local businesses.",
+  },
+  {
+    name: "Google Gemini",
+    score: "7.9 / 10 overall",
+    quote:
+      "Highly recommended for local small businesses seeking an affordable digital upgrade without monthly recurring fees.",
+    detail:
+      "Gemini scored APPTLY 9.0/10 for value and pricing, noting the strong one-time-price model and straightforward client onboarding.",
+  },
+  {
+    name: "Claude",
+    score: "7 / 10 overall potential",
+    quote: "Real, functioning delivered products — not just mockups.",
+    detail:
+      "After inspecting a live APPTLY project, Claude described it as genuinely well-built, fast, clean and mobile-first while noting that APPTLY is still an early-stage business building its reputation.",
+  },
+];
+
 function SectionLabel({ children }: { children: ReactNode }) {
   return (
     <p className="mb-4 text-xs font-black uppercase tracking-[0.28em] text-emerald-400">
@@ -152,6 +177,7 @@ export default function HomePage() {
             <a href="#comparison" className="transition hover:text-emerald-400">Value</a>
             <a href="#process" className="transition hover:text-emerald-400">Process</a>
             <a href="#why" className="transition hover:text-emerald-400">Why APPTLY</a>
+            <a href="#reviews" className="transition hover:text-emerald-400">Reviews</a>
             <button onClick={handleShare} className="transition hover:text-emerald-400">Share</button>
           </nav>
 
@@ -169,6 +195,7 @@ export default function HomePage() {
           <a href="#comparison">Value</a>
           <a href="#process">Process</a>
           <a href="#why">Why APPTLY</a>
+          <a href="#reviews">Reviews</a>
           <button onClick={handleShare} className="whitespace-nowrap">Share</button>
         </div>
       </header>
@@ -407,9 +434,49 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section id="reviews" className="scroll-mt-28 border-b border-emerald-400/20 px-6 py-20 md:py-24">
+        <div className="mx-auto max-w-7xl">
+          <div className="text-center">
+            <SectionLabel>06 — Independent AI evaluations</SectionLabel>
+            <h2 className="text-3xl font-black md:text-5xl">We asked the AI. We didn&apos;t tell it what to say.</h2>
+            <p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-slate-300">
+              ChatGPT, Google Gemini and Claude were each asked to independently evaluate APPTLY from its public website, pricing, product offering and live work — including strengths and weaknesses.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 lg:grid-cols-3">
+            {aiReviews.map((review) => (
+              <article key={review.name} className="flex flex-col rounded-3xl border border-white/10 bg-slate-900 p-7 shadow-xl shadow-black/10">
+                <div className="flex items-start justify-between gap-4">
+                  <h3 className="text-2xl font-black text-white">{review.name}</h3>
+                  <span className="rounded-full border border-emerald-400/30 bg-emerald-400/10 px-3 py-1 text-xs font-black text-emerald-300">
+                    {review.score}
+                  </span>
+                </div>
+                <blockquote className="mt-6 border-l-2 border-emerald-400 pl-5 text-xl font-bold leading-8 text-white">
+                  “{review.quote}”
+                </blockquote>
+                <p className="mt-5 flex-1 leading-7 text-slate-300">{review.detail}</p>
+              </article>
+            ))}
+          </div>
+
+          <div className="mx-auto mt-8 max-w-4xl rounded-2xl border border-white/10 bg-slate-900 p-6 text-center">
+            <p className="font-black text-white">What the three evaluations consistently recognized</p>
+            <p className="mt-3 leading-7 text-slate-300">
+              Real working projects • transparent one-time pricing • strong price-to-value • mobile-first design • a straightforward done-for-you process
+            </p>
+          </div>
+
+          <p className="mx-auto mt-6 max-w-4xl text-center text-xs leading-5 text-slate-500">
+            These are independent AI evaluations of APPTLY&apos;s publicly available business and product information. They are not customer testimonials or paid endorsements. APPTLY will add verified customer reviews as they are received.
+          </p>
+        </div>
+      </section>
+
       <section className="border-b border-emerald-400/20 px-6 py-20 md:py-24">
         <div className="mx-auto max-w-6xl rounded-3xl border border-white/10 bg-slate-900 p-8 md:p-12">
-          <SectionLabel>06 — Winston-Salem & the Piedmont Triad</SectionLabel>
+          <SectionLabel>07 — Winston-Salem & the Piedmont Triad</SectionLabel>
           <div className="grid gap-8 md:grid-cols-[1.2fr_0.8fr] md:items-center">
             <div>
               <h2 className="text-3xl font-black md:text-5xl">Local small-business web design, built to be practical.</h2>
@@ -444,7 +511,7 @@ export default function HomePage() {
       <section className="border-b border-white/10 bg-slate-900 px-6 py-20 md:py-24">
         <div className="mx-auto max-w-5xl">
           <div className="text-center">
-            <SectionLabel>07 — Frequently asked questions</SectionLabel>
+            <SectionLabel>08 — Frequently asked questions</SectionLabel>
             <h2 className="text-3xl font-black md:text-5xl">Straight answers before you start.</h2>
           </div>
           <div className="mt-10 grid gap-4 md:grid-cols-2">
