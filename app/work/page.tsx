@@ -2,6 +2,13 @@ import { Eyebrow, PageShell, ReviewSpot } from "../../components/MarketingShell"
 
 const projects = [
   {
+    name: "Santa Larry",
+    type: "Mobile-First Business App",
+    image: "https://app.goes2u.com/santa%20cover.png",
+    href: "https://app.goes2u.com",
+    copy: "A branded Santa experience with booking tools, shareable QR access, public events, gallery content and a magical interactive Letters to Santa feature.",
+  },
+  {
     name: "Bei Capelli Salon",
     type: "Digital Business Web App",
     image: "/bei-capelli-home.png",
