@@ -1,36 +1,19 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    {
-      url: "https://www.myapptly.com",
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 1,
-    },
-    {
-      url: "https://www.myapptly.com/winston-salem-web-design",
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: "https://www.myapptly.com/start-your-project",
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: "https://www.myapptly.com/privacy",
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
-    {
-      url: "https://www.myapptly.com/terms",
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
+  const pages = [
+    { path: "", frequency: "weekly" as const, priority: 1 },
+    { path: "/services", frequency: "weekly" as const, priority: 0.9 },
+    { path: "/reviews", frequency: "monthly" as const, priority: 0.7 },
+    { path: "/winston-salem-web-design", frequency: "monthly" as const, priority: 0.9 },
+    { path: "/start-your-project", frequency: "monthly" as const, priority: 0.8 },
+    { path: "/privacy", frequency: "yearly" as const, priority: 0.3 },
+    { path: "/terms", frequency: "yearly" as const, priority: 0.3 },
   ];
+
+  return pages.map(({ path, frequency, priority }) => ({
+    url: `https://www.myapptly.com${path}`,
+    changeFrequency: frequency,
+    priority,
+  }));
 }
