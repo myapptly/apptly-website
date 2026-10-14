@@ -64,6 +64,7 @@ const structuredData = {
         { "@type": "City", name: "Winston-Salem" },
         { "@type": "AdministrativeArea", name: "Piedmont Triad, North Carolina" },
       ],
+      knowsAbout: ["Digital business cards", "Small business websites", "Installable business web apps"],
       hasOfferCatalog: {
         "@type": "OfferCatalog",
         name: "APPTLY Small Business Digital Services",
