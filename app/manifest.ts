@@ -2,16 +2,16 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'APPTLY App Builder',
+    name: 'APPTLY | Digital Business Cards, Apps & Websites',
     short_name: 'APPTLY',
-    description: 'Build and launch no-code business apps instantly.',
+    description: 'Affordable, done-for-you digital business cards, business web apps and websites for small businesses.',
     start_url: '/',
     display: 'standalone',
     background_color: '#0f172a',
     theme_color: '#10b981',
     icons: [
       {
-        src: '/apptly A.png', // or '/apptly-real-logo.png' if renamed
+        src: '/apptly-logo.png',
         sizes: 'any',
         type: 'image/png',
       },
