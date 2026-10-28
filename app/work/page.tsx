@@ -32,7 +32,7 @@ const projects = [
   {
     name: "Twin City Draft Services",
     type: "Business Website",
-    image: "/carolina-vacuums-home.png",
+    image: "",
     href: "https://twincitydraftservices.com",
     copy: "A custom website for professional draft beer system installation, line cleaning, service and repair, with direct customer contact and service requests.",
     buttonLabel: "View Live Website",
@@ -70,11 +70,17 @@ export default function WorkPage() {
               className="overflow-hidden rounded-3xl border border-white/10 bg-slate-900 shadow-xl shadow-black/10"
             >
               <div className="bg-slate-950 p-3">
-                <img
-                  src={project.image}
-                  alt={`${project.name} APPTLY project`}
-                  className="aspect-[16/6.2] w-full rounded-2xl object-cover object-top"
-                />
+                {project.image ? (
+                  <img
+                    src={project.image}
+                    alt={`${project.name} APPTLY project`}
+                    className="aspect-[16/6.2] w-full rounded-2xl object-cover object-top"
+                  />
+                ) : (
+                  <div className="flex aspect-[16/6.2] items-center justify-center rounded-2xl bg-slate-800 text-center text-xl font-black text-emerald-400">
+                    {project.name}
+                  </div>
+                )}
               </div>
 
               <div className="px-7 pb-6 pt-4">
