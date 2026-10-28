@@ -31,10 +31,11 @@ const projects = [
   },
   {
     name: "Carolina Vacuums & More",
-    type: "Business Website App",
+    type: "Shopify E-Commerce Website",
     image: "/carolina-vacuums-home.png",
-    href: "https://carolina-vacuums-app.vercel.app",
-    copy: "Locations, service, products and website resources brought together for customers on the go.",
+    href: "https://carolinavacuums.com",
+    copy: "A full Shopify storefront featuring vacuum cleaners, bags, filters, cleaning products, online ordering, store locations and service information.",
+    buttonLabel: "View Live Store",
   },
 ];
 
@@ -78,7 +79,7 @@ export default function WorkPage() {
                     rel="noopener noreferrer"
                     className="inline-flex rounded-xl border border-emerald-400 px-5 py-2.5 font-black text-emerald-400 transition hover:bg-emerald-400 hover:text-slate-950"
                   >
-                    View Live Project ↗
+                    {project.buttonLabel ?? "View Live Project"} ↗
                   </a>
                   <span className="text-xs font-black uppercase tracking-[0.18em] text-emerald-400">
                     {project.type}
