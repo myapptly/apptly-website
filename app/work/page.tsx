@@ -30,6 +30,14 @@ const projects = [
     copy: "A mobile-first experience built around an established local brand, current events and owner-managed content.",
   },
   {
+    name: "Twin City Draft Services",
+    type: "Business Website",
+    image: "/carolina-vacuums-home.png",
+    href: "https://twincitydraftservices.com",
+    copy: "A custom website for professional draft beer system installation, line cleaning, service and repair, with direct customer contact and service requests.",
+    buttonLabel: "View Live Website",
+  },
+  {
     name: "Carolina Vacuums & More",
     type: "Shopify E-Commerce Website",
     image: "/carolina-vacuums-home.png",
